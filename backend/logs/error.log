@@ -1,0 +1,1002 @@
+[2025-01-23 21:41:41] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:41] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:41] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:42] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:42] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:42] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:42] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:42] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:42] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:42] ERROR: Error saving movie: insert into "movies" ("backdrop_path", "facebook_id", "homepage", "imdb_id", "imdb_overview", "imdb_title", "imdb_vote_average", "imdb_vote_count", "interests", "is_adult", "origin_country", "origin_release_date", "original_language", "original_title", "popularity", "poster_path", "revenue", "runtime_minutes", "status", "tagline", "tmdb_id", "tmdb_overview", "tmdb_title", "tmdb_vote_average", "tmdb_vote_count", "wikidata_id") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26) returning "id" - duplicate key value violates unique constraint "movies_tmdb_id_key"
+[2025-01-23 21:41:42] ERROR: Error saving movie: insert into "movies" ("backdrop_path", "budget", "facebook_id", "homepage", "imdb_id", "imdb_overview", "imdb_title", "imdb_vote_average", "imdb_vote_count", "instagram_id", "interests", "is_adult", "origin_country", "origin_release_date", "original_language", "original_title", "popularity", "poster_path", "revenue", "runtime_minutes", "status", "tagline", "tmdb_id", "tmdb_overview", "tmdb_title", "tmdb_vote_average", "tmdb_vote_count", "twitter_id", "wikidata_id") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29) returning "id" - duplicate key value violates unique constraint "movies_tmdb_id_key"
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:43] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:44] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:44] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:45] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:45] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:45] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: HTTP error! status: 429
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:47] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'release_date')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'budget')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'release_date')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'title')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from IMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error fetching data from TMDB: fetch failed
+[2025-01-23 21:41:48] ERROR: Error saving movie: Cannot read properties of undefined (reading 'releaseDate')
+[2025-01-23 21:52:45] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:53:13] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:53:41] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:54:07] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:54:45] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:55:19] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:55:57] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:56:26] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:56:56] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:57:27] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:57:54] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:58:28] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:59:11] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 21:59:45] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:00:28] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:01:04] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:01:45] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:02:21] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:03:01] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:03:38] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:04:19] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:04:57] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:05:21] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:05:53] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:06:24] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:06:54] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:07:20] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:08:24] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:08:51] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:09:20] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:09:48] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:10:15] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:10:45] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:11:15] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:11:46] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:12:13] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:12:44] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:13:17] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:13:47] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:14:16] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:14:49] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:15:22] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:15:52] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:16:26] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:17:02] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:17:38] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:17:52] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:18:10] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:18:43] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:19:17] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:19:54] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:20:30] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:21:05] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:21:36] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:22:14] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:22:55] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:23:33] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:24:12] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:24:40] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:25:17] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:25:58] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:26:30] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:26:57] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:27:28] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:28:05] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:28:42] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:29:12] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:29:44] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:30:15] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:30:45] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:31:17] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:31:45] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:32:15] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:32:53] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:33:29] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:34:03] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:34:38] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:35:07] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:35:43] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:36:15] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:36:51] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:37:22] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:37:56] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:38:32] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:38:56] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:39:28] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:40:02] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:40:40] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:41:11] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
+[2025-01-23 22:41:29] ERROR: Error populating crew: insert into "movie_crew" ("crew_id", "movie_id") values ($1, $2) - duplicate key value violates unique constraint "movie_crew_pkey"
