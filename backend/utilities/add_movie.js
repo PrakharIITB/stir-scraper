@@ -375,4 +375,32 @@ async function addMovie(movieTmdbId, movieImdbId) {
     }
 }
 
-module.exports = addMovie;
+
+async function addMovieHashtag(tmdbId, imdbId, hashtag) {
+    try {
+        // Get the movie ID from the database using the TMDB ID
+        const movie = await db('movies')
+            .select('id')
+            .where({ tmdb_id: tmdbId })
+            .first();
+
+        if (movie) {
+            // Insert the movie ID, TMDB ID, IMDb ID, and hashtag into the movie_hashtag table
+            await db('movie_hashtags').insert({
+                movie_id: movie.id,
+                tmdb_id: tmdbId,
+                imdb_id: imdbId,
+                hashtag1: hashtag
+            });
+
+            logger.info(`Hashtag added successfully for movie ID: ${movie.id}`);
+        } else {
+            logger.warn(`Movie with TMDB ID: ${tmdbId} not found`);
+        }
+    } catch (error) {
+        logger.error('Error adding hashtag:', error);
+    }
+}
+
+
+module.exports = {addMovie, addMovieHashtag};
