@@ -388,9 +388,7 @@ async function addMovieHashtag(tmdbId, imdbId, hashtag) {
             // Insert the movie ID, TMDB ID, IMDb ID, and hashtag into the movie_hashtag table
             await db('movie_hashtags').insert({
                 movie_id: movie.id,
-                tmdb_id: tmdbId,
-                imdb_id: imdbId,
-                hashtag1: hashtag
+                hashtag: hashtag
             });
 
             logger.info(`Hashtag added successfully for movie ID: ${movie.id}`);
