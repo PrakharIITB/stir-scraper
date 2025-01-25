@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "workers/instagram/logs/.98b2c1aacab0f9426df501bbc07a289fd901b56a-audit.json",
+    "files": [
+        {
+            "date": 1737730591849,
+            "name": "workers/instagram/logs/app-2025-01-24.log",
+            "hash": "ff2bb2c7fd1f9e3139a2746c1df2038ba93d6406d77d71efad4226a41a3e71a8"
+        },
+        {
+            "date": 1737744398584,
+            "name": "workers/instagram/logs/app-2025-01-25.log",
+            "hash": "6a291a33b58386d19757aa7bfe1d579d54a62ee2cade66c01af73c01e8eb6786"
+        }
+    ],
+    "hashType": "sha256"
+}

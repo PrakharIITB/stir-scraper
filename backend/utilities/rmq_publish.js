@@ -37,7 +37,9 @@ async function sendToQueue(tasks) {
 async function main() {
     try {
         const tasks = await fetchHashtags();
-        for (var i = 3; i < 4; i++) {
+        console.log(tasks);
+        
+        for (var i = 40; i < tasks.length; i++) {
             const task = tasks[i];
             const {movie_id, hashtag} = task;
             const [newTask] = await db('tasks').insert({

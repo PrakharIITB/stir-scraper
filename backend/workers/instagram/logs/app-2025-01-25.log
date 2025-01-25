@@ -1,0 +1,1486 @@
+2025-01-24T18:46:45.995Z [32minfo[39m: 🎌 Task#9 Initialized !
+2025-01-24T18:47:05.915Z [32minfo[39m: ⚪ Success at getHashtag(tag=TheLighthouse, pageCount=4) | Received 84 posts
+2025-01-24T18:47:05.919Z [32minfo[39m: ⚪ Success at apply_like_filter(TheLighthouse, 50 ) | Received 48 posts
+2025-01-24T18:47:05.919Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(TheLighthouse) | Received 31 users
+2025-01-24T18:47:11.224Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=29333019773) | User has 112785 followers
+2025-01-24T18:47:13.973Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11045284173) | User has 1643861 followers
+2025-01-24T18:47:15.910Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=66494752542) | User has 482 followers
+2025-01-24T18:47:19.696Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53914956942) | User has 5775 followers
+2025-01-24T18:47:23.522Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=457162546) | User has 34896 followers
+2025-01-24T18:47:27.976Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=346848715) | User has 463577 followers
+2025-01-24T18:47:33.621Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=748496924) | User has 1003120 followers
+2025-01-24T18:47:36.037Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=44921015731) | User has 13758 followers
+2025-01-24T18:47:42.613Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=231385167) | User has 85799 followers
+2025-01-24T18:47:47.505Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3995052428) | User has 17312 followers
+2025-01-24T18:47:52.074Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=356121523) | User has 67149 followers
+2025-01-24T18:47:54.593Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2922328405) | User has 2630 followers
+2025-01-24T18:47:57.452Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=396460219) | User has 76131 followers
+2025-01-24T18:47:59.731Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=4057476631) | User has 130879 followers
+2025-01-24T18:48:05.229Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=31572025) | User has 179589 followers
+2025-01-24T18:48:10.987Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=975240491) | User has 40041 followers
+2025-01-24T18:48:11.626Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=205353901) | User has 106670 followers
+2025-01-24T18:48:16.262Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3996765714) | User has 9084 followers
+2025-01-24T18:48:19.923Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=56829196835) | User has 1574 followers
+2025-01-24T18:48:21.769Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=870013925) | User has 42438 followers
+2025-01-24T18:48:25.625Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=361950673) | User has 1738147 followers
+2025-01-24T18:48:30.542Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=26459211729) | User has 54554 followers
+2025-01-24T18:48:35.753Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=425620351) | User has 217945 followers
+2025-01-24T18:48:43.198Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3639470257) | User has 654 followers
+2025-01-24T18:48:47.524Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2522594680) | User has 3605 followers
+2025-01-24T18:48:50.273Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=371432521) | User has 100913 followers
+2025-01-24T18:48:56.758Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=9300781311) | User has 9920 followers
+2025-01-24T18:49:02.204Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=62846463500) | User has 18871 followers
+2025-01-24T18:49:07.033Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=599357870) | User has 924887 followers
+2025-01-24T18:49:10.826Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=5846046276) | User has 1053 followers
+2025-01-24T18:49:15.000Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=50029732493) | User has 4643 followers
+2025-01-24T18:49:15.005Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse) | Received 26 users
+2025-01-24T18:49:15.006Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = TheLighthouse) | Recieved 43 posts 
+2025-01-24T18:49:17.920Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cj9MnpuoL74, task_id = 9) | NOT SPAM
+2025-01-24T18:49:19.149Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CjP83GZA9eN, task_id = 9) | NOT SPAM
+2025-01-24T18:49:20.604Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cqlj8Sesw66, task_id = 9) | NOT SPAM
+2025-01-24T18:49:22.136Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFGv0QBIVuT, task_id = 9) | NOT SPAM
+2025-01-24T18:49:23.470Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DErtniUugkA, task_id = 9) | NOT SPAM
+2025-01-24T18:49:24.726Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C-xVuD7JjlN, task_id = 9) | NOT SPAM
+2025-01-24T18:49:26.137Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9QLTARPbzQ, task_id = 9) | SPAM 
+2025-01-24T18:49:27.413Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C36BY-qMnJR, task_id = 9) | NOT SPAM
+2025-01-24T18:49:28.650Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE_SUdvot6V, task_id = 9) | NOT SPAM
+2025-01-24T18:49:30.106Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Ct-L1mSIu6a, task_id = 9) | NOT SPAM
+2025-01-24T18:49:31.485Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEFglL6KrNf, task_id = 9) | NOT SPAM
+2025-01-24T18:49:32.718Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFA7eA7xO49, task_id = 9) | NOT SPAM
+2025-01-24T18:49:34.068Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CyinrsnL0ZK, task_id = 9) | NOT SPAM
+2025-01-24T18:49:35.257Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C38Y4CxPLn6, task_id = 9) | NOT SPAM
+2025-01-24T18:49:36.626Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C1C-Gs3O9Uv, task_id = 9) | SPAM 
+2025-01-24T18:49:37.963Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cqk36vaA8ZS, task_id = 9) | NOT SPAM
+2025-01-24T18:49:39.149Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFKJm-wx7a7, task_id = 9) | NOT SPAM
+2025-01-24T18:49:40.619Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CzKcnJtot88, task_id = 9) | NOT SPAM
+2025-01-24T18:49:41.910Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CqfktThA8K_, task_id = 9) | NOT SPAM
+2025-01-24T18:49:43.324Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DAj5iDyS1xO, task_id = 9) | NOT SPAM
+2025-01-24T18:49:44.614Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cshp_iEsLFF, task_id = 9) | NOT SPAM
+2025-01-24T18:49:46.150Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5OV25MH-n, task_id = 9) | NOT SPAM
+2025-01-24T18:49:47.439Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CqWuOUmoW7H, task_id = 9) | NOT SPAM
+2025-01-24T18:49:48.752Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9uoC16NggZ, task_id = 9) | NOT SPAM
+2025-01-24T18:49:50.069Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDQgNPsxlIz, task_id = 9) | NOT SPAM
+2025-01-24T18:49:51.887Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cl-aMe3oP2O, task_id = 9) | NOT SPAM
+2025-01-24T18:49:53.421Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cljy57CMvU5, task_id = 9) | NOT SPAM
+2025-01-24T18:49:54.844Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C0LlVYUID4-, task_id = 9) | SPAM 
+2025-01-24T18:49:56.233Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DAluw0WNFCs, task_id = 9) | NOT SPAM
+2025-01-24T18:49:57.602Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD1fFYhMHmN, task_id = 9) | NOT SPAM
+2025-01-24T18:49:59.156Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C7WMQxgNe_R, task_id = 9) | NOT SPAM
+2025-01-24T18:50:00.694Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD1fYD3MMFE, task_id = 9) | NOT SPAM
+2025-01-24T18:50:02.069Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DERCAJYIh3p, task_id = 9) | NOT SPAM
+2025-01-24T18:50:03.337Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFHYp9cgXBp, task_id = 9) | NOT SPAM
+2025-01-24T18:50:04.545Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C1X_vCvovB_, task_id = 9) | NOT SPAM
+2025-01-24T18:50:05.915Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9udKYZMxuq, task_id = 9) | NOT SPAM
+2025-01-24T18:50:07.161Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFJMRbnS_yd, task_id = 9) | NOT SPAM
+2025-01-24T18:50:08.423Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFBS7zMtapD, task_id = 9) | NOT SPAM
+2025-01-24T18:50:09.697Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CzrIsyfMNQg, task_id = 9) | NOT SPAM
+2025-01-24T18:50:11.031Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C0LbsstoGos, task_id = 9) | SPAM 
+2025-01-24T18:50:12.315Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ClZfjiNsMCV, task_id = 9) | NOT SPAM
+2025-01-24T18:50:13.573Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE_w5afocZa, task_id = 9) | NOT SPAM
+2025-01-24T18:50:14.801Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ChbExISJy0c, task_id = 9) | NOT SPAM
+2025-01-24T18:50:14.801Z [32minfo[39m: ⚪ Success at apply_spam_filter(task_id = 9) | Recieved 39 posts 
+2025-01-24T18:50:16.467Z [32minfo[39m: ⚪ Success at geminiCategorize(29333019773) | AI Category = Normal Influencer
+2025-01-24T18:50:17.594Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 23, user) | Data Stored Successfully
+2025-01-24T18:50:19.229Z [32minfo[39m: ⚪ Success at geminiCategorize(11045284173) | AI Category = Movie Critic/Journalist
+2025-01-24T18:50:21.338Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 24, user) | Data Stored Successfully
+2025-01-24T18:50:23.440Z [32minfo[39m: ⚪ Success at geminiCategorize(53914956942) | AI Category = Normal Influencer
+2025-01-24T18:50:24.307Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 25, user) | Data Stored Successfully
+2025-01-24T18:50:26.122Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/fragrance.poetry, 25) | Sent To Scraper Queue
+2025-01-24T18:50:29.018Z [32minfo[39m: ⚪ Success at geminiCategorize(457162546) | AI Category = Normal Influencer
+2025-01-24T18:50:30.759Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 26, user) | Data Stored Successfully
+2025-01-24T18:50:32.598Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/bukquotes, 26) | Sent To Scraper Queue
+2025-01-24T18:50:34.794Z [32minfo[39m: ⚪ Success at geminiCategorize(748496924) | AI Category = Movie Critic/Journalist
+2025-01-24T18:50:35.777Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 27, user) | Data Stored Successfully
+2025-01-24T18:50:37.603Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/the_hook, 27) | Sent To Scraper Queue
+2025-01-24T18:50:39.402Z [32minfo[39m: ⚪ Success at geminiCategorize(44921015731) | AI Category = Normal Influencer
+2025-01-24T18:50:40.180Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 28, user) | Data Stored Successfully
+2025-01-24T18:50:44.562Z [32minfo[39m: ⚪ Success at geminiCategorize(231385167) | AI Category = Normal Influencer
+2025-01-24T18:50:46.183Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 29, user) | Data Stored Successfully
+2025-01-24T18:50:47.995Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/brianreedy, 29) | Sent To Scraper Queue
+2025-01-24T18:50:50.152Z [32minfo[39m: ⚪ Success at geminiCategorize(3995052428) | AI Category = Movie Critic/Journalist
+2025-01-24T18:50:51.937Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 30, user) | Data Stored Successfully
+2025-01-24T18:50:56.907Z [32minfo[39m: ⚪ Success at geminiCategorize(396460219) | AI Category = Celebrity/Director
+2025-01-24T18:50:57.950Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 31, user) | Data Stored Successfully
+2025-01-24T18:51:00.115Z [32minfo[39m: ⚪ Success at geminiCategorize(4057476631) | AI Category = Normal Influencer
+2025-01-24T18:51:00.969Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 32, user) | Data Stored Successfully
+2025-01-24T18:51:03.159Z [32minfo[39m: ⚪ Success at geminiCategorize(31572025) | AI Category = Normal Influencer
+2025-01-24T18:51:04.032Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 33, user) | Data Stored Successfully
+2025-01-24T18:51:08.934Z [32minfo[39m: ⚪ Success at geminiCategorize(975240491) | AI Category = Celebrity/Actor
+2025-01-24T18:51:10.797Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 34, user) | Data Stored Successfully
+2025-01-24T18:51:12.986Z [32minfo[39m: ⚪ Success at geminiCategorize(205353901) | AI Category = Movie Critic/Journalist
+2025-01-24T18:51:13.693Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 35, user) | Data Stored Successfully
+2025-01-24T18:51:16.573Z [32minfo[39m: ⚪ Success at geminiCategorize(3996765714) | AI Category = Movie Critic/Journalist
+2025-01-24T18:51:18.751Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 36, user) | Data Stored Successfully
+2025-01-24T18:51:20.562Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( http://www.linktr.ee/recinefilia, 36) | Sent To Scraper Queue
+2025-01-24T18:51:22.588Z [32minfo[39m: ⚪ Success at geminiCategorize(870013925) | AI Category = Normal Influencer
+2025-01-24T18:51:23.598Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 37, user) | Data Stored Successfully
+2025-01-24T18:51:25.913Z [32minfo[39m: ⚪ Success at geminiCategorize(26459211729) | AI Category = Movie Critic/Journalist
+2025-01-24T18:51:27.065Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 38, user) | Data Stored Successfully
+2025-01-24T18:51:29.317Z [32minfo[39m: ⚪ Success at geminiCategorize(425620351) | AI Category = Normal Influencer
+2025-01-24T18:51:30.856Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 39, user) | Data Stored Successfully
+2025-01-24T18:51:33.393Z [32minfo[39m: ⚪ Success at geminiCategorize(2522594680) | AI Category = Normal Influencer
+2025-01-24T18:51:34.519Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 40, user) | Data Stored Successfully
+2025-01-24T18:51:35.958Z [32minfo[39m: ⚪ Success at geminiCategorize(371432521) | AI Category = Normal Influencer
+2025-01-24T18:51:37.157Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, user) | Data Stored Successfully
+2025-01-24T18:51:37.499Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linkin.bio/ranker, 41) | Sent To Scraper Queue
+2025-01-24T18:51:41.005Z [32minfo[39m: ⚪ Success at geminiCategorize(9300781311) | AI Category = Normal Influencer
+2025-01-24T18:51:42.483Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, user) | Data Stored Successfully
+2025-01-24T18:51:44.596Z [32minfo[39m: ⚪ Success at geminiCategorize(62846463500) | AI Category = Normal Influencer
+2025-01-24T18:51:45.546Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 43, user) | Data Stored Successfully
+2025-01-24T18:51:50.854Z [32minfo[39m: ⚪ Success at geminiCategorize(50029732493) | AI Category = Normal Influencer
+2025-01-24T18:51:51.904Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 44, user) | Data Stored Successfully
+2025-01-24T18:51:55.834Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 1, post) | Data Stored Successfully
+2025-01-24T18:51:56.893Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 1, post) | Data Stored Successfully
+2025-01-24T18:52:00.568Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 2, post) | Data Stored Successfully
+2025-01-24T18:52:01.666Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 2, post) | Data Stored Successfully
+2025-01-24T18:52:05.334Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 3, post) | Data Stored Successfully
+2025-01-24T18:52:06.451Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 3, post) | Data Stored Successfully
+2025-01-24T18:52:10.498Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 4, post) | Data Stored Successfully
+2025-01-24T18:52:11.729Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 4, post) | Data Stored Successfully
+2025-01-24T18:52:15.682Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 5, post) | Data Stored Successfully
+2025-01-24T18:52:16.749Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 5, post) | Data Stored Successfully
+2025-01-24T18:52:20.791Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 6, post) | Data Stored Successfully
+2025-01-24T18:52:21.800Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 6, post) | Data Stored Successfully
+2025-01-24T18:52:25.478Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 7, post) | Data Stored Successfully
+2025-01-24T18:52:26.781Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 7, post) | Data Stored Successfully
+2025-01-24T18:52:30.996Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 8, post) | Data Stored Successfully
+2025-01-24T18:52:32.185Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 8, post) | Data Stored Successfully
+2025-01-24T18:52:36.509Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 9, post) | Data Stored Successfully
+2025-01-24T18:52:37.736Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 9, post) | Data Stored Successfully
+2025-01-24T18:52:41.320Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 10, post) | Data Stored Successfully
+2025-01-24T18:52:42.112Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 10, post) | Data Stored Successfully
+2025-01-24T18:52:45.931Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 11, post) | Data Stored Successfully
+2025-01-24T18:52:46.842Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 11, post) | Data Stored Successfully
+2025-01-24T18:52:51.050Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 12, post) | Data Stored Successfully
+2025-01-24T18:52:53.100Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 12, post) | Data Stored Successfully
+2025-01-24T18:52:56.767Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 13, post) | Data Stored Successfully
+2025-01-24T18:52:57.756Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 13, post) | Data Stored Successfully
+2025-01-24T18:53:01.768Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 14, post) | Data Stored Successfully
+2025-01-24T18:53:02.834Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 14, post) | Data Stored Successfully
+2025-01-24T18:53:06.958Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 15, post) | Data Stored Successfully
+2025-01-24T18:53:07.884Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 15, post) | Data Stored Successfully
+2025-01-24T18:53:11.520Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 16, post) | Data Stored Successfully
+2025-01-24T18:53:12.714Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 16, post) | Data Stored Successfully
+2025-01-24T18:53:16.880Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 17, post) | Data Stored Successfully
+2025-01-24T18:53:17.891Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 17, post) | Data Stored Successfully
+2025-01-24T18:53:21.959Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 18, post) | Data Stored Successfully
+2025-01-24T18:53:22.975Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 18, post) | Data Stored Successfully
+2025-01-24T18:53:23.749Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 18, music) | Data Stored Successfully
+2025-01-24T18:53:27.620Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 19, post) | Data Stored Successfully
+2025-01-24T18:53:28.632Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 19, post) | Data Stored Successfully
+2025-01-24T18:53:34.163Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 20, post) | Data Stored Successfully
+2025-01-24T18:53:36.200Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 20, post) | Data Stored Successfully
+2025-01-24T18:53:41.415Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 21, post) | Data Stored Successfully
+2025-01-24T18:53:42.401Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 21, post) | Data Stored Successfully
+2025-01-24T18:53:46.174Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 22, post) | Data Stored Successfully
+2025-01-24T18:53:47.281Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 22, post) | Data Stored Successfully
+2025-01-24T18:53:50.840Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 23, post) | Data Stored Successfully
+2025-01-24T18:53:51.873Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 23, post) | Data Stored Successfully
+2025-01-24T18:53:55.300Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 24, post) | Data Stored Successfully
+2025-01-24T18:53:56.347Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 24, post) | Data Stored Successfully
+2025-01-24T18:53:59.920Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 25, post) | Data Stored Successfully
+2025-01-24T18:54:01.114Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 25, post) | Data Stored Successfully
+2025-01-24T18:54:05.497Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 26, post) | Data Stored Successfully
+2025-01-24T18:54:06.549Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 26, post) | Data Stored Successfully
+2025-01-24T18:54:09.636Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 27, post) | Data Stored Successfully
+2025-01-24T18:54:10.719Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 27, post) | Data Stored Successfully
+2025-01-24T18:54:14.633Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 28, post) | Data Stored Successfully
+2025-01-24T18:54:15.586Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 28, post) | Data Stored Successfully
+2025-01-24T18:54:19.051Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 29, post) | Data Stored Successfully
+2025-01-24T18:54:19.898Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 29, post) | Data Stored Successfully
+2025-01-24T18:54:23.520Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 30, post) | Data Stored Successfully
+2025-01-24T18:54:24.787Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 30, post) | Data Stored Successfully
+2025-01-24T18:54:28.742Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 31, post) | Data Stored Successfully
+2025-01-24T18:54:29.836Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 31, post) | Data Stored Successfully
+2025-01-24T18:54:33.862Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 32, post) | Data Stored Successfully
+2025-01-24T18:54:35.073Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 32, post) | Data Stored Successfully
+2025-01-24T18:54:39.029Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 33, post) | Data Stored Successfully
+2025-01-24T18:54:40.313Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 33, post) | Data Stored Successfully
+2025-01-24T18:54:43.870Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 34, post) | Data Stored Successfully
+2025-01-24T18:54:44.821Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 34, post) | Data Stored Successfully
+2025-01-24T18:54:48.916Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 35, post) | Data Stored Successfully
+2025-01-24T18:54:49.999Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 35, post) | Data Stored Successfully
+2025-01-24T18:54:53.920Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 36, post) | Data Stored Successfully
+2025-01-24T18:54:55.088Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 36, post) | Data Stored Successfully
+2025-01-24T18:54:59.069Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 37, post) | Data Stored Successfully
+2025-01-24T18:55:00.069Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 37, post) | Data Stored Successfully
+2025-01-24T18:55:03.892Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 38, post) | Data Stored Successfully
+2025-01-24T18:55:04.867Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 38, post) | Data Stored Successfully
+2025-01-24T18:55:08.567Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 39, post) | Data Stored Successfully
+2025-01-24T18:55:09.600Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 39, post) | Data Stored Successfully
+2025-01-24T18:55:11.112Z [32minfo[39m: ⚪ Success at DB_Store_Posts_and_Users(task_id = 9) | Data Stored Successfully
+2025-01-24T18:55:11.336Z [32minfo[39m: 🟢 Completed  Task#9
+2025-01-24T19:24:51.062Z [32minfo[39m: 🎌 Task#10 Initialized !
+2025-01-24T19:25:13.374Z [32minfo[39m: ⚪ Success at getHashtag(tag=Midsommar, pageCount=4) | Received 84 posts
+2025-01-24T19:25:13.376Z [32minfo[39m: ⚪ Success at apply_like_filter(Midsommar, 50 ) | Received 50 posts
+2025-01-24T19:25:13.377Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(Midsommar) | Received 45 users
+2025-01-24T19:25:16.625Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=221864587) | User has 167899 followers
+2025-01-24T19:25:20.505Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=8108189831) | User has 4071 followers
+2025-01-24T19:25:23.887Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=59594177525) | User has 42474 followers
+2025-01-24T19:25:28.866Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=41354080900) | User has 14163 followers
+2025-01-24T19:25:29.063Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=841535670) with error: Request failed with status 429
+2025-01-24T19:25:29.829Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=841535670) with error: Request failed with status 429
+2025-01-24T19:25:30.012Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=841535670) with error: Request failed with status 429
+2025-01-24T19:25:30.013Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=841535670) after 3 attempts
+2025-01-24T19:25:30.013Z [31merror[39m: 🔴 Skipping user 841535670 after 3 failed attempts
+2025-01-24T19:25:30.204Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=29333019773) with error: Request failed with status 429
+2025-01-24T19:25:30.384Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=29333019773) with error: Request failed with status 429
+2025-01-24T19:25:30.567Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=29333019773) with error: Request failed with status 429
+2025-01-24T19:25:30.567Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=29333019773) after 3 attempts
+2025-01-24T19:25:30.567Z [31merror[39m: 🔴 Skipping user 29333019773 after 3 failed attempts
+2025-01-24T19:25:30.748Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=44225964816) with error: Request failed with status 429
+2025-01-24T19:25:30.932Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=44225964816) with error: Request failed with status 429
+2025-01-24T19:25:31.132Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=44225964816) with error: Request failed with status 429
+2025-01-24T19:25:31.132Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=44225964816) after 3 attempts
+2025-01-24T19:25:31.132Z [31merror[39m: 🔴 Skipping user 44225964816 after 3 failed attempts
+2025-01-24T19:25:31.293Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=52243458520) with error: Request failed with status 429
+2025-01-24T19:25:31.463Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=52243458520) with error: Request failed with status 429
+2025-01-24T19:25:31.641Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=52243458520) with error: Request failed with status 429
+2025-01-24T19:25:31.641Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=52243458520) after 3 attempts
+2025-01-24T19:25:31.641Z [31merror[39m: 🔴 Skipping user 52243458520 after 3 failed attempts
+2025-01-24T19:25:31.819Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=385882882) with error: Request failed with status 429
+2025-01-24T19:25:32.007Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=385882882) with error: Request failed with status 429
+2025-01-24T19:25:32.173Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=385882882) with error: Request failed with status 429
+2025-01-24T19:25:32.173Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=385882882) after 3 attempts
+2025-01-24T19:25:32.173Z [31merror[39m: 🔴 Skipping user 385882882 after 3 failed attempts
+2025-01-24T19:25:32.342Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=57751426172) with error: Request failed with status 429
+2025-01-24T19:25:32.503Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=57751426172) with error: Request failed with status 429
+2025-01-24T19:25:32.671Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=57751426172) with error: Request failed with status 429
+2025-01-24T19:25:32.671Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=57751426172) after 3 attempts
+2025-01-24T19:25:32.671Z [31merror[39m: 🔴 Skipping user 57751426172 after 3 failed attempts
+2025-01-24T19:25:32.852Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=15334489) with error: Request failed with status 429
+2025-01-24T19:25:33.017Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=15334489) with error: Request failed with status 429
+2025-01-24T19:25:33.180Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=15334489) with error: Request failed with status 429
+2025-01-24T19:25:33.180Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=15334489) after 3 attempts
+2025-01-24T19:25:33.180Z [31merror[39m: 🔴 Skipping user 15334489 after 3 failed attempts
+2025-01-24T19:25:33.342Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=22681478) with error: Request failed with status 429
+2025-01-24T19:25:33.518Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=22681478) with error: Request failed with status 429
+2025-01-24T19:25:33.698Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=22681478) with error: Request failed with status 429
+2025-01-24T19:25:33.698Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=22681478) after 3 attempts
+2025-01-24T19:25:33.698Z [31merror[39m: 🔴 Skipping user 22681478 after 3 failed attempts
+2025-01-24T19:25:33.865Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=44258851116) with error: Request failed with status 429
+2025-01-24T19:25:34.030Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=44258851116) with error: Request failed with status 429
+2025-01-24T19:25:34.204Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=44258851116) with error: Request failed with status 429
+2025-01-24T19:25:34.205Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=44258851116) after 3 attempts
+2025-01-24T19:25:34.205Z [31merror[39m: 🔴 Skipping user 44258851116 after 3 failed attempts
+2025-01-24T19:25:34.381Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=34106874405) with error: Request failed with status 429
+2025-01-24T19:25:34.603Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=34106874405) with error: Request failed with status 429
+2025-01-24T19:25:34.815Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=34106874405) with error: Request failed with status 429
+2025-01-24T19:25:34.815Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=34106874405) after 3 attempts
+2025-01-24T19:25:34.815Z [31merror[39m: 🔴 Skipping user 34106874405 after 3 failed attempts
+2025-01-24T19:25:34.987Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=3110771174) with error: Request failed with status 429
+2025-01-24T19:25:35.165Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=3110771174) with error: Request failed with status 429
+2025-01-24T19:25:35.327Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=3110771174) with error: Request failed with status 429
+2025-01-24T19:25:35.327Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=3110771174) after 3 attempts
+2025-01-24T19:25:35.327Z [31merror[39m: 🔴 Skipping user 3110771174 after 3 failed attempts
+2025-01-24T19:25:35.503Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=45480463453) with error: Request failed with status 429
+2025-01-24T19:25:35.683Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=45480463453) with error: Request failed with status 429
+2025-01-24T19:25:35.855Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=45480463453) with error: Request failed with status 429
+2025-01-24T19:25:35.855Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=45480463453) after 3 attempts
+2025-01-24T19:25:35.855Z [31merror[39m: 🔴 Skipping user 45480463453 after 3 failed attempts
+2025-01-24T19:25:36.016Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=25022595) with error: Request failed with status 429
+2025-01-24T19:25:36.193Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=25022595) with error: Request failed with status 429
+2025-01-24T19:25:36.415Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=25022595) with error: Request failed with status 429
+2025-01-24T19:25:36.415Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=25022595) after 3 attempts
+2025-01-24T19:25:36.415Z [31merror[39m: 🔴 Skipping user 25022595 after 3 failed attempts
+2025-01-24T19:25:36.581Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=478090588) with error: Request failed with status 429
+2025-01-24T19:25:36.772Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=478090588) with error: Request failed with status 429
+2025-01-24T19:25:36.961Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=478090588) with error: Request failed with status 429
+2025-01-24T19:25:36.961Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=478090588) after 3 attempts
+2025-01-24T19:25:36.961Z [31merror[39m: 🔴 Skipping user 478090588 after 3 failed attempts
+2025-01-24T19:25:37.144Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=8174379613) with error: Request failed with status 429
+2025-01-24T19:25:37.306Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=8174379613) with error: Request failed with status 429
+2025-01-24T19:25:37.467Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=8174379613) with error: Request failed with status 429
+2025-01-24T19:25:37.467Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=8174379613) after 3 attempts
+2025-01-24T19:25:37.467Z [31merror[39m: 🔴 Skipping user 8174379613 after 3 failed attempts
+2025-01-24T19:25:37.624Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=1806480986) with error: Request failed with status 429
+2025-01-24T19:25:37.787Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=1806480986) with error: Request failed with status 429
+2025-01-24T19:25:38.003Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=1806480986) with error: Request failed with status 429
+2025-01-24T19:25:38.003Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=1806480986) after 3 attempts
+2025-01-24T19:25:38.003Z [31merror[39m: 🔴 Skipping user 1806480986 after 3 failed attempts
+2025-01-24T19:25:38.171Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=371432521) with error: Request failed with status 429
+2025-01-24T19:25:38.361Z [33mwarn[39m: 🟡 Attempt 2 failed for getUsers(hashtag=Midsommar, userid=371432521) with error: Request failed with status 429
+2025-01-24T19:25:38.529Z [33mwarn[39m: 🟡 Attempt 3 failed for getUsers(hashtag=Midsommar, userid=371432521) with error: Request failed with status 429
+2025-01-24T19:25:38.530Z [31merror[39m: 🔴 Error at getUsers(hashtag = Midsommar, userid=371432521) after 3 attempts
+2025-01-24T19:25:38.530Z [31merror[39m: 🔴 Skipping user 371432521 after 3 failed attempts
+2025-01-24T19:25:38.718Z [33mwarn[39m: 🟡 Attempt 1 failed for getUsers(hashtag=Midsommar, userid=44921015731) with error: Request failed with status 429
+2025-01-25T04:47:46.820Z [32minfo[39m: 🎌 Task#10 Initialized !
+2025-01-25T04:48:02.422Z [32minfo[39m: ⚪ Success at getHashtag(tag=Midsommar, pageCount=4) | Received 84 posts
+2025-01-25T04:48:02.424Z [32minfo[39m: ⚪ Success at apply_like_filter(Midsommar, 50 ) | Received 57 posts
+2025-01-25T04:48:02.425Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(Midsommar) | Received 50 users
+2025-01-25T04:48:05.407Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=63243176541) | User has 52013 followers
+2025-01-25T04:48:35.087Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=45449082476) | User has 70978 followers
+2025-01-25T04:48:40.087Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=8910020844) | User has 19226 followers
+2025-01-25T04:48:44.281Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=468427961) | User has 210592 followers
+2025-01-25T04:48:49.510Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=59594177525) | User has 42490 followers
+2025-01-25T04:48:52.708Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=29333019773) | User has 112776 followers
+2025-01-25T04:48:57.112Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=15334489) | User has 117882 followers
+2025-01-25T04:49:04.576Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=44258851116) | User has 31926 followers
+2025-01-25T04:49:07.440Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=49685337859) | User has 10369 followers
+2025-01-25T04:49:13.101Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=8108189831) | User has 4077 followers
+2025-01-25T04:49:18.399Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=22681478) | User has 401891 followers
+2025-01-25T04:49:27.704Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=57751426172) | User has 6987 followers
+2025-01-25T04:49:30.938Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=41354080900) | User has 14167 followers
+2025-01-25T04:49:36.264Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=42757567371) | User has 192954 followers
+2025-01-25T04:49:41.867Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=45480463453) | User has 9397 followers
+2025-01-25T04:49:46.664Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=478090588) | User has 1682387 followers
+2025-01-25T04:49:50.495Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=8174379613) | User has 36527 followers
+2025-01-25T04:49:54.128Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=344085335) | User has 662113 followers
+2025-01-25T04:49:57.042Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=841535670) | User has 24332 followers
+2025-01-25T04:50:00.398Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=46995223136) | User has 1406 followers
+2025-01-25T04:50:04.133Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=386035678) | User has 95151 followers
+2025-01-25T04:50:08.533Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=17372432) | User has 123209 followers
+2025-01-25T04:50:12.954Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=233482524) | User has 938279 followers
+2025-01-25T04:50:17.521Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=1806480986) | User has 42317 followers
+2025-01-25T04:50:21.681Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=511747224) | User has 34082 followers
+2025-01-25T04:50:25.660Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=33957525363) | User has 40608 followers
+2025-01-25T04:50:30.699Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=9147811) | User has 51223 followers
+2025-01-25T04:50:35.015Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=200826163) | User has 15094 followers
+2025-01-25T04:50:38.992Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=183841905) | User has 118597 followers
+2025-01-25T04:50:42.530Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=266497603) | User has 88825 followers
+2025-01-25T04:50:45.992Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=3110771174) | User has 72328 followers
+2025-01-25T04:50:51.601Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=44921015731) | User has 13780 followers
+2025-01-25T04:50:56.054Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=25022595) | User has 55606 followers
+2025-01-25T04:50:59.753Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=66378960300) | User has 1541 followers
+2025-01-25T04:51:04.376Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=57284309664) | User has 44151 followers
+2025-01-25T04:51:08.529Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=36599047958) | User has 12206 followers
+2025-01-25T04:51:14.720Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=62062154175) | User has 6837 followers
+2025-01-25T04:51:18.893Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=34106874405) | User has 8246 followers
+2025-01-25T04:51:23.065Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=385882882) | User has 37048 followers
+2025-01-25T04:51:27.934Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=52243458520) | User has 2044 followers
+2025-01-25T04:51:32.092Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=37523113189) | User has 8543 followers
+2025-01-25T04:51:36.012Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=321949575) | User has 23655 followers
+2025-01-25T04:51:39.852Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=49869810608) | User has 39567 followers
+2025-01-25T04:51:45.390Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=65244075484) | User has 683 followers
+2025-01-25T04:51:53.282Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=398138403) | User has 1365521 followers
+2025-01-25T04:51:57.107Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=47345631378) | User has 9781 followers
+2025-01-25T04:52:00.548Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=52781934297) | User has 2958 followers
+2025-01-25T04:52:04.446Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=53082035897) | User has 1036220 followers
+2025-01-25T04:52:09.091Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=28497606) | User has 37431 followers
+2025-01-25T04:52:14.487Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar userid=8480519330) | User has 43778 followers
+2025-01-25T04:52:14.487Z [32minfo[39m: ⚪ Success at getUsers(hashtag = Midsommar) | Received 45 users
+2025-01-25T04:52:14.487Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = Midsommar) | Recieved 52 posts 
+2025-01-25T04:52:17.370Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOdazGSidE, task_id = 10) | NOT SPAM
+2025-01-25T04:52:18.598Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEm8_gmIpRT, task_id = 10) | NOT SPAM
+2025-01-25T04:52:20.051Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DARIFXySuDq, task_id = 10) | NOT SPAM
+2025-01-25T04:52:21.383Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C-p_CI6t8tC, task_id = 10) | NOT SPAM
+2025-01-25T04:52:22.815Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCozzEwsAng, task_id = 10) | NOT SPAM
+2025-01-25T04:52:23.935Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCdKOB5IUH4, task_id = 10) | NOT SPAM
+2025-01-25T04:52:25.342Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8gr04EI7ia, task_id = 10) | NOT SPAM
+2025-01-25T04:52:26.803Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFGv0QBIVuT, task_id = 10) | NOT SPAM
+2025-01-25T04:52:28.021Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE7cN_wIHN-, task_id = 10) | NOT SPAM
+2025-01-25T04:52:29.199Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExjC_oOXjz, task_id = 10) | NOT SPAM
+2025-01-25T04:52:30.496Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kIYBhMtuK, task_id = 10) | NOT SPAM
+2025-01-25T04:52:31.629Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEW7zS5KDnP, task_id = 10) | NOT SPAM
+2025-01-25T04:52:32.934Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEpjtxoohid, task_id = 10) | SPAM 
+2025-01-25T04:52:34.182Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9rjm2Su6GY, task_id = 10) | NOT SPAM
+2025-01-25T04:52:35.516Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEzv-GBM_F5, task_id = 10) | NOT SPAM
+2025-01-25T04:52:36.947Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0qzXIyK79, task_id = 10) | NOT SPAM
+2025-01-25T04:52:38.270Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE6xq4AOolM, task_id = 10) | NOT SPAM
+2025-01-25T04:52:39.438Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEnagayMP22, task_id = 10) | NOT SPAM
+2025-01-25T04:52:41.044Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8oK3j7oaVC, task_id = 10) | NOT SPAM
+2025-01-25T04:52:42.377Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_EBRGfNQL0, task_id = 10) | NOT SPAM
+2025-01-25T04:52:43.600Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExkEbhuTig, task_id = 10) | NOT SPAM
+2025-01-25T04:52:44.934Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDxrCp8SJRJ, task_id = 10) | NOT SPAM
+2025-01-25T04:52:46.163Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEX3MDGRAsL, task_id = 10) | NOT SPAM
+2025-01-25T04:52:47.373Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDWJaI2RURW, task_id = 10) | NOT SPAM
+2025-01-25T04:52:48.549Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DBrPLFHM_YI, task_id = 10) | NOT SPAM
+2025-01-25T04:52:49.849Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFJga26IhTv, task_id = 10) | NOT SPAM
+2025-01-25T04:52:51.158Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE-wFnDqWFh, task_id = 10) | NOT SPAM
+2025-01-25T04:52:52.512Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExOkCztncn, task_id = 10) | NOT SPAM
+2025-01-25T04:52:53.845Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C897D9TIYi1, task_id = 10) | SPAM 
+2025-01-25T04:52:55.156Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kXi2xoBqi, task_id = 10) | NOT SPAM
+2025-01-25T04:52:56.487Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOtWn9sa4S, task_id = 10) | NOT SPAM
+2025-01-25T04:52:57.837Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_OB2D-CMV2, task_id = 10) | NOT SPAM
+2025-01-25T04:52:59.373Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kZjXLoUyO, task_id = 10) | NOT SPAM
+2025-01-25T04:53:00.704Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DA6YHSKvkln, task_id = 10) | NOT SPAM
+2025-01-25T04:53:01.915Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCaCyEGh-_5, task_id = 10) | NOT SPAM
+2025-01-25T04:53:02.993Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCPsIiXo0iq, task_id = 10) | NOT SPAM
+2025-01-25T04:53:04.357Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCmn_ExyZDH, task_id = 10) | NOT SPAM
+2025-01-25T04:53:05.722Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD5iawkur1p, task_id = 10) | NOT SPAM
+2025-01-25T04:53:06.970Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOXpn2qe1P, task_id = 10) | NOT SPAM
+2025-01-25T04:53:08.179Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEgWPeIocw7, task_id = 10) | NOT SPAM
+2025-01-25T04:53:09.511Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ehKVMNfTz, task_id = 10) | SPAM 
+2025-01-25T04:53:10.842Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0RZs2sDzF, task_id = 10) | NOT SPAM
+2025-01-25T04:53:12.095Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DC66fdLo2JH, task_id = 10) | NOT SPAM
+2025-01-25T04:53:13.401Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5HOBdvxHy, task_id = 10) | NOT SPAM
+2025-01-25T04:53:14.835Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ut4KwueZj, task_id = 10) | NOT SPAM
+2025-01-25T04:53:16.033Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DBTFPJWsoE4, task_id = 10) | NOT SPAM
+2025-01-25T04:53:17.292Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCrL-XwoX5V, task_id = 10) | NOT SPAM
+2025-01-25T04:53:18.588Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCNokY3gAOL, task_id = 10) | NOT SPAM
+2025-01-25T04:53:20.059Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9B8ptCoHJL, task_id = 10) | NOT SPAM
+2025-01-25T04:53:21.490Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD8KxcTNTR1, task_id = 10) | NOT SPAM
+2025-01-25T04:53:22.718Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9QVuTtyBWc, task_id = 10) | NOT SPAM
+2025-01-25T04:53:23.920Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DBeaU-xMNJT, task_id = 10) | NOT SPAM
+2025-01-25T04:53:23.920Z [32minfo[39m: ⚪ Success at apply_spam_filter(task_id = 10) | Recieved 49 posts 
+2025-01-25T04:53:25.381Z [32minfo[39m: ⚪ Success at geminiCategorize(63243176541) | AI Category = Movie Critic/Journalist
+2025-01-25T04:53:26.281Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 45, user) | Data Stored Successfully
+2025-01-25T04:53:28.084Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/pelicultura, 45) | Sent To Scraper Queue
+2025-01-25T04:53:30.092Z [32minfo[39m: ⚪ Success at geminiCategorize(45449082476) | AI Category = Movie Critic/Journalist
+2025-01-25T04:53:30.803Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 46, user) | Data Stored Successfully
+2025-01-25T04:53:32.358Z [32minfo[39m: ⚪ Success at geminiCategorize(8910020844) | AI Category = Movie Critic/Journalist
+2025-01-25T04:53:33.760Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 47, user) | Data Stored Successfully
+2025-01-25T04:53:35.725Z [32minfo[39m: ⚪ Success at geminiCategorize(468427961) | AI Category = Movie Critic/Journalist
+2025-01-25T04:53:36.524Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 48, user) | Data Stored Successfully
+2025-01-25T04:53:40.152Z [32minfo[39m: ⚪ Success at geminiCategorize(59594177525) | AI Category = Normal Influencer
+2025-01-25T04:53:42.710Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 49, user) | Data Stored Successfully
+2025-01-25T04:53:45.330Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 23, user) | Data Stored Successfully
+2025-01-25T04:53:46.748Z [32minfo[39m: ⚪ Success at geminiCategorize(15334489) | AI Category = Normal Influencer
+2025-01-25T04:53:47.962Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 50, user) | Data Stored Successfully
+2025-01-25T04:53:50.879Z [32minfo[39m: ⚪ Success at geminiCategorize(44258851116) | AI Category = Normal Influencer
+2025-01-25T04:53:51.879Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 51, user) | Data Stored Successfully
+2025-01-25T04:53:53.535Z [32minfo[39m: ⚪ Success at geminiCategorize(49685337859) | AI Category = Normal Influencer
+2025-01-25T04:53:54.444Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 52, user) | Data Stored Successfully
+2025-01-25T04:53:56.258Z [32minfo[39m: ⚪ Success at geminiCategorize(8108189831) | AI Category = Normal Influencer
+2025-01-25T04:53:57.107Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 53, user) | Data Stored Successfully
+2025-01-25T04:53:58.426Z [32minfo[39m: ⚪ Success at geminiCategorize(22681478) | AI Category = Normal Influencer
+2025-01-25T04:53:59.881Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, user) | Data Stored Successfully
+2025-01-25T04:54:02.078Z [32minfo[39m: ⚪ Success at geminiCategorize(41354080900) | AI Category = Normal Influencer
+2025-01-25T04:54:02.944Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 55, user) | Data Stored Successfully
+2025-01-25T04:54:05.823Z [32minfo[39m: ⚪ Success at geminiCategorize(42757567371) | AI Category = Movie Critic/Journalist
+2025-01-25T04:54:06.608Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, user) | Data Stored Successfully
+2025-01-25T04:54:08.410Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/ScreenOffScript, 56) | Sent To Scraper Queue
+2025-01-25T04:54:10.438Z [32minfo[39m: ⚪ Success at geminiCategorize(45480463453) | AI Category = Movie Critic/Journalist
+2025-01-25T04:54:11.340Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 57, user) | Data Stored Successfully
+2025-01-25T04:54:13.541Z [32minfo[39m: ⚪ Success at geminiCategorize(478090588) | AI Category = Movie Critic/Journalist
+2025-01-25T04:54:14.917Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 58, user) | Data Stored Successfully
+2025-01-25T04:54:17.586Z [32minfo[39m: ⚪ Success at geminiCategorize(8174379613) | AI Category = Normal Influencer
+2025-01-25T04:54:18.531Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 59, user) | Data Stored Successfully
+2025-01-25T04:54:20.109Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/visualtale, 59) | Sent To Scraper Queue
+2025-01-25T04:54:24.140Z [32minfo[39m: ⚪ Success at geminiCategorize(344085335) | AI Category = Media
+2025-01-25T04:54:26.553Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, user) | Data Stored Successfully
+2025-01-25T04:54:28.606Z [32minfo[39m: ⚪ Success at geminiCategorize(841535670) | AI Category = Normal Influencer
+2025-01-25T04:54:29.772Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 61, user) | Data Stored Successfully
+2025-01-25T04:54:31.559Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/kingdomofspiders, 61) | Sent To Scraper Queue
+2025-01-25T04:54:33.380Z [32minfo[39m: ⚪ Success at geminiCategorize(386035678) | AI Category = Movie Critic/Journalist
+2025-01-25T04:54:34.277Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 62, user) | Data Stored Successfully
+2025-01-25T04:54:36.009Z [32minfo[39m: ⚪ Success at geminiCategorize(17372432) | AI Category = Normal Influencer
+2025-01-25T04:54:37.627Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 63, user) | Data Stored Successfully
+2025-01-25T04:54:40.141Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/deadlypreygallery, 63) | Sent To Scraper Queue
+2025-01-25T04:54:41.978Z [32minfo[39m: ⚪ Success at geminiCategorize(233482524) | AI Category = Film Festival
+2025-01-25T04:54:42.990Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 64, user) | Data Stored Successfully
+2025-01-25T04:54:44.912Z [32minfo[39m: ⚪ Success at geminiCategorize(1806480986) | AI Category = Celebrity/Actor
+2025-01-25T04:54:45.622Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 65, user) | Data Stored Successfully
+2025-01-25T04:54:48.121Z [32minfo[39m: ⚪ Success at geminiCategorize(511747224) | AI Category = Normal Influencer
+2025-01-25T04:54:49.704Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, user) | Data Stored Successfully
+2025-01-25T04:54:52.797Z [32minfo[39m: ⚪ Success at geminiCategorize(9147811) | AI Category = Normal Influencer
+2025-01-25T04:54:54.347Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 67, user) | Data Stored Successfully
+2025-01-25T04:54:57.848Z [32minfo[39m: ⚪ Success at geminiCategorize(200826163) | AI Category = Normal Influencer
+2025-01-25T04:54:58.853Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 68, user) | Data Stored Successfully
+2025-01-25T04:55:00.509Z [32minfo[39m: ⚪ Success at geminiCategorize(183841905) | AI Category = Normal Influencer
+2025-01-25T04:55:01.997Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, user) | Data Stored Successfully
+2025-01-25T04:55:04.299Z [32minfo[39m: ⚪ Success at geminiCategorize(266497603) | AI Category = Normal Influencer
+2025-01-25T04:55:05.831Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 70, user) | Data Stored Successfully
+2025-01-25T04:55:10.238Z [32minfo[39m: ⚪ Success at geminiCategorize(3110771174) | AI Category = Movie Critic/Journalist
+2025-01-25T04:55:12.267Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 71, user) | Data Stored Successfully
+2025-01-25T04:55:14.008Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 28, user) | Data Stored Successfully
+2025-01-25T04:55:17.592Z [32minfo[39m: ⚪ Success at geminiCategorize(25022595) | AI Category = Normal Influencer
+2025-01-25T04:55:19.537Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 72, user) | Data Stored Successfully
+2025-01-25T04:55:22.191Z [32minfo[39m: ⚪ Success at geminiCategorize(57284309664) | AI Category = Movie Critic/Journalist
+2025-01-25T04:55:25.067Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, user) | Data Stored Successfully
+2025-01-25T04:55:26.622Z [32minfo[39m: ⚪ Success at geminiCategorize(36599047958) | AI Category = Normal Influencer
+2025-01-25T04:55:29.052Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, user) | Data Stored Successfully
+2025-01-25T04:55:31.743Z [32minfo[39m: ⚪ Success at geminiCategorize(62062154175) | AI Category = Movie Critic/Journalist
+2025-01-25T04:55:32.746Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 75, user) | Data Stored Successfully
+2025-01-25T04:55:34.487Z [32minfo[39m: ⚪ Success at geminiCategorize(385882882) | AI Category = Normal Influencer
+2025-01-25T04:55:36.331Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 76, user) | Data Stored Successfully
+2025-01-25T04:55:38.807Z [32minfo[39m: ⚪ Success at geminiCategorize(37523113189) | AI Category = Normal Influencer
+2025-01-25T04:55:40.427Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 77, user) | Data Stored Successfully
+2025-01-25T04:55:42.216Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( http://linktr.ee/ogrifo, 77) | Sent To Scraper Queue
+2025-01-25T04:55:44.110Z [32minfo[39m: ⚪ Success at geminiCategorize(321949575) | AI Category = Celebrity/Actor
+2025-01-25T04:55:46.366Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 78, user) | Data Stored Successfully
+2025-01-25T04:55:49.098Z [32minfo[39m: ⚪ Success at geminiCategorize(49869810608) | AI Category = Normal Influencer
+2025-01-25T04:55:49.950Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 79, user) | Data Stored Successfully
+2025-01-25T04:55:51.487Z [32minfo[39m: ⚪ Success at geminiCategorize(398138403) | AI Category = Normal Influencer
+2025-01-25T04:55:52.298Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 80, user) | Data Stored Successfully
+2025-01-25T04:55:54.065Z [32minfo[39m: ⚪ Success at geminiCategorize(47345631378) | AI Category = Normal Influencer
+2025-01-25T04:55:54.967Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 81, user) | Data Stored Successfully
+2025-01-25T04:55:57.136Z [32minfo[39m: ⚪ Success at geminiCategorize(53082035897) | AI Category = Production Company
+2025-01-25T04:55:58.449Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 82, user) | Data Stored Successfully
+2025-01-25T04:56:00.311Z [32minfo[39m: ⚪ Success at geminiCategorize(28497606) | AI Category = Normal Influencer
+2025-01-25T04:56:01.849Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 83, user) | Data Stored Successfully
+2025-01-25T04:56:03.545Z [32minfo[39m: ⚪ Success at geminiCategorize(8480519330) | AI Category = Normal Influencer
+2025-01-25T04:56:05.208Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 84, user) | Data Stored Successfully
+2025-01-25T04:56:06.907Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/ThisIsFunIsntIt, 84) | Sent To Scraper Queue
+2025-01-25T04:56:11.795Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 40, post) | Data Stored Successfully
+2025-01-25T04:56:13.755Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 40, video) | Data Stored Successfully
+2025-01-25T04:56:17.904Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, post) | Data Stored Successfully
+2025-01-25T04:56:21.770Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, post) | Data Stored Successfully
+2025-01-25T04:56:26.097Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 43, post) | Data Stored Successfully
+2025-01-25T04:56:30.295Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 44, post) | Data Stored Successfully
+2025-01-25T04:56:34.391Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 45, post) | Data Stored Successfully
+2025-01-25T04:56:39.306Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 46, post) | Data Stored Successfully
+2025-01-25T04:56:41.866Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 46, video) | Data Stored Successfully
+2025-01-25T04:56:42.890Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 46, music) | Data Stored Successfully
+2025-01-25T04:56:46.885Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 4, post) | Data Stored Successfully
+2025-01-25T04:56:51.067Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 47, post) | Data Stored Successfully
+2025-01-25T04:56:55.588Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 48, post) | Data Stored Successfully
+2025-01-25T04:57:00.707Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 49, post) | Data Stored Successfully
+2025-01-25T04:57:04.906Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 50, post) | Data Stored Successfully
+2025-01-25T04:57:08.105Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 50, video) | Data Stored Successfully
+2025-01-25T04:57:09.105Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 50, music) | Data Stored Successfully
+2025-01-25T04:57:13.406Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 51, post) | Data Stored Successfully
+2025-01-25T04:57:17.705Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 52, post) | Data Stored Successfully
+2025-01-25T04:57:22.623Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 53, post) | Data Stored Successfully
+2025-01-25T04:57:27.127Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, post) | Data Stored Successfully
+2025-01-25T04:57:31.781Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 55, post) | Data Stored Successfully
+2025-01-25T04:57:36.192Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, post) | Data Stored Successfully
+2025-01-25T04:57:40.309Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 57, post) | Data Stored Successfully
+2025-01-25T04:57:42.302Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 57, video) | Data Stored Successfully
+2025-01-25T04:57:46.221Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 58, post) | Data Stored Successfully
+2025-01-25T04:57:50.361Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 59, post) | Data Stored Successfully
+2025-01-25T04:57:54.015Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, post) | Data Stored Successfully
+2025-01-25T04:57:58.099Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 61, post) | Data Stored Successfully
+2025-01-25T04:58:02.286Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 62, post) | Data Stored Successfully
+2025-01-25T04:58:04.891Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 62, video) | Data Stored Successfully
+2025-01-25T04:58:08.943Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 63, post) | Data Stored Successfully
+2025-01-25T04:58:12.949Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 64, post) | Data Stored Successfully
+2025-01-25T04:58:17.170Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 65, post) | Data Stored Successfully
+2025-01-25T04:58:20.273Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 65, video) | Data Stored Successfully
+2025-01-25T04:58:24.866Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, post) | Data Stored Successfully
+2025-01-25T04:58:29.181Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 67, post) | Data Stored Successfully
+2025-01-25T04:58:33.412Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 68, post) | Data Stored Successfully
+2025-01-25T04:58:37.721Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, post) | Data Stored Successfully
+2025-01-25T04:58:42.083Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 70, post) | Data Stored Successfully
+2025-01-25T04:58:44.746Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 70, video) | Data Stored Successfully
+2025-01-25T04:58:45.358Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 70, music) | Data Stored Successfully
+2025-01-25T04:58:49.053Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 71, post) | Data Stored Successfully
+2025-01-25T04:58:53.386Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 72, post) | Data Stored Successfully
+2025-01-25T04:58:57.648Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, post) | Data Stored Successfully
+2025-01-25T04:59:01.476Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, post) | Data Stored Successfully
+2025-01-25T04:59:06.248Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 75, post) | Data Stored Successfully
+2025-01-25T04:59:10.548Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 76, post) | Data Stored Successfully
+2025-01-25T04:59:14.748Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 77, post) | Data Stored Successfully
+2025-01-25T04:59:19.444Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 78, post) | Data Stored Successfully
+2025-01-25T04:59:22.709Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 78, video) | Data Stored Successfully
+2025-01-25T04:59:23.697Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 78, music) | Data Stored Successfully
+2025-01-25T04:59:28.366Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 79, post) | Data Stored Successfully
+2025-01-25T04:59:32.810Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 80, post) | Data Stored Successfully
+2025-01-25T04:59:37.479Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 81, post) | Data Stored Successfully
+2025-01-25T04:59:41.679Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 82, post) | Data Stored Successfully
+2025-01-25T04:59:46.151Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 83, post) | Data Stored Successfully
+2025-01-25T04:59:50.139Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 84, post) | Data Stored Successfully
+2025-01-25T04:59:54.114Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 85, post) | Data Stored Successfully
+2025-01-25T04:59:55.808Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 85, video) | Data Stored Successfully
+2025-01-25T04:59:59.496Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 86, post) | Data Stored Successfully
+2025-01-25T05:00:04.013Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 87, post) | Data Stored Successfully
+2025-01-25T05:00:05.629Z [32minfo[39m: ⚪ Success at DB_Store_Posts_and_Users(task_id = 10) | Data Stored Successfully
+2025-01-25T05:00:05.960Z [32minfo[39m: 🟢 Completed  Task#10
+2025-01-25T05:16:31.848Z [32minfo[39m: 🎌 Task#11 Initialized !
+2025-01-25T05:16:49.280Z [32minfo[39m: ⚪ Success at getHashtag(tag=LastBlackManinSF, pageCount=4) | Received 63 posts
+2025-01-25T05:16:49.280Z [32minfo[39m: ⚪ Success at apply_like_filter(LastBlackManinSF, 50 ) | Received 34 posts
+2025-01-25T05:16:49.280Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(LastBlackManinSF) | Received 17 users
+2025-01-25T05:16:52.972Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=28435144) | User has 377652 followers
+2025-01-25T05:16:56.143Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=1642242479) | User has 17000 followers
+2025-01-25T05:17:00.714Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=6878207557) | User has 64249 followers
+2025-01-25T05:17:06.980Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=3566777385) | User has 937 followers
+2025-01-25T05:17:11.152Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=307639207) | User has 1883 followers
+2025-01-25T05:17:17.260Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=5745417702) | User has 42720 followers
+2025-01-25T05:17:21.024Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=789250998) | User has 40454 followers
+2025-01-25T05:17:28.005Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=10225923414) | User has 8378 followers
+2025-01-25T05:17:32.496Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=26671809191) | User has 174 followers
+2025-01-25T05:17:36.202Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=1092571357) | User has 3628 followers
+2025-01-25T05:17:42.120Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=2336293127) | User has 14523 followers
+2025-01-25T05:17:46.999Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=37272502) | User has 19493 followers
+2025-01-25T05:17:50.552Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=306191226) | User has 2846271 followers
+2025-01-25T05:17:55.564Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=3124159) | User has 8817 followers
+2025-01-25T05:17:59.584Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=358243857) | User has 7146 followers
+2025-01-25T05:18:03.634Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=333834518) | User has 4830 followers
+2025-01-25T05:18:09.553Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF userid=244174073) | User has 3869 followers
+2025-01-25T05:18:09.554Z [32minfo[39m: ⚪ Success at getUsers(hashtag = LastBlackManinSF) | Received 14 users
+2025-01-25T05:18:09.554Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = LastBlackManinSF) | Recieved 31 posts 
+2025-01-25T05:18:12.533Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BztkVLBnfy2, task_id = 11) | NOT SPAM
+2025-01-25T05:18:13.859Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= B0y3aYrBne_, task_id = 11) | NOT SPAM
+2025-01-25T05:18:15.193Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= B6qsHUKJ-T9, task_id = 11) | NOT SPAM
+2025-01-25T05:18:16.508Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CI4HBO4DB_d, task_id = 11) | NOT SPAM
+2025-01-25T05:18:17.853Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Byynl96p_Sy, task_id = 11) | NOT SPAM
+2025-01-25T05:18:19.149Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CUIYMg-J8zL, task_id = 11) | NOT SPAM
+2025-01-25T05:18:20.480Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BzqTDC_FpHI, task_id = 11) | NOT SPAM
+2025-01-25T05:18:21.847Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= B7eWPvWH3-k, task_id = 11) | NOT SPAM
+2025-01-25T05:18:23.178Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CLMqKJgDXTT, task_id = 11) | NOT SPAM
+2025-01-25T05:18:24.447Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= By_kxyHAlUt, task_id = 11) | NOT SPAM
+2025-01-25T05:18:25.737Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CUIVAJEtbrR, task_id = 11) | NOT SPAM
+2025-01-25T05:18:27.055Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BydsEHMBpxm, task_id = 11) | NOT SPAM
+2025-01-25T05:18:28.364Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BzAaVJ5AeO8, task_id = 11) | NOT SPAM
+2025-01-25T05:18:29.583Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BxsYeaYH9xS, task_id = 11) | NOT SPAM
+2025-01-25T05:18:30.859Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Bx0lGPcH6-X, task_id = 11) | NOT SPAM
+2025-01-25T05:18:32.191Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Bx9AO2hJdCt, task_id = 11) | NOT SPAM
+2025-01-25T05:18:33.520Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ByE8A2DniZG, task_id = 11) | NOT SPAM
+2025-01-25T05:18:34.954Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ByE3cDunUYu, task_id = 11) | NOT SPAM
+2025-01-25T05:18:36.146Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ByIwMBPHKaE, task_id = 11) | NOT SPAM
+2025-01-25T05:18:37.512Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BzHCQK2nQ6l, task_id = 11) | SPAM 
+2025-01-25T05:18:38.874Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Byga47uHaNf, task_id = 11) | NOT SPAM
+2025-01-25T05:18:40.121Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BzJvMHHlvwV, task_id = 11) | NOT SPAM
+2025-01-25T05:18:41.507Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BzPRTKkn43t, task_id = 11) | NOT SPAM
+2025-01-25T05:18:42.700Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= BzilDxfH_Zx, task_id = 11) | NOT SPAM
+2025-01-25T05:18:43.872Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Bz-_N2aHkrE, task_id = 11) | NOT SPAM
+2025-01-25T05:18:45.194Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Bz_eikSnAge, task_id = 11) | NOT SPAM
+2025-01-25T05:18:46.525Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= B0HfkdiHq8c, task_id = 11) | NOT SPAM
+2025-01-25T05:18:47.875Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= B0kQyUzJC7M, task_id = 11) | NOT SPAM
+2025-01-25T05:18:49.252Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= B5JHl-2g_03, task_id = 11) | NOT SPAM
+2025-01-25T05:18:50.617Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= B1hrpbSgt99, task_id = 11) | NOT SPAM
+2025-01-25T05:18:51.865Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cu-DWFBANIz, task_id = 11) | NOT SPAM
+2025-01-25T05:18:51.866Z [32minfo[39m: ⚪ Success at apply_spam_filter(task_id = 11) | Recieved 30 posts 
+2025-01-25T05:18:53.387Z [32minfo[39m: ⚪ Success at geminiCategorize(28435144) | AI Category = Media
+2025-01-25T05:18:54.501Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 85, user) | Data Stored Successfully
+2025-01-25T05:18:59.224Z [32minfo[39m: ⚪ Success at geminiCategorize(1642242479) | AI Category = Production Company
+2025-01-25T05:19:00.312Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 86, user) | Data Stored Successfully
+2025-01-25T05:19:02.226Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/artdirectorsguild, 86) | Sent To Scraper Queue
+2025-01-25T05:19:04.003Z [32minfo[39m: ⚪ Success at geminiCategorize(6878207557) | AI Category = Film Festival
+2025-01-25T05:19:05.834Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 87, user) | Data Stored Successfully
+2025-01-25T05:19:08.950Z [32minfo[39m: ⚪ Success at geminiCategorize(5745417702) | AI Category = Record Label
+2025-01-25T05:19:10.583Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 88, user) | Data Stored Successfully
+2025-01-25T05:19:12.451Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/marqueemaraudersclub, 88) | Sent To Scraper Queue
+2025-01-25T05:19:14.995Z [32minfo[39m: ⚪ Success at geminiCategorize(789250998) | AI Category = Record Label
+2025-01-25T05:19:16.798Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 89, user) | Data Stored Successfully
+2025-01-25T05:19:17.207Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linkin.bio/lakeshorerecords, 89) | Sent To Scraper Queue
+2025-01-25T05:19:21.041Z [32minfo[39m: ⚪ Success at geminiCategorize(10225923414) | AI Category = Production Company
+2025-01-25T05:19:22.023Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 90, user) | Data Stored Successfully
+2025-01-25T05:19:24.362Z [32minfo[39m: ⚪ Success at geminiCategorize(1092571357) | AI Category = Normal Influencer
+2025-01-25T05:19:25.300Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 91, user) | Data Stored Successfully
+2025-01-25T05:19:28.305Z [32minfo[39m: ⚪ Success at geminiCategorize(2336293127) | AI Category = Normal Influencer
+2025-01-25T05:19:29.677Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 92, user) | Data Stored Successfully
+2025-01-25T05:19:31.390Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/hatandbeard, 92) | Sent To Scraper Queue
+2025-01-25T05:19:33.763Z [32minfo[39m: ⚪ Success at geminiCategorize(37272502) | AI Category = Celebrity/Director
+2025-01-25T05:19:35.241Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 93, user) | Data Stored Successfully
+2025-01-25T05:19:37.084Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/kekevasquez?utm_source=linktree_profile_share&ltsid=68a22058-cb6a-4a4f-a1b2-3f4bd1abb719, 93) | Sent To Scraper Queue
+2025-01-25T05:19:39.443Z [32minfo[39m: ⚪ Success at geminiCategorize(306191226) | AI Category = Production Company
+2025-01-25T05:19:40.452Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 94, user) | Data Stored Successfully
+2025-01-25T05:19:43.367Z [32minfo[39m: ⚪ Success at geminiCategorize(3124159) | AI Category = Normal Influencer
+2025-01-25T05:19:44.957Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 95, user) | Data Stored Successfully
+2025-01-25T05:19:46.671Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( http://linktr.ee/jjoules, 95) | Sent To Scraper Queue
+2025-01-25T05:19:49.241Z [32minfo[39m: ⚪ Success at geminiCategorize(358243857) | AI Category = Celebrity/Actor
+2025-01-25T05:19:50.257Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 96, user) | Data Stored Successfully
+2025-01-25T05:19:52.542Z [32minfo[39m: ⚪ Success at geminiCategorize(333834518) | AI Category = Celebrity/Director
+2025-01-25T05:19:53.456Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 97, user) | Data Stored Successfully
+2025-01-25T05:19:55.139Z [32minfo[39m: ⚪ Success at geminiCategorize(244174073) | AI Category = Celebrity/Director
+2025-01-25T05:19:55.862Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 98, user) | Data Stored Successfully
+2025-01-25T05:19:57.569Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( http://linktr.ee/mikeevansjr, 98) | Sent To Scraper Queue
+2025-01-25T05:20:02.314Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 88, post) | Data Stored Successfully
+2025-01-25T05:20:03.620Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 88, video) | Data Stored Successfully
+2025-01-25T05:20:07.792Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 89, post) | Data Stored Successfully
+2025-01-25T05:20:11.411Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 90, post) | Data Stored Successfully
+2025-01-25T05:20:15.313Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 91, post) | Data Stored Successfully
+2025-01-25T05:20:16.444Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 91, video) | Data Stored Successfully
+2025-01-25T05:20:19.773Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 92, post) | Data Stored Successfully
+2025-01-25T05:20:23.205Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 93, post) | Data Stored Successfully
+2025-01-25T05:20:24.585Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 93, video) | Data Stored Successfully
+2025-01-25T05:20:28.580Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 94, post) | Data Stored Successfully
+2025-01-25T05:20:32.572Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 95, post) | Data Stored Successfully
+2025-01-25T05:20:36.668Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 96, post) | Data Stored Successfully
+2025-01-25T05:20:37.641Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 96, video) | Data Stored Successfully
+2025-01-25T05:20:41.318Z [31merror[39m: 🔴 Error storing Post at DB_Store_Posts_and_Users(task_id = 11, postid=[object Object]) | carousel_media is not iterable
+2025-01-25T05:20:41.541Z [31merror[39m: 🔴 Failed  Task#11
+2025-01-25T05:34:43.390Z [32minfo[39m: 🎌 Task#12 Initialized !
+2025-01-25T05:34:57.046Z [32minfo[39m: ⚪ Success at getHashtag(tag=MIDSOMMAR, pageCount=4) | Received 84 posts
+2025-01-25T05:34:57.046Z [32minfo[39m: ⚪ Success at apply_like_filter(MIDSOMMAR, 50 ) | Received 55 posts
+2025-01-25T05:34:57.047Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(MIDSOMMAR) | Received 45 users
+2025-01-25T05:34:57.419Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=63243176541) | User has 52013 followers
+2025-01-25T05:34:57.786Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=52781934297) | User has 2958 followers
+2025-01-25T05:34:58.144Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45449082476) | User has 70978 followers
+2025-01-25T05:34:58.482Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8910020844) | User has 19226 followers
+2025-01-25T05:34:58.844Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=468427961) | User has 210592 followers
+2025-01-25T05:34:59.324Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=29333019773) | User has 112776 followers
+2025-01-25T05:34:59.815Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=59594177525) | User has 42490 followers
+2025-01-25T05:35:00.994Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=15334489) | User has 117882 followers
+2025-01-25T05:35:01.563Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8108189831) | User has 4077 followers
+2025-01-25T05:35:02.217Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=22681478) | User has 401891 followers
+2025-01-25T05:35:02.892Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=46995223136) | User has 1406 followers
+2025-01-25T05:35:03.475Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57751426172) | User has 6987 followers
+2025-01-25T05:35:04.554Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=41354080900) | User has 14167 followers
+2025-01-25T05:35:05.343Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=841535670) | User has 24332 followers
+2025-01-25T05:35:05.930Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=478090588) | User has 1682387 followers
+2025-01-25T05:35:06.890Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=49685337859) | User has 10369 followers
+2025-01-25T05:35:08.128Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=42757567371) | User has 192954 followers
+2025-01-25T05:35:08.809Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8174379613) | User has 36527 followers
+2025-01-25T05:35:09.755Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=344085335) | User has 662113 followers
+2025-01-25T05:35:10.772Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=1806480986) | User has 42317 followers
+2025-01-25T05:35:11.730Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=25022595) | User has 55606 followers
+2025-01-25T05:35:12.325Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44921015731) | User has 13780 followers
+2025-01-25T05:35:12.940Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=386035678) | User has 95151 followers
+2025-01-25T05:35:13.480Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44258851116) | User has 31926 followers
+2025-01-25T05:35:14.722Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=66378960300) | User has 1541 followers
+2025-01-25T05:35:15.586Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=17372432) | User has 123209 followers
+2025-01-25T05:35:16.102Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=33957525363) | User has 40608 followers
+2025-01-25T05:35:16.583Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=233482524) | User has 938279 followers
+2025-01-25T05:35:17.457Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=9147811) | User has 51223 followers
+2025-01-25T05:35:18.115Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=183841905) | User has 118597 followers
+2025-01-25T05:35:18.718Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=511747224) | User has 34082 followers
+2025-01-25T05:35:19.345Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=266497603) | User has 88825 followers
+2025-01-25T05:35:19.877Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=3110771174) | User has 72328 followers
+2025-01-25T05:35:20.927Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45480463453) | User has 9397 followers
+2025-01-25T05:35:21.456Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57284309664) | User has 44151 followers
+2025-01-25T05:35:21.925Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=36599047958) | User has 12206 followers
+2025-01-25T05:35:22.469Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=62062154175) | User has 6837 followers
+2025-01-25T05:35:23.075Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=34106874405) | User has 8246 followers
+2025-01-25T05:35:27.723Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=193128569) | User has 395321 followers
+2025-01-25T05:35:28.393Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=200826163) | User has 15094 followers
+2025-01-25T05:35:28.908Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=385882882) | User has 37048 followers
+2025-01-25T05:35:29.367Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=37523113189) | User has 8543 followers
+2025-01-25T05:35:29.833Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=65244075484) | User has 683 followers
+2025-01-25T05:35:30.641Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=321949575) | User has 23655 followers
+2025-01-25T05:35:34.207Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=5756504246) | User has 112909 followers
+2025-01-25T05:35:34.207Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR) | Received 41 users
+2025-01-25T05:35:34.208Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = MIDSOMMAR) | Recieved 50 posts 
+2025-01-25T05:35:37.073Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOdazGSidE, task_id = 12) | NOT SPAM
+2025-01-25T05:35:38.913Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEm8_gmIpRT, task_id = 12) | NOT SPAM
+2025-01-25T05:35:40.563Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DARIFXySuDq, task_id = 12) | NOT SPAM
+2025-01-25T05:35:41.980Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C-p_CI6t8tC, task_id = 12) | NOT SPAM
+2025-01-25T05:35:43.494Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFGv0QBIVuT, task_id = 12) | NOT SPAM
+2025-01-25T05:35:44.846Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCdKOB5IUH4, task_id = 12) | NOT SPAM
+2025-01-25T05:35:46.197Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCozzEwsAng, task_id = 12) | NOT SPAM
+2025-01-25T05:35:47.750Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8gr04EI7ia, task_id = 12) | NOT SPAM
+2025-01-25T05:35:49.063Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kIYBhMtuK, task_id = 12) | NOT SPAM
+2025-01-25T05:35:50.343Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEW7zS5KDnP, task_id = 12) | NOT SPAM
+2025-01-25T05:35:51.692Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEpjtxoohid, task_id = 12) | SPAM 
+2025-01-25T05:35:53.056Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9rjm2Su6GY, task_id = 12) | NOT SPAM
+2025-01-25T05:35:54.360Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDxrCp8SJRJ, task_id = 12) | NOT SPAM
+2025-01-25T05:35:55.682Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEnagayMP22, task_id = 12) | NOT SPAM
+2025-01-25T05:35:57.049Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExjC_oOXjz, task_id = 12) | NOT SPAM
+2025-01-25T05:35:58.381Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEzv-GBM_F5, task_id = 12) | NOT SPAM
+2025-01-25T05:36:00.019Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8oK3j7oaVC, task_id = 12) | NOT SPAM
+2025-01-25T05:36:01.344Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_EBRGfNQL0, task_id = 12) | NOT SPAM
+2025-01-25T05:36:02.681Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE-wFnDqWFh, task_id = 12) | NOT SPAM
+2025-01-25T05:36:04.014Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExkEbhuTig, task_id = 12) | NOT SPAM
+2025-01-25T05:36:05.303Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFJga26IhTv, task_id = 12) | NOT SPAM
+2025-01-25T05:36:06.590Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCPsIiXo0iq, task_id = 12) | NOT SPAM
+2025-01-25T05:36:07.878Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCaCyEGh-_5, task_id = 12) | NOT SPAM
+2025-01-25T05:36:09.223Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEX3MDGRAsL, task_id = 12) | NOT SPAM
+2025-01-25T05:36:10.433Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE7cN_wIHN-, task_id = 12) | NOT SPAM
+2025-01-25T05:36:11.795Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDWJaI2RURW, task_id = 12) | NOT SPAM
+2025-01-25T05:37:16.252Z [32minfo[39m: 🎌 Task#12 Initialized !
+2025-01-25T05:37:20.419Z [32minfo[39m: ⚪ Success at getHashtag(tag=MIDSOMMAR, pageCount=4) | Received 84 posts
+2025-01-25T05:37:20.420Z [32minfo[39m: ⚪ Success at apply_like_filter(MIDSOMMAR, 50 ) | Received 55 posts
+2025-01-25T05:37:20.420Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(MIDSOMMAR) | Received 45 users
+2025-01-25T05:37:21.181Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=63243176541) | User has 52013 followers
+2025-01-25T05:37:21.949Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=52781934297) | User has 2958 followers
+2025-01-25T05:37:22.435Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45449082476) | User has 70978 followers
+2025-01-25T05:37:22.808Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8910020844) | User has 19226 followers
+2025-01-25T05:37:23.296Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=468427961) | User has 210592 followers
+2025-01-25T05:37:23.887Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=29333019773) | User has 112776 followers
+2025-01-25T05:37:24.374Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=59594177525) | User has 42490 followers
+2025-01-25T05:37:25.030Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=15334489) | User has 117882 followers
+2025-01-25T05:37:25.470Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8108189831) | User has 4077 followers
+2025-01-25T05:37:26.049Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=22681478) | User has 401891 followers
+2025-01-25T05:37:26.525Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=46995223136) | User has 1406 followers
+2025-01-25T05:37:29.006Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57751426172) | User has 6987 followers
+2025-01-25T05:37:29.484Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=41354080900) | User has 14167 followers
+2025-01-25T05:37:29.988Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=841535670) | User has 24332 followers
+2025-01-25T05:37:30.440Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=478090588) | User has 1682387 followers
+2025-01-25T05:37:30.942Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=49685337859) | User has 10369 followers
+2025-01-25T05:37:31.375Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=42757567371) | User has 192954 followers
+2025-01-25T05:37:31.912Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8174379613) | User has 36527 followers
+2025-01-25T05:37:32.465Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=344085335) | User has 662113 followers
+2025-01-25T05:37:32.934Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=1806480986) | User has 42317 followers
+2025-01-25T05:37:33.442Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=25022595) | User has 55606 followers
+2025-01-25T05:37:33.958Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44921015731) | User has 13780 followers
+2025-01-25T05:37:34.502Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=386035678) | User has 95151 followers
+2025-01-25T05:37:35.045Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44258851116) | User has 31926 followers
+2025-01-25T05:37:35.524Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=66378960300) | User has 1541 followers
+2025-01-25T05:37:35.992Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=17372432) | User has 123209 followers
+2025-01-25T05:37:36.446Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=33957525363) | User has 40608 followers
+2025-01-25T05:37:37.694Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=233482524) | User has 938279 followers
+2025-01-25T05:37:38.332Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=9147811) | User has 51223 followers
+2025-01-25T05:37:38.766Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=183841905) | User has 118597 followers
+2025-01-25T05:37:39.308Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=511747224) | User has 34082 followers
+2025-01-25T05:37:39.961Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=266497603) | User has 88825 followers
+2025-01-25T05:37:40.373Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=3110771174) | User has 72328 followers
+2025-01-25T05:37:41.216Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45480463453) | User has 9397 followers
+2025-01-25T05:37:41.702Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57284309664) | User has 44151 followers
+2025-01-25T05:37:42.149Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=36599047958) | User has 12206 followers
+2025-01-25T05:37:42.947Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=62062154175) | User has 6837 followers
+2025-01-25T05:37:43.408Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=34106874405) | User has 8246 followers
+2025-01-25T05:37:44.260Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=193128569) | User has 395321 followers
+2025-01-25T05:37:44.807Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=200826163) | User has 15094 followers
+2025-01-25T05:37:45.376Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=385882882) | User has 37048 followers
+2025-01-25T05:37:45.906Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=37523113189) | User has 8543 followers
+2025-01-25T05:37:46.379Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=65244075484) | User has 683 followers
+2025-01-25T05:37:47.550Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=321949575) | User has 23655 followers
+2025-01-25T05:37:48.358Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=5756504246) | User has 112909 followers
+2025-01-25T05:37:48.358Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR) | Received 41 users
+2025-01-25T05:37:48.360Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = MIDSOMMAR) | Recieved 50 posts 
+2025-01-25T05:37:51.120Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOdazGSidE, task_id = 12) | NOT SPAM
+2025-01-25T05:37:52.552Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEm8_gmIpRT, task_id = 12) | NOT SPAM
+2025-01-25T05:37:53.762Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DARIFXySuDq, task_id = 12) | NOT SPAM
+2025-01-25T05:37:55.115Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C-p_CI6t8tC, task_id = 12) | NOT SPAM
+2025-01-25T05:37:56.651Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFGv0QBIVuT, task_id = 12) | NOT SPAM
+2025-01-25T05:37:57.711Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCdKOB5IUH4, task_id = 12) | NOT SPAM
+2025-01-25T05:37:59.159Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCozzEwsAng, task_id = 12) | NOT SPAM
+2025-01-25T05:38:00.474Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8gr04EI7ia, task_id = 12) | NOT SPAM
+2025-01-25T05:38:01.838Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kIYBhMtuK, task_id = 12) | NOT SPAM
+2025-01-25T05:38:03.198Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEW7zS5KDnP, task_id = 12) | NOT SPAM
+2025-01-25T05:38:11.725Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEpjtxoohid, task_id = 12) | SPAM 
+2025-01-25T05:38:13.034Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9rjm2Su6GY, task_id = 12) | NOT SPAM
+2025-01-25T05:38:14.262Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDxrCp8SJRJ, task_id = 12) | NOT SPAM
+2025-01-25T05:38:15.798Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEnagayMP22, task_id = 12) | NOT SPAM
+2025-01-25T05:38:17.069Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExjC_oOXjz, task_id = 12) | NOT SPAM
+2025-01-25T05:38:18.461Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEzv-GBM_F5, task_id = 12) | NOT SPAM
+2025-01-25T05:38:19.895Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8oK3j7oaVC, task_id = 12) | NOT SPAM
+2025-01-25T05:38:21.226Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_EBRGfNQL0, task_id = 12) | NOT SPAM
+2025-01-25T05:38:22.556Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE-wFnDqWFh, task_id = 12) | NOT SPAM
+2025-01-25T05:38:23.889Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExkEbhuTig, task_id = 12) | NOT SPAM
+2025-01-25T05:38:24.991Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFJga26IhTv, task_id = 12) | NOT SPAM
+2025-01-25T05:38:26.243Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCPsIiXo0iq, task_id = 12) | NOT SPAM
+2025-01-25T05:38:27.572Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCaCyEGh-_5, task_id = 12) | NOT SPAM
+2025-01-25T05:38:28.795Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEX3MDGRAsL, task_id = 12) | NOT SPAM
+2025-01-25T05:38:30.134Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE7cN_wIHN-, task_id = 12) | NOT SPAM
+2025-01-25T05:38:31.445Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDWJaI2RURW, task_id = 12) | NOT SPAM
+2025-01-25T05:38:32.796Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C897D9TIYi1, task_id = 12) | SPAM 
+2025-01-25T05:38:34.129Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DBrPLFHM_YI, task_id = 12) | NOT SPAM
+2025-01-25T05:38:35.663Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kXi2xoBqi, task_id = 12) | NOT SPAM
+2025-01-25T05:38:37.301Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_OB2D-CMV2, task_id = 12) | NOT SPAM
+2025-01-25T05:38:38.718Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExOkCztncn, task_id = 12) | NOT SPAM
+2025-01-25T05:38:40.170Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kZjXLoUyO, task_id = 12) | NOT SPAM
+2025-01-25T05:38:41.452Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DA6YHSKvkln, task_id = 12) | NOT SPAM
+2025-01-25T05:38:42.726Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0qzXIyK79, task_id = 12) | NOT SPAM
+2025-01-25T05:38:43.995Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE6xq4AOolM, task_id = 12) | NOT SPAM
+2025-01-25T05:38:45.387Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCmn_ExyZDH, task_id = 12) | NOT SPAM
+2025-01-25T05:38:46.722Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD5iawkur1p, task_id = 12) | NOT SPAM
+2025-01-25T05:38:47.978Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOXpn2qe1P, task_id = 12) | NOT SPAM
+2025-01-25T05:38:49.351Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEgWPeIocw7, task_id = 12) | NOT SPAM
+2025-01-25T05:38:50.573Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ehKVMNfTz, task_id = 12) | SPAM 
+2025-01-25T05:38:51.842Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DAY-WOhyhcZ, task_id = 12) | NOT SPAM
+2025-01-25T05:38:53.286Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOtWn9sa4S, task_id = 12) | NOT SPAM
+2025-01-25T05:38:54.570Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DC66fdLo2JH, task_id = 12) | NOT SPAM
+2025-01-25T05:38:55.938Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5HOBdvxHy, task_id = 12) | NOT SPAM
+2025-01-25T05:38:57.270Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEyClGduzSi, task_id = 12) | NOT SPAM
+2025-01-25T05:38:58.704Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0RZs2sDzF, task_id = 12) | NOT SPAM
+2025-01-25T05:39:00.341Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ut4KwueZj, task_id = 12) | NOT SPAM
+2025-01-25T05:39:01.685Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5OV25MH-n, task_id = 12) | NOT SPAM
+2025-01-25T05:39:03.028Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE2tB3cs-1I, task_id = 12) | SPAM 
+2025-01-25T05:39:04.196Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFDnM3Wizzg, task_id = 12) | NOT SPAM
+2025-01-25T05:39:04.196Z [32minfo[39m: ⚪ Success at apply_spam_filter(task_id = 12) | Recieved 46 posts 
+2025-01-25T05:39:04.653Z [31merror[39m: 🔴 Error storing Post at DB_Store_Posts_and_Users(task_id = 12, postid=[object Object]) | template is not defined
+2025-01-25T05:39:05.014Z [31merror[39m: 🔴 Failed  Task#12
+2025-01-25T05:41:27.979Z [32minfo[39m: 🎌 Task#13 Initialized !
+2025-01-25T05:41:31.065Z [32minfo[39m: ⚪ Success at getHashtag(tag=MIDSOMMAR, pageCount=4) | Received 84 posts
+2025-01-25T05:41:31.065Z [32minfo[39m: ⚪ Success at apply_like_filter(MIDSOMMAR, 50 ) | Received 55 posts
+2025-01-25T05:41:31.065Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(MIDSOMMAR) | Received 45 users
+2025-01-25T05:41:31.747Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=63243176541) | User has 52013 followers
+2025-01-25T05:41:32.075Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=52781934297) | User has 2958 followers
+2025-01-25T05:41:32.451Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45449082476) | User has 70978 followers
+2025-01-25T05:41:33.136Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8910020844) | User has 19226 followers
+2025-01-25T05:41:33.697Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=468427961) | User has 210592 followers
+2025-01-25T05:41:34.302Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=29333019773) | User has 112776 followers
+2025-01-25T05:41:34.760Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=59594177525) | User has 42490 followers
+2025-01-25T05:41:35.261Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=15334489) | User has 117882 followers
+2025-01-25T05:41:35.799Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8108189831) | User has 4077 followers
+2025-01-25T05:41:36.280Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=22681478) | User has 401891 followers
+2025-01-25T05:41:37.276Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=46995223136) | User has 1406 followers
+2025-01-25T05:41:37.812Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57751426172) | User has 6987 followers
+2025-01-25T05:41:38.319Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=41354080900) | User has 14167 followers
+2025-01-25T05:41:38.793Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=841535670) | User has 24332 followers
+2025-01-25T05:41:39.240Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=478090588) | User has 1682387 followers
+2025-01-25T05:41:39.715Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=49685337859) | User has 10369 followers
+2025-01-25T05:41:40.197Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=42757567371) | User has 192954 followers
+2025-01-25T05:41:40.684Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8174379613) | User has 36527 followers
+2025-01-25T05:41:41.146Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=344085335) | User has 662113 followers
+2025-01-25T05:41:41.601Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=1806480986) | User has 42317 followers
+2025-01-25T05:41:42.789Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=25022595) | User has 55606 followers
+2025-01-25T05:41:43.312Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44921015731) | User has 13780 followers
+2025-01-25T05:41:43.808Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=386035678) | User has 95151 followers
+2025-01-25T05:41:45.140Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44258851116) | User has 31926 followers
+2025-01-25T05:41:45.724Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=66378960300) | User has 1541 followers
+2025-01-25T05:41:46.738Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=17372432) | User has 123209 followers
+2025-01-25T05:41:47.560Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=33957525363) | User has 40608 followers
+2025-01-25T05:41:48.032Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=233482524) | User has 938279 followers
+2025-01-25T05:41:50.230Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=9147811) | User has 51223 followers
+2025-01-25T05:41:50.735Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=183841905) | User has 118597 followers
+2025-01-25T05:41:51.203Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=511747224) | User has 34082 followers
+2025-01-25T05:41:52.706Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=266497603) | User has 88825 followers
+2025-01-25T05:41:53.628Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=3110771174) | User has 72328 followers
+2025-01-25T05:41:54.103Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45480463453) | User has 9397 followers
+2025-01-25T05:41:54.538Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57284309664) | User has 44151 followers
+2025-01-25T05:41:55.238Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=36599047958) | User has 12206 followers
+2025-01-25T05:41:55.707Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=62062154175) | User has 6837 followers
+2025-01-25T05:41:56.296Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=34106874405) | User has 8246 followers
+2025-01-25T05:41:57.247Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=193128569) | User has 395321 followers
+2025-01-25T05:41:57.718Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=200826163) | User has 15094 followers
+2025-01-25T05:41:58.144Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=385882882) | User has 37048 followers
+2025-01-25T05:41:59.025Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=37523113189) | User has 8543 followers
+2025-01-25T05:41:59.750Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=65244075484) | User has 683 followers
+2025-01-25T05:42:00.203Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=321949575) | User has 23655 followers
+2025-01-25T05:42:00.792Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=5756504246) | User has 112909 followers
+2025-01-25T05:42:00.792Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR) | Received 41 users
+2025-01-25T05:42:00.792Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = MIDSOMMAR) | Recieved 50 posts 
+2025-01-25T05:42:04.095Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOdazGSidE, task_id = 13) | NOT SPAM
+2025-01-25T05:42:05.399Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEm8_gmIpRT, task_id = 13) | NOT SPAM
+2025-01-25T05:42:06.699Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DARIFXySuDq, task_id = 13) | NOT SPAM
+2025-01-25T05:42:08.110Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C-p_CI6t8tC, task_id = 13) | NOT SPAM
+2025-01-25T05:42:09.464Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFGv0QBIVuT, task_id = 13) | NOT SPAM
+2025-01-25T05:42:10.999Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCdKOB5IUH4, task_id = 13) | NOT SPAM
+2025-01-25T05:42:12.431Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCozzEwsAng, task_id = 13) | NOT SPAM
+2025-01-25T05:42:13.874Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8gr04EI7ia, task_id = 13) | NOT SPAM
+2025-01-25T05:42:15.268Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kIYBhMtuK, task_id = 13) | NOT SPAM
+2025-01-25T05:42:16.595Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEW7zS5KDnP, task_id = 13) | NOT SPAM
+2025-01-25T05:42:17.872Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEpjtxoohid, task_id = 13) | SPAM 
+2025-01-25T05:42:19.134Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9rjm2Su6GY, task_id = 13) | NOT SPAM
+2025-01-25T05:42:20.625Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDxrCp8SJRJ, task_id = 13) | NOT SPAM
+2025-01-25T05:42:21.940Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEnagayMP22, task_id = 13) | NOT SPAM
+2025-01-25T05:42:23.308Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExjC_oOXjz, task_id = 13) | NOT SPAM
+2025-01-25T05:42:24.552Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEzv-GBM_F5, task_id = 13) | NOT SPAM
+2025-01-25T05:42:25.834Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8oK3j7oaVC, task_id = 13) | NOT SPAM
+2025-01-25T05:42:27.551Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_EBRGfNQL0, task_id = 13) | NOT SPAM
+2025-01-25T05:42:29.021Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE-wFnDqWFh, task_id = 13) | NOT SPAM
+2025-01-25T05:42:30.358Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExkEbhuTig, task_id = 13) | NOT SPAM
+2025-01-25T05:42:31.687Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFJga26IhTv, task_id = 13) | NOT SPAM
+2025-01-25T05:42:33.017Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCPsIiXo0iq, task_id = 13) | NOT SPAM
+2025-01-25T05:42:34.346Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCaCyEGh-_5, task_id = 13) | NOT SPAM
+2025-01-25T05:42:35.679Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEX3MDGRAsL, task_id = 13) | NOT SPAM
+2025-01-25T05:42:36.935Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE7cN_wIHN-, task_id = 13) | NOT SPAM
+2025-01-25T05:42:38.442Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDWJaI2RURW, task_id = 13) | NOT SPAM
+2025-01-25T05:42:39.737Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C897D9TIYi1, task_id = 13) | SPAM 
+2025-01-25T05:42:40.992Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DBrPLFHM_YI, task_id = 13) | NOT SPAM
+2025-01-25T05:42:42.436Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kXi2xoBqi, task_id = 13) | NOT SPAM
+2025-01-25T05:42:43.975Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_OB2D-CMV2, task_id = 13) | NOT SPAM
+2025-01-25T05:42:45.303Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExOkCztncn, task_id = 13) | NOT SPAM
+2025-01-25T05:42:46.738Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kZjXLoUyO, task_id = 13) | NOT SPAM
+2025-01-25T05:42:48.170Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DA6YHSKvkln, task_id = 13) | NOT SPAM
+2025-01-25T05:42:49.424Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0qzXIyK79, task_id = 13) | NOT SPAM
+2025-01-25T05:42:50.741Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE6xq4AOolM, task_id = 13) | NOT SPAM
+2025-01-25T05:42:52.165Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCmn_ExyZDH, task_id = 13) | NOT SPAM
+2025-01-25T05:42:53.854Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD5iawkur1p, task_id = 13) | NOT SPAM
+2025-01-25T05:42:55.338Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOXpn2qe1P, task_id = 13) | NOT SPAM
+2025-01-25T05:42:56.634Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEgWPeIocw7, task_id = 13) | NOT SPAM
+2025-01-25T05:42:58.105Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ehKVMNfTz, task_id = 13) | SPAM 
+2025-01-25T05:42:59.462Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DAY-WOhyhcZ, task_id = 13) | NOT SPAM
+2025-01-25T05:43:00.765Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOtWn9sa4S, task_id = 13) | NOT SPAM
+2025-01-25T05:43:02.042Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DC66fdLo2JH, task_id = 13) | NOT SPAM
+2025-01-25T05:43:03.401Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5HOBdvxHy, task_id = 13) | NOT SPAM
+2025-01-25T05:43:04.642Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEyClGduzSi, task_id = 13) | NOT SPAM
+2025-01-25T05:43:05.994Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0RZs2sDzF, task_id = 13) | NOT SPAM
+2025-01-25T05:43:07.422Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ut4KwueZj, task_id = 13) | NOT SPAM
+2025-01-25T05:43:08.530Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5OV25MH-n, task_id = 13) | NOT SPAM
+2025-01-25T05:43:09.841Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE2tB3cs-1I, task_id = 13) | SPAM 
+2025-01-25T05:43:11.072Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFDnM3Wizzg, task_id = 13) | NOT SPAM
+2025-01-25T05:43:11.072Z [32minfo[39m: ⚪ Success at apply_spam_filter(task_id = 13) | Recieved 46 posts 
+2025-01-25T05:43:26.244Z [32minfo[39m: ⚪ Success at DB_Store_Posts_and_Users(task_id = 13) | Data Stored Successfully
+2025-01-25T05:43:26.634Z [32minfo[39m: 🟢 Completed  Task#13
+2025-01-25T05:44:36.509Z [32minfo[39m: 🎌 Task#14 Initialized !
+2025-01-25T05:44:39.445Z [32minfo[39m: ⚪ Success at getHashtag(tag=MIDSOMMAR, pageCount=4) | Received 84 posts
+2025-01-25T05:44:39.445Z [32minfo[39m: ⚪ Success at apply_like_filter(MIDSOMMAR, 50 ) | Received 55 posts
+2025-01-25T05:44:39.445Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(MIDSOMMAR) | Received 45 users
+2025-01-25T05:44:39.849Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=63243176541) | User has 52013 followers
+2025-01-25T05:44:40.335Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=52781934297) | User has 2958 followers
+2025-01-25T05:44:41.554Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45449082476) | User has 70978 followers
+2025-01-25T05:44:42.058Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8910020844) | User has 19226 followers
+2025-01-25T05:44:42.398Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=468427961) | User has 210592 followers
+2025-01-25T05:44:42.767Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=29333019773) | User has 112776 followers
+2025-01-25T05:44:43.111Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=59594177525) | User has 42490 followers
+2025-01-25T05:44:43.478Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=15334489) | User has 117882 followers
+2025-01-25T05:44:43.892Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8108189831) | User has 4077 followers
+2025-01-25T05:44:44.258Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=22681478) | User has 401891 followers
+2025-01-25T05:44:44.649Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=46995223136) | User has 1406 followers
+2025-01-25T05:44:44.986Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57751426172) | User has 6987 followers
+2025-01-25T05:44:45.348Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=41354080900) | User has 14167 followers
+2025-01-25T05:44:45.684Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=841535670) | User has 24332 followers
+2025-01-25T05:44:46.050Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=478090588) | User has 1682387 followers
+2025-01-25T05:44:46.383Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=49685337859) | User has 10369 followers
+2025-01-25T05:44:47.265Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=42757567371) | User has 192954 followers
+2025-01-25T05:44:48.570Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8174379613) | User has 36527 followers
+2025-01-25T05:44:48.914Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=344085335) | User has 662113 followers
+2025-01-25T05:44:49.282Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=1806480986) | User has 42317 followers
+2025-01-25T05:44:50.765Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=25022595) | User has 55606 followers
+2025-01-25T05:44:51.087Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44921015731) | User has 13780 followers
+2025-01-25T05:44:51.451Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=386035678) | User has 95151 followers
+2025-01-25T05:44:51.825Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44258851116) | User has 31926 followers
+2025-01-25T05:44:52.273Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=66378960300) | User has 1541 followers
+2025-01-25T05:44:52.640Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=17372432) | User has 123209 followers
+2025-01-25T05:44:53.553Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=33957525363) | User has 40608 followers
+2025-01-25T05:44:53.955Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=233482524) | User has 938279 followers
+2025-01-25T05:44:54.324Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=9147811) | User has 51223 followers
+2025-01-25T05:44:55.619Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=183841905) | User has 118597 followers
+2025-01-25T05:44:56.438Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=511747224) | User has 34082 followers
+2025-01-25T05:44:57.302Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=266497603) | User has 88825 followers
+2025-01-25T05:44:57.690Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=3110771174) | User has 72328 followers
+2025-01-25T05:44:58.054Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45480463453) | User has 9397 followers
+2025-01-25T05:44:59.135Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57284309664) | User has 44151 followers
+2025-01-25T05:44:59.541Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=36599047958) | User has 12206 followers
+2025-01-25T05:44:59.921Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=62062154175) | User has 6837 followers
+2025-01-25T05:45:00.295Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=34106874405) | User has 8246 followers
+2025-01-25T05:45:01.091Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=193128569) | User has 395321 followers
+2025-01-25T05:45:02.184Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=200826163) | User has 15094 followers
+2025-01-25T05:45:02.680Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=385882882) | User has 37048 followers
+2025-01-25T05:45:03.158Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=37523113189) | User has 8543 followers
+2025-01-25T05:45:03.558Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=65244075484) | User has 683 followers
+2025-01-25T05:45:04.140Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=321949575) | User has 23655 followers
+2025-01-25T05:45:05.796Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=5756504246) | User has 112909 followers
+2025-01-25T05:45:05.796Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR) | Received 41 users
+2025-01-25T05:45:05.796Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = MIDSOMMAR) | Recieved 50 posts 
+2025-01-25T05:45:08.767Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOdazGSidE, task_id = 14) | NOT SPAM
+2025-01-25T05:45:10.092Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEm8_gmIpRT, task_id = 14) | NOT SPAM
+2025-01-25T05:45:11.311Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DARIFXySuDq, task_id = 14) | NOT SPAM
+2025-01-25T05:45:12.755Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C-p_CI6t8tC, task_id = 14) | NOT SPAM
+2025-01-25T05:45:14.078Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFGv0QBIVuT, task_id = 14) | NOT SPAM
+2025-01-25T05:45:15.431Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCdKOB5IUH4, task_id = 14) | NOT SPAM
+2025-01-25T05:45:16.806Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCozzEwsAng, task_id = 14) | NOT SPAM
+2025-01-25T05:45:18.006Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8gr04EI7ia, task_id = 14) | NOT SPAM
+2025-01-25T05:45:19.263Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kIYBhMtuK, task_id = 14) | NOT SPAM
+2025-01-25T05:45:20.639Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEW7zS5KDnP, task_id = 14) | NOT SPAM
+2025-01-25T05:45:21.969Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEpjtxoohid, task_id = 14) | SPAM 
+2025-01-25T05:45:23.302Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9rjm2Su6GY, task_id = 14) | NOT SPAM
+2025-01-25T05:45:24.635Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDxrCp8SJRJ, task_id = 14) | NOT SPAM
+2025-01-25T05:45:26.066Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEnagayMP22, task_id = 14) | NOT SPAM
+2025-01-25T05:45:27.326Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExjC_oOXjz, task_id = 14) | NOT SPAM
+2025-01-25T05:45:28.696Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEzv-GBM_F5, task_id = 14) | NOT SPAM
+2025-01-25T05:45:30.161Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8oK3j7oaVC, task_id = 14) | NOT SPAM
+2025-01-25T05:45:31.456Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_EBRGfNQL0, task_id = 14) | NOT SPAM
+2025-01-25T05:45:32.824Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE-wFnDqWFh, task_id = 14) | NOT SPAM
+2025-01-25T05:45:34.063Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExkEbhuTig, task_id = 14) | NOT SPAM
+2025-01-25T05:45:35.310Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFJga26IhTv, task_id = 14) | NOT SPAM
+2025-01-25T05:45:36.615Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCPsIiXo0iq, task_id = 14) | NOT SPAM
+2025-01-25T05:45:37.842Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCaCyEGh-_5, task_id = 14) | NOT SPAM
+2025-01-25T05:45:39.100Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEX3MDGRAsL, task_id = 14) | NOT SPAM
+2025-01-25T05:45:40.398Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE7cN_wIHN-, task_id = 14) | NOT SPAM
+2025-01-25T05:45:41.835Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDWJaI2RURW, task_id = 14) | NOT SPAM
+2025-01-25T05:45:43.147Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C897D9TIYi1, task_id = 14) | SPAM 
+2025-01-25T05:45:44.369Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DBrPLFHM_YI, task_id = 14) | NOT SPAM
+2025-01-25T05:45:45.742Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kXi2xoBqi, task_id = 14) | NOT SPAM
+2025-01-25T05:45:47.261Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_OB2D-CMV2, task_id = 14) | NOT SPAM
+2025-01-25T05:45:48.593Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExOkCztncn, task_id = 14) | NOT SPAM
+2025-01-25T05:45:49.889Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kZjXLoUyO, task_id = 14) | NOT SPAM
+2025-01-25T05:45:51.127Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DA6YHSKvkln, task_id = 14) | NOT SPAM
+2025-01-25T05:45:52.486Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0qzXIyK79, task_id = 14) | NOT SPAM
+2025-01-25T05:45:53.815Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE6xq4AOolM, task_id = 14) | NOT SPAM
+2025-01-25T05:45:55.453Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCmn_ExyZDH, task_id = 14) | NOT SPAM
+2025-01-25T05:45:56.687Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD5iawkur1p, task_id = 14) | NOT SPAM
+2025-01-25T05:45:58.014Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOXpn2qe1P, task_id = 14) | NOT SPAM
+2025-01-25T05:45:59.367Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEgWPeIocw7, task_id = 14) | NOT SPAM
+2025-01-25T05:46:00.751Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ehKVMNfTz, task_id = 14) | SPAM 
+2025-01-25T05:46:02.073Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DAY-WOhyhcZ, task_id = 14) | NOT SPAM
+2025-01-25T05:46:03.405Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOtWn9sa4S, task_id = 14) | NOT SPAM
+2025-01-25T05:46:04.776Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DC66fdLo2JH, task_id = 14) | NOT SPAM
+2025-01-25T05:46:06.167Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5HOBdvxHy, task_id = 14) | NOT SPAM
+2025-01-25T05:46:07.537Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEyClGduzSi, task_id = 14) | NOT SPAM
+2025-01-25T05:46:08.970Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0RZs2sDzF, task_id = 14) | NOT SPAM
+2025-01-25T05:46:10.387Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ut4KwueZj, task_id = 14) | NOT SPAM
+2025-01-25T05:46:11.837Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5OV25MH-n, task_id = 14) | NOT SPAM
+2025-01-25T05:46:13.265Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE2tB3cs-1I, task_id = 14) | SPAM 
+2025-01-25T05:46:14.601Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFDnM3Wizzg, task_id = 14) | NOT SPAM
+2025-01-25T05:46:14.602Z [32minfo[39m: ⚪ Success at apply_spam_filter(task_id = 14) | Recieved 46 posts 
+2025-01-25T05:46:31.156Z [32minfo[39m: ⚪ Success at DB_Store_Posts_and_Users(task_id = 14) | Data Stored Successfully
+2025-01-25T05:46:31.392Z [32minfo[39m: 🟢 Completed  Task#14
+2025-01-25T05:48:15.087Z [32minfo[39m: 🎌 Task#15 Initialized !
+2025-01-25T05:48:19.068Z [32minfo[39m: ⚪ Success at getHashtag(tag=MIDSOMMAR, pageCount=4) | Received 84 posts
+2025-01-25T05:48:19.068Z [32minfo[39m: ⚪ Success at apply_like_filter(MIDSOMMAR, 50 ) | Received 55 posts
+2025-01-25T05:48:19.068Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(MIDSOMMAR) | Received 45 users
+2025-01-25T05:48:19.431Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=63243176541) | User has 52013 followers
+2025-01-25T05:48:19.806Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=52781934297) | User has 2958 followers
+2025-01-25T05:48:20.349Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45449082476) | User has 70978 followers
+2025-01-25T05:48:20.860Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8910020844) | User has 19226 followers
+2025-01-25T05:48:21.372Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=468427961) | User has 210592 followers
+2025-01-25T05:48:21.756Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=29333019773) | User has 112776 followers
+2025-01-25T05:48:22.352Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=59594177525) | User has 42490 followers
+2025-01-25T05:48:22.821Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=15334489) | User has 117882 followers
+2025-01-25T05:48:24.579Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8108189831) | User has 4077 followers
+2025-01-25T05:48:25.096Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=22681478) | User has 401891 followers
+2025-01-25T05:48:25.529Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=46995223136) | User has 1406 followers
+2025-01-25T05:48:26.047Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57751426172) | User has 6987 followers
+2025-01-25T05:48:26.656Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=41354080900) | User has 14167 followers
+2025-01-25T05:48:27.628Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=841535670) | User has 24332 followers
+2025-01-25T05:48:28.066Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=478090588) | User has 1682387 followers
+2025-01-25T05:48:28.508Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=49685337859) | User has 10369 followers
+2025-01-25T05:48:28.969Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=42757567371) | User has 192954 followers
+2025-01-25T05:48:30.334Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8174379613) | User has 36527 followers
+2025-01-25T05:48:30.830Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=344085335) | User has 662113 followers
+2025-01-25T05:48:32.469Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=1806480986) | User has 42317 followers
+2025-01-25T05:48:32.933Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=25022595) | User has 55606 followers
+2025-01-25T05:48:33.412Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44921015731) | User has 13780 followers
+2025-01-25T05:48:33.838Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=386035678) | User has 95151 followers
+2025-01-25T05:48:35.842Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44258851116) | User has 31926 followers
+2025-01-25T05:48:36.685Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=66378960300) | User has 1541 followers
+2025-01-25T05:48:37.223Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=17372432) | User has 123209 followers
+2025-01-25T05:48:37.766Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=33957525363) | User has 40608 followers
+2025-01-25T05:48:38.247Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=233482524) | User has 938279 followers
+2025-01-25T05:48:39.475Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=9147811) | User has 51223 followers
+2025-01-25T05:48:40.003Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=183841905) | User has 118597 followers
+2025-01-25T05:48:40.649Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=511747224) | User has 34082 followers
+2025-01-25T05:48:41.223Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=266497603) | User has 88825 followers
+2025-01-25T05:48:41.710Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=3110771174) | User has 72328 followers
+2025-01-25T05:48:43.463Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45480463453) | User has 9397 followers
+2025-01-25T05:48:44.322Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57284309664) | User has 44151 followers
+2025-01-25T05:48:44.802Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=36599047958) | User has 12206 followers
+2025-01-25T05:48:45.298Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=62062154175) | User has 6837 followers
+2025-01-25T05:48:45.793Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=34106874405) | User has 8246 followers
+2025-01-25T05:48:46.231Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=193128569) | User has 395321 followers
+2025-01-25T05:48:47.202Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=200826163) | User has 15094 followers
+2025-01-25T05:48:47.768Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=385882882) | User has 37048 followers
+2025-01-25T05:48:48.260Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=37523113189) | User has 8543 followers
+2025-01-25T05:48:48.739Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=65244075484) | User has 683 followers
+2025-01-25T05:48:49.305Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=321949575) | User has 23655 followers
+2025-01-25T05:48:51.112Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=5756504246) | User has 112909 followers
+2025-01-25T05:51:44.206Z [32minfo[39m: 🎌 Task#15 Initialized !
+2025-01-25T05:51:47.570Z [32minfo[39m: ⚪ Success at getHashtag(tag=MIDSOMMAR, pageCount=4) | Received 84 posts
+2025-01-25T05:51:47.570Z [32minfo[39m: ⚪ Success at apply_like_filter(MIDSOMMAR, 50 ) | Received 55 posts
+2025-01-25T05:51:47.571Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(MIDSOMMAR) | Received 45 users
+2025-01-25T05:51:48.026Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=63243176541) | User has 52013 followers
+2025-01-25T05:51:48.485Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=52781934297) | User has 2958 followers
+2025-01-25T05:51:49.033Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45449082476) | User has 70978 followers
+2025-01-25T05:51:49.408Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8910020844) | User has 19226 followers
+2025-01-25T05:51:49.984Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=468427961) | User has 210592 followers
+2025-01-25T05:51:50.954Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=29333019773) | User has 112776 followers
+2025-01-25T05:51:51.472Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=59594177525) | User has 42490 followers
+2025-01-25T05:51:52.226Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=15334489) | User has 117882 followers
+2025-01-25T05:51:53.110Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8108189831) | User has 4077 followers
+2025-01-25T05:51:53.602Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=22681478) | User has 401891 followers
+2025-01-25T05:51:54.363Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=46995223136) | User has 1406 followers
+2025-01-25T05:51:55.608Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57751426172) | User has 6987 followers
+2025-01-25T05:51:56.107Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=41354080900) | User has 14167 followers
+2025-01-25T05:51:56.694Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=841535670) | User has 24332 followers
+2025-01-25T05:51:57.138Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=478090588) | User has 1682387 followers
+2025-01-25T05:51:57.629Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=49685337859) | User has 10369 followers
+2025-01-25T05:51:58.309Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=42757567371) | User has 192954 followers
+2025-01-25T05:51:58.796Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8174379613) | User has 36527 followers
+2025-01-25T05:51:59.272Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=344085335) | User has 662113 followers
+2025-01-25T05:51:59.770Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=1806480986) | User has 42317 followers
+2025-01-25T05:52:00.356Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=25022595) | User has 55606 followers
+2025-01-25T05:52:00.873Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44921015731) | User has 13780 followers
+2025-01-25T05:52:01.546Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=386035678) | User has 95151 followers
+2025-01-25T05:52:02.628Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44258851116) | User has 31926 followers
+2025-01-25T05:52:03.073Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=66378960300) | User has 1541 followers
+2025-01-25T05:52:04.243Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=17372432) | User has 123209 followers
+2025-01-25T05:52:04.695Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=33957525363) | User has 40608 followers
+2025-01-25T05:52:05.153Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=233482524) | User has 938279 followers
+2025-01-25T05:52:05.676Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=9147811) | User has 51223 followers
+2025-01-25T05:52:06.386Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=183841905) | User has 118597 followers
+2025-01-25T05:52:07.037Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=511747224) | User has 34082 followers
+2025-01-25T05:52:07.556Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=266497603) | User has 88825 followers
+2025-01-25T05:52:08.068Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=3110771174) | User has 72328 followers
+2025-01-25T05:52:08.567Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45480463453) | User has 9397 followers
+2025-01-25T05:52:11.455Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57284309664) | User has 44151 followers
+2025-01-25T05:52:11.908Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=36599047958) | User has 12206 followers
+2025-01-25T05:52:12.380Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=62062154175) | User has 6837 followers
+2025-01-25T05:52:12.943Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=34106874405) | User has 8246 followers
+2025-01-25T05:52:13.382Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=193128569) | User has 395321 followers
+2025-01-25T05:52:13.880Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=200826163) | User has 15094 followers
+2025-01-25T05:52:15.093Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=385882882) | User has 37048 followers
+2025-01-25T05:52:15.675Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=37523113189) | User has 8543 followers
+2025-01-25T05:52:16.125Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=65244075484) | User has 683 followers
+2025-01-25T05:52:17.782Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=321949575) | User has 23655 followers
+2025-01-25T05:52:18.745Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=5756504246) | User has 112909 followers
+2025-01-25T05:52:18.746Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR) | Received 41 users
+2025-01-25T05:52:18.746Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = MIDSOMMAR) | Recieved 50 posts 
+2025-01-25T05:52:19.207Z [32minfo[39m: 🟢 Completed  Task#15
+2025-01-25T05:52:22.077Z [31merror[39m: 🔴 Task#16 doesn't exists
+2025-01-25T05:59:51.995Z [32minfo[39m: 🎌 Task#17 Initialized !
+2025-01-25T05:59:54.989Z [32minfo[39m: ⚪ Success at getHashtag(tag=MIDSOMMAR, pageCount=4) | Received 84 posts
+2025-01-25T05:59:54.990Z [32minfo[39m: ⚪ Success at apply_like_filter(MIDSOMMAR, 50 ) | Received 55 posts
+2025-01-25T05:59:54.990Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(MIDSOMMAR) | Received 45 users
+2025-01-25T05:59:55.661Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=63243176541) | User has 52013 followers
+2025-01-25T05:59:56.684Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=52781934297) | User has 2958 followers
+2025-01-25T05:59:57.149Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45449082476) | User has 70978 followers
+2025-01-25T05:59:57.752Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8910020844) | User has 19226 followers
+2025-01-25T05:59:58.261Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=468427961) | User has 210592 followers
+2025-01-25T05:59:59.128Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=29333019773) | User has 112776 followers
+2025-01-25T05:59:59.543Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=59594177525) | User has 42490 followers
+2025-01-25T06:00:00.092Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=15334489) | User has 117882 followers
+2025-01-25T06:00:00.513Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8108189831) | User has 4077 followers
+2025-01-25T06:00:00.996Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=22681478) | User has 401891 followers
+2025-01-25T06:00:01.448Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=46995223136) | User has 1406 followers
+2025-01-25T06:00:02.096Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57751426172) | User has 6987 followers
+2025-01-25T06:00:02.519Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=41354080900) | User has 14167 followers
+2025-01-25T06:00:02.991Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=841535670) | User has 24332 followers
+2025-01-25T06:00:03.616Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=478090588) | User has 1682387 followers
+2025-01-25T06:00:04.077Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=49685337859) | User has 10369 followers
+2025-01-25T06:00:04.568Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=42757567371) | User has 192954 followers
+2025-01-25T06:00:05.697Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=8174379613) | User has 36527 followers
+2025-01-25T06:00:11.040Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=344085335) | User has 662113 followers
+2025-01-25T06:00:11.614Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=1806480986) | User has 42317 followers
+2025-01-25T06:00:12.263Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=25022595) | User has 55606 followers
+2025-01-25T06:00:12.787Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44921015731) | User has 13780 followers
+2025-01-25T06:00:13.276Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=386035678) | User has 95151 followers
+2025-01-25T06:00:13.744Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=44258851116) | User has 31926 followers
+2025-01-25T06:00:14.214Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=66378960300) | User has 1541 followers
+2025-01-25T06:00:14.632Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=17372432) | User has 123209 followers
+2025-01-25T06:00:15.173Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=33957525363) | User has 40608 followers
+2025-01-25T06:00:15.591Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=233482524) | User has 938279 followers
+2025-01-25T06:00:16.106Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=9147811) | User has 51223 followers
+2025-01-25T06:00:16.962Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=183841905) | User has 118597 followers
+2025-01-25T06:00:18.175Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=511747224) | User has 34082 followers
+2025-01-25T06:00:19.139Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=266497603) | User has 88825 followers
+2025-01-25T06:00:19.617Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=3110771174) | User has 72328 followers
+2025-01-25T06:00:20.344Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=45480463453) | User has 9397 followers
+2025-01-25T06:00:21.163Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=57284309664) | User has 44151 followers
+2025-01-25T06:00:21.667Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=36599047958) | User has 12206 followers
+2025-01-25T06:00:22.223Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=62062154175) | User has 6837 followers
+2025-01-25T06:00:22.776Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=34106874405) | User has 8246 followers
+2025-01-25T06:00:23.400Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=193128569) | User has 395321 followers
+2025-01-25T06:00:24.008Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=200826163) | User has 15094 followers
+2025-01-25T06:00:24.625Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=385882882) | User has 37048 followers
+2025-01-25T06:00:25.078Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=37523113189) | User has 8543 followers
+2025-01-25T06:00:25.935Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=65244075484) | User has 683 followers
+2025-01-25T06:00:26.443Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=321949575) | User has 23655 followers
+2025-01-25T06:00:27.512Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR userid=5756504246) | User has 112909 followers
+2025-01-25T06:00:27.513Z [32minfo[39m: ⚪ Success at getUsers(hashtag = MIDSOMMAR) | Received 41 users
+2025-01-25T06:00:27.513Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = MIDSOMMAR) | Recieved 50 posts 
+2025-01-25T06:00:30.517Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOdazGSidE, task_id = 17) | NOT SPAM
+2025-01-25T06:00:32.052Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEm8_gmIpRT, task_id = 17) | NOT SPAM
+2025-01-25T06:00:33.397Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DARIFXySuDq, task_id = 17) | NOT SPAM
+2025-01-25T06:00:34.715Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C-p_CI6t8tC, task_id = 17) | NOT SPAM
+2025-01-25T06:00:35.951Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFGv0QBIVuT, task_id = 17) | NOT SPAM
+2025-01-25T06:00:37.195Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCdKOB5IUH4, task_id = 17) | NOT SPAM
+2025-01-25T06:00:38.605Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCozzEwsAng, task_id = 17) | NOT SPAM
+2025-01-25T06:00:39.937Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8gr04EI7ia, task_id = 17) | NOT SPAM
+2025-01-25T06:00:41.340Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kIYBhMtuK, task_id = 17) | NOT SPAM
+2025-01-25T06:00:42.702Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEW7zS5KDnP, task_id = 17) | NOT SPAM
+2025-01-25T06:00:43.884Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEpjtxoohid, task_id = 17) | SPAM 
+2025-01-25T06:00:45.159Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9rjm2Su6GY, task_id = 17) | NOT SPAM
+2025-01-25T06:00:46.351Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDxrCp8SJRJ, task_id = 17) | NOT SPAM
+2025-01-25T06:00:47.564Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEnagayMP22, task_id = 17) | NOT SPAM
+2025-01-25T06:00:48.892Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExjC_oOXjz, task_id = 17) | NOT SPAM
+2025-01-25T06:00:50.176Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEzv-GBM_F5, task_id = 17) | NOT SPAM
+2025-01-25T06:00:51.816Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8oK3j7oaVC, task_id = 17) | NOT SPAM
+2025-01-25T06:00:53.145Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_EBRGfNQL0, task_id = 17) | NOT SPAM
+2025-01-25T06:00:54.338Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE-wFnDqWFh, task_id = 17) | NOT SPAM
+2025-01-25T06:00:59.597Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExkEbhuTig, task_id = 17) | NOT SPAM
+2025-01-25T06:01:00.893Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFJga26IhTv, task_id = 17) | NOT SPAM
+2025-01-25T06:01:02.354Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCPsIiXo0iq, task_id = 17) | NOT SPAM
+2025-01-25T06:01:03.693Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCaCyEGh-_5, task_id = 17) | NOT SPAM
+2025-01-25T06:01:05.127Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEX3MDGRAsL, task_id = 17) | NOT SPAM
+2025-01-25T06:01:06.457Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE7cN_wIHN-, task_id = 17) | NOT SPAM
+2025-01-25T06:01:07.788Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDWJaI2RURW, task_id = 17) | NOT SPAM
+2025-01-25T06:01:09.222Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C897D9TIYi1, task_id = 17) | SPAM 
+2025-01-25T06:01:10.586Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DBrPLFHM_YI, task_id = 17) | NOT SPAM
+2025-01-25T06:01:12.090Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kXi2xoBqi, task_id = 17) | NOT SPAM
+2025-01-25T06:01:13.474Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C_OB2D-CMV2, task_id = 17) | NOT SPAM
+2025-01-25T06:01:14.853Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DExOkCztncn, task_id = 17) | NOT SPAM
+2025-01-25T06:01:16.271Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8kZjXLoUyO, task_id = 17) | NOT SPAM
+2025-01-25T06:01:17.722Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DA6YHSKvkln, task_id = 17) | NOT SPAM
+2025-01-25T06:01:18.876Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0qzXIyK79, task_id = 17) | NOT SPAM
+2025-01-25T06:01:20.040Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE6xq4AOolM, task_id = 17) | NOT SPAM
+2025-01-25T06:01:21.372Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCmn_ExyZDH, task_id = 17) | NOT SPAM
+2025-01-25T06:01:22.739Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD5iawkur1p, task_id = 17) | NOT SPAM
+2025-01-25T06:01:24.072Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOXpn2qe1P, task_id = 17) | NOT SPAM
+2025-01-25T06:01:25.425Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEgWPeIocw7, task_id = 17) | NOT SPAM
+2025-01-25T06:01:26.837Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ehKVMNfTz, task_id = 17) | SPAM 
+2025-01-25T06:01:28.201Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DAY-WOhyhcZ, task_id = 17) | NOT SPAM
+2025-01-25T06:01:29.470Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFOtWn9sa4S, task_id = 17) | NOT SPAM
+2025-01-25T06:01:30.930Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DC66fdLo2JH, task_id = 17) | NOT SPAM
+2025-01-25T06:01:32.364Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5HOBdvxHy, task_id = 17) | NOT SPAM
+2025-01-25T06:01:33.797Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEyClGduzSi, task_id = 17) | NOT SPAM
+2025-01-25T06:01:35.142Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE0RZs2sDzF, task_id = 17) | NOT SPAM
+2025-01-25T06:01:36.313Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C8ut4KwueZj, task_id = 17) | NOT SPAM
+2025-01-25T06:01:37.703Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5OV25MH-n, task_id = 17) | NOT SPAM
+2025-01-25T06:01:38.984Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE2tB3cs-1I, task_id = 17) | SPAM 
+2025-01-25T06:01:40.109Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFDnM3Wizzg, task_id = 17) | NOT SPAM
+2025-01-25T06:01:40.109Z [32minfo[39m: ⚪ Success at apply_spam_filter(task_id = 17) | Recieved 46 posts 
+2025-01-25T06:01:41.746Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 45, user) | Data Stored Successfully
+2025-01-25T06:01:43.650Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/pelicultura, 45) | Sent To Scraper Queue
+2025-01-25T06:01:45.105Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 46, user) | Data Stored Successfully
+2025-01-25T06:01:47.161Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 47, user) | Data Stored Successfully
+2025-01-25T06:01:48.710Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 48, user) | Data Stored Successfully
+2025-01-25T06:01:51.272Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 23, user) | Data Stored Successfully
+2025-01-25T06:01:53.319Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 49, user) | Data Stored Successfully
+2025-01-25T06:01:55.980Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 50, user) | Data Stored Successfully
+2025-01-25T06:01:58.336Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 53, user) | Data Stored Successfully
+2025-01-25T06:02:00.226Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, user) | Data Stored Successfully
+2025-01-25T06:02:02.227Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 55, user) | Data Stored Successfully
+2025-01-25T06:02:05.094Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 61, user) | Data Stored Successfully
+2025-01-25T06:02:06.815Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/kingdomofspiders, 61) | Sent To Scraper Queue
+2025-01-25T06:02:08.533Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 58, user) | Data Stored Successfully
+2025-01-25T06:02:10.932Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 52, user) | Data Stored Successfully
+2025-01-25T06:02:12.468Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, user) | Data Stored Successfully
+2025-01-25T06:02:14.186Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/ScreenOffScript, 56) | Sent To Scraper Queue
+2025-01-25T06:02:15.743Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 59, user) | Data Stored Successfully
+2025-01-25T06:02:17.655Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/visualtale, 59) | Sent To Scraper Queue
+2025-01-25T06:02:21.142Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, user) | Data Stored Successfully
+2025-01-25T06:02:22.685Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 65, user) | Data Stored Successfully
+2025-01-25T06:02:25.062Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 72, user) | Data Stored Successfully
+2025-01-25T06:02:27.267Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 28, user) | Data Stored Successfully
+2025-01-25T06:02:30.387Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 62, user) | Data Stored Successfully
+2025-01-25T06:02:31.719Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 51, user) | Data Stored Successfully
+2025-01-25T06:02:33.868Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 63, user) | Data Stored Successfully
+2025-01-25T06:02:36.087Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/deadlypreygallery, 63) | Sent To Scraper Queue
+2025-01-25T06:02:37.699Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 64, user) | Data Stored Successfully
+2025-01-25T06:02:40.012Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 67, user) | Data Stored Successfully
+2025-01-25T06:02:42.653Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, user) | Data Stored Successfully
+2025-01-25T06:02:44.986Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, user) | Data Stored Successfully
+2025-01-25T06:02:47.424Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 70, user) | Data Stored Successfully
+2025-01-25T06:02:50.437Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 71, user) | Data Stored Successfully
+2025-01-25T06:02:52.198Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 57, user) | Data Stored Successfully
+2025-01-25T06:02:54.859Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, user) | Data Stored Successfully
+2025-01-25T06:02:57.113Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, user) | Data Stored Successfully
+2025-01-25T06:02:59.263Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 75, user) | Data Stored Successfully
+2025-01-25T06:03:01.273Z [32minfo[39m: ⚪ Success at geminiCategorize(193128569) | AI Category = Normal Influencer
+2025-01-25T06:03:02.857Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 99, user) | Data Stored Successfully
+2025-01-25T06:03:05.099Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 68, user) | Data Stored Successfully
+2025-01-25T06:03:07.014Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 76, user) | Data Stored Successfully
+2025-01-25T06:03:09.298Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 77, user) | Data Stored Successfully
+2025-01-25T06:03:11.195Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( http://linktr.ee/ogrifo, 77) | Sent To Scraper Queue
+2025-01-25T06:03:13.291Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 78, user) | Data Stored Successfully
+2025-01-25T06:03:16.130Z [32minfo[39m: ⚪ Success at geminiCategorize(5756504246) | AI Category = Normal Influencer
+2025-01-25T06:03:18.513Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 100, user) | Data Stored Successfully
+2025-01-25T06:03:20.359Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/jean.mallard, 100) | Sent To Scraper Queue
+2025-01-25T06:03:26.259Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 40, post) | Data Stored Successfully
+2025-01-25T06:03:28.651Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 40, video) | Data Stored Successfully
+2025-01-25T06:03:32.461Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387414080345_45449082476) | Data Stored Successfully
+2025-01-25T06:03:33.693Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387414101092_45449082476) | Data Stored Successfully
+2025-01-25T06:03:35.001Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387414054545_45449082476) | Data Stored Successfully
+2025-01-25T06:03:36.330Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387414064361_45449082476) | Data Stored Successfully
+2025-01-25T06:03:37.384Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387414000193_45449082476) | Data Stored Successfully
+2025-01-25T06:03:38.536Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387414212581_45449082476) | Data Stored Successfully
+2025-01-25T06:03:39.914Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387414235581_45449082476) | Data Stored Successfully
+2025-01-25T06:03:41.246Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387397315107_45449082476) | Data Stored Successfully
+2025-01-25T06:03:42.577Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387758093450_45449082476) | Data Stored Successfully
+2025-01-25T06:03:43.798Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 41, 3541786387397251272_45449082476) | Data Stored Successfully
+2025-01-25T06:03:48.004Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131137672115_8910020844) | Data Stored Successfully
+2025-01-25T06:03:49.233Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131129444620_8910020844) | Data Stored Successfully
+2025-01-25T06:03:50.667Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131448132544_8910020844) | Data Stored Successfully
+2025-01-25T06:03:52.145Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131129258840_8910020844) | Data Stored Successfully
+2025-01-25T06:03:53.636Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131129313408_8910020844) | Data Stored Successfully
+2025-01-25T06:03:54.850Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131229944798_8910020844) | Data Stored Successfully
+2025-01-25T06:03:56.196Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131129373180_8910020844) | Data Stored Successfully
+2025-01-25T06:03:57.834Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131129323207_8910020844) | Data Stored Successfully
+2025-01-25T06:03:59.473Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 42, 3463585131129301989_8910020844) | Data Stored Successfully
+2025-01-25T06:04:03.773Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 43, 3434553295714422681_468427961) | Data Stored Successfully
+2025-01-25T06:04:05.347Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 43, 3434553320796360342_468427961) | Data Stored Successfully
+2025-01-25T06:04:06.773Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 43, 3434553343487746100_468427961) | Data Stored Successfully
+2025-01-25T06:04:08.071Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 43, 3434553374953414864_468427961) | Data Stored Successfully
+2025-01-25T06:04:09.293Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 43, 3434553396209963096_468427961) | Data Stored Successfully
+2025-01-25T06:04:13.501Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 4, post) | Data Stored Successfully
+2025-01-25T06:04:18.156Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 45, post) | Data Stored Successfully
+2025-01-25T06:04:22.614Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 44, 3506280112459894983_59594177525) | Data Stored Successfully
+2025-01-25T06:04:24.152Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 44, 3506280112569087728_59594177525) | Data Stored Successfully
+2025-01-25T06:04:25.584Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 44, 3506280112451715419_59594177525) | Data Stored Successfully
+2025-01-25T06:04:27.017Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 44, 3506280112459896832_59594177525) | Data Stored Successfully
+2025-01-25T06:04:28.451Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 44, 3506280112661429595_59594177525) | Data Stored Successfully
+2025-01-25T06:04:32.087Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 46, post) | Data Stored Successfully
+2025-01-25T06:04:34.833Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 46, video) | Data Stored Successfully
+2025-01-25T06:04:35.656Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 46, music) | Data Stored Successfully
+2025-01-25T06:04:39.939Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 49, post) | Data Stored Successfully
+2025-01-25T06:04:44.119Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 50, post) | Data Stored Successfully
+2025-01-25T06:04:46.268Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 50, video) | Data Stored Successfully
+2025-01-25T06:04:47.060Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 50, music) | Data Stored Successfully
+2025-01-25T06:04:51.800Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 51, post) | Data Stored Successfully
+2025-01-25T06:04:56.202Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 59, post) | Data Stored Successfully
+2025-01-25T06:05:00.862Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 55, 3541916141506031015_478090588) | Data Stored Successfully
+2025-01-25T06:05:02.447Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 55, 3541916165405385581_478090588) | Data Stored Successfully
+2025-01-25T06:05:04.089Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 55, 3541916182987868034_478090588) | Data Stored Successfully
+2025-01-25T06:05:08.283Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 48, 3544768512955915697_49685337859) | Data Stored Successfully
+2025-01-25T06:05:09.614Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 48, 3544768512939178180_49685337859) | Data Stored Successfully
+2025-01-25T06:05:10.946Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 48, 3544768512989425119_49685337859) | Data Stored Successfully
+2025-01-25T06:05:12.481Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 48, 3544768512888890691_49685337859) | Data Stored Successfully
+2025-01-25T06:05:16.852Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 52, 3545388158481963038_42757567371) | Data Stored Successfully
+2025-01-25T06:05:18.212Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 52, 3545388160411467609_42757567371) | Data Stored Successfully
+2025-01-25T06:05:20.382Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 52, 3545388160411467609_42757567371) | Data Stored Successfully
+2025-01-25T06:05:21.595Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 52, 3545388159354312647_42757567371) | Data Stored Successfully
+2025-01-25T06:05:23.439Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 52, 3545388159354312647_42757567371) | Data Stored Successfully
+2025-01-25T06:05:28.589Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, 3398013705036770827_8174379613) | Data Stored Successfully
+2025-01-25T06:05:30.410Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, 3398013704709816653_8174379613) | Data Stored Successfully
+2025-01-25T06:05:32.654Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, 3398013704709627622_8174379613) | Data Stored Successfully
+2025-01-25T06:05:34.807Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, 3398013704709653312_8174379613) | Data Stored Successfully
+2025-01-25T06:05:36.902Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, 3398013704709862791_8174379613) | Data Stored Successfully
+2025-01-25T06:05:38.820Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, 3398013704709776723_8174379613) | Data Stored Successfully
+2025-01-25T06:05:40.641Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, 3398013704701429558_8174379613) | Data Stored Successfully
+2025-01-25T06:05:42.484Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 56, 3398013704776860407_8174379613) | Data Stored Successfully
+2025-01-25T06:05:46.800Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 57, post) | Data Stored Successfully
+2025-01-25T06:05:48.331Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 57, video) | Data Stored Successfully
+2025-01-25T06:05:52.826Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 64, 3548485038996395652_1806480986) | Data Stored Successfully
+2025-01-25T06:05:54.363Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 64, 3548485039004618540_1806480986) | Data Stored Successfully
+2025-01-25T06:05:58.765Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 58, post) | Data Stored Successfully
+2025-01-25T06:06:03.351Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 63, post) | Data Stored Successfully
+2025-01-25T06:06:08.047Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 72, post) | Data Stored Successfully
+2025-01-25T06:06:12.322Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 71, post) | Data Stored Successfully
+2025-01-25T06:06:16.766Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742036705445_386035678) | Data Stored Successfully
+2025-01-25T06:06:18.631Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742078470129_386035678) | Data Stored Successfully
+2025-01-25T06:06:20.066Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742036711287_386035678) | Data Stored Successfully
+2025-01-25T06:06:21.703Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538741986275817_386035678) | Data Stored Successfully
+2025-01-25T06:06:23.238Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742070052767_386035678) | Data Stored Successfully
+2025-01-25T06:06:24.980Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742036725518_386035678) | Data Stored Successfully
+2025-01-25T06:06:26.720Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742044985470_386035678) | Data Stored Successfully
+2025-01-25T06:06:28.358Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742044914482_386035678) | Data Stored Successfully
+2025-01-25T06:06:29.894Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742070217449_386035678) | Data Stored Successfully
+2025-01-25T06:06:31.636Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 60, 3537538742070166492_386035678) | Data Stored Successfully
+2025-01-25T06:06:35.476Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 47, 3547553229348798930_44258851116) | Data Stored Successfully
+2025-01-25T06:06:37.082Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 47, 3547553229676181946_44258851116) | Data Stored Successfully
+2025-01-25T06:06:39.418Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 47, 3547553229340652154_44258851116) | Data Stored Successfully
+2025-01-25T06:06:44.025Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 61, post) | Data Stored Successfully
+2025-01-25T06:06:48.632Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 62, post) | Data Stored Successfully
+2025-01-25T06:06:50.783Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 62, video) | Data Stored Successfully
+2025-01-25T06:06:55.084Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943553033701299_9147811) | Data Stored Successfully
+2025-01-25T06:06:56.518Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943436683837641_9147811) | Data Stored Successfully
+2025-01-25T06:06:58.402Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943436683837641_9147811) | Data Stored Successfully
+2025-01-25T06:07:00.307Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943553050697196_9147811) | Data Stored Successfully
+2025-01-25T06:07:02.458Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943553033692401_9147811) | Data Stored Successfully
+2025-01-25T06:07:04.610Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943553100956332_9147811) | Data Stored Successfully
+2025-01-25T06:07:06.656Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943553402791774_9147811) | Data Stored Successfully
+2025-01-25T06:07:08.537Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943553033700060_9147811) | Data Stored Successfully
+2025-01-25T06:07:10.440Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943553218390588_9147811) | Data Stored Successfully
+2025-01-25T06:07:11.811Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396936376336457049_9147811) | Data Stored Successfully
+2025-01-25T06:07:13.719Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396936376336457049_9147811) | Data Stored Successfully
+2025-01-25T06:07:15.667Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 66, 3396943553469943448_9147811) | Data Stored Successfully
+2025-01-25T06:07:20.276Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 68, 3444698866913085780_183841905) | Data Stored Successfully
+2025-01-25T06:07:21.503Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 68, 3444696353862107085_183841905) | Data Stored Successfully
+2025-01-25T06:07:23.038Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 68, 3444696353862107085_183841905) | Data Stored Successfully
+2025-01-25T06:07:24.871Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 68, 3444698866896127593_183841905) | Data Stored Successfully
+2025-01-25T06:07:29.032Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 65, post) | Data Stored Successfully
+2025-01-25T06:07:30.821Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 65, video) | Data Stored Successfully
+2025-01-25T06:07:35.736Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952383998313602_266497603) | Data Stored Successfully
+2025-01-25T06:07:37.600Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952384300308846_266497603) | Data Stored Successfully
+2025-01-25T06:07:39.525Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952383998317055_266497603) | Data Stored Successfully
+2025-01-25T06:07:41.163Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952384006729791_266497603) | Data Stored Successfully
+2025-01-25T06:07:42.875Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952384006687825_266497603) | Data Stored Successfully
+2025-01-25T06:07:44.584Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952384333780221_266497603) | Data Stored Successfully
+2025-01-25T06:07:46.971Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952384006699123_266497603) | Data Stored Successfully
+2025-01-25T06:07:48.536Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952383998148833_266497603) | Data Stored Successfully
+2025-01-25T06:07:50.277Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952384006701120_266497603) | Data Stored Successfully
+2025-01-25T06:07:51.813Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 69, 3396952384006749476_266497603) | Data Stored Successfully
+2025-01-25T06:07:56.215Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 70, post) | Data Stored Successfully
+2025-01-25T06:07:58.263Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 70, video) | Data Stored Successfully
+2025-01-25T06:07:58.914Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 70, music) | Data Stored Successfully
+2025-01-25T06:08:03.076Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 53, post) | Data Stored Successfully
+2025-01-25T06:08:07.009Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, 3547366095259754772_44258851116) | Data Stored Successfully
+2025-01-25T06:08:08.708Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, 3547366095201151218_44258851116) | Data Stored Successfully
+2025-01-25T06:08:10.452Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, 3547366095201081276_44258851116) | Data Stored Successfully
+2025-01-25T06:08:12.171Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, 3547366095201155990_44258851116) | Data Stored Successfully
+2025-01-25T06:08:13.827Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, 3547366095201143713_44258851116) | Data Stored Successfully
+2025-01-25T06:08:16.495Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, 3547366095318528190_44258851116) | Data Stored Successfully
+2025-01-25T06:08:18.106Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, 3547366095200998480_44258851116) | Data Stored Successfully
+2025-01-25T06:08:19.843Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 54, 3547366095410756856_44258851116) | Data Stored Successfully
+2025-01-25T06:08:24.708Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665207907661746_57284309664) | Data Stored Successfully
+2025-01-25T06:08:26.443Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665207924600828_57284309664) | Data Stored Successfully
+2025-01-25T06:08:28.237Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665207924477485_57284309664) | Data Stored Successfully
+2025-01-25T06:08:29.938Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665208251799892_57284309664) | Data Stored Successfully
+2025-01-25T06:08:31.585Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665207916165241_57284309664) | Data Stored Successfully
+2025-01-25T06:08:33.165Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665208033581013_57284309664) | Data Stored Successfully
+2025-01-25T06:08:34.920Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665207907765561_57284309664) | Data Stored Successfully
+2025-01-25T06:08:36.663Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665208033583870_57284309664) | Data Stored Successfully
+2025-01-25T06:08:38.303Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665207924515242_57284309664) | Data Stored Successfully
+2025-01-25T06:08:39.940Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 73, 3505665207916211918_57284309664) | Data Stored Successfully
+2025-01-25T06:08:44.034Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137177930897_36599047958) | Data Stored Successfully
+2025-01-25T06:08:45.572Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137219772436_36599047958) | Data Stored Successfully
+2025-01-25T06:08:47.002Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137295380661_36599047958) | Data Stored Successfully
+2025-01-25T06:08:48.542Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137295192635_36599047958) | Data Stored Successfully
+2025-01-25T06:08:50.060Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137219796655_36599047958) | Data Stored Successfully
+2025-01-25T06:08:51.715Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137152759951_36599047958) | Data Stored Successfully
+2025-01-25T06:08:52.994Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137228156067_36599047958) | Data Stored Successfully
+2025-01-25T06:08:54.310Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137236513950_36599047958) | Data Stored Successfully
+2025-01-25T06:08:55.812Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137295255585_36599047958) | Data Stored Successfully
+2025-01-25T06:08:57.450Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137219930195_36599047958) | Data Stored Successfully
+2025-01-25T06:08:58.874Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137429466990_36599047958) | Data Stored Successfully
+2025-01-25T06:09:00.420Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137219808174_36599047958) | Data Stored Successfully
+2025-01-25T06:09:01.985Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137152762549_36599047958) | Data Stored Successfully
+2025-01-25T06:09:03.684Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137236585999_36599047958) | Data Stored Successfully
+2025-01-25T06:09:05.162Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137228130705_36599047958) | Data Stored Successfully
+2025-01-25T06:09:06.666Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137236653835_36599047958) | Data Stored Successfully
+2025-01-25T06:09:08.139Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 74, 3529003137161219396_36599047958) | Data Stored Successfully
+2025-01-25T06:09:12.914Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 75, 3552881149542428585_1806480986) | Data Stored Successfully
+2025-01-25T06:09:14.346Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 75, 3552881149358052778_1806480986) | Data Stored Successfully
+2025-01-25T06:09:15.847Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 75, 3552881149584383141_1806480986) | Data Stored Successfully
+2025-01-25T06:09:17.520Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 75, 3552881149534235461_1806480986) | Data Stored Successfully
+2025-01-25T06:09:19.158Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 75, 3552881149349717989_1806480986) | Data Stored Successfully
+2025-01-25T06:09:23.594Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 76, post) | Data Stored Successfully
+2025-01-25T06:09:27.409Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 98, post) | Data Stored Successfully
+2025-01-25T06:09:32.174Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 67, post) | Data Stored Successfully
+2025-01-25T06:09:36.258Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 78, post) | Data Stored Successfully
+2025-01-25T06:09:38.321Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 78, video) | Data Stored Successfully
+2025-01-25T06:09:39.246Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 78, music) | Data Stored Successfully
+2025-01-25T06:09:43.816Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 79, post) | Data Stored Successfully
+2025-01-25T06:09:47.474Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 99, post) | Data Stored Successfully
+2025-01-25T06:09:50.764Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 99, video) | Data Stored Successfully
+2025-01-25T06:09:56.022Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 77, post) | Data Stored Successfully
+2025-01-25T06:10:00.886Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 80, post) | Data Stored Successfully
+2025-01-25T06:10:05.366Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 20, post) | Data Stored Successfully
+2025-01-25T06:10:09.743Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 100, post) | Data Stored Successfully
+2025-01-25T06:10:11.710Z [32minfo[39m: ⚪ Success at DB_Store_Posts_and_Users(task_id = 17) | Data Stored Successfully
+2025-01-25T06:10:12.098Z [32minfo[39m: 🟢 Completed  Task#17

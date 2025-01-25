@@ -1,0 +1,347 @@
+2025-01-24T15:04:33.873Z [32minfo[39m: 🎌 Task#1 Initialized !
+2025-01-24T15:11:02.868Z [32minfo[39m: 🎌 Task#1 Initialized !
+2025-01-24T15:11:03.561Z [33mwarn[39m: 🟡 Attempt 1 failed for getHashtag(tag=TheLighthouse, pageCount=4) with error: Failed to parse URL from undefined/v1.1/hashtag?hashtag=TheLighthouse
+2025-01-24T15:11:03.561Z [33mwarn[39m: 🟡 Attempt 2 failed for getHashtag(tag=TheLighthouse, pageCount=4) with error: Failed to parse URL from undefined/v1.1/hashtag?hashtag=TheLighthouse
+2025-01-24T15:11:03.561Z [33mwarn[39m: 🟡 Attempt 3 failed for getHashtag(tag=TheLighthouse, pageCount=4) with error: Failed to parse URL from undefined/v1.1/hashtag?hashtag=TheLighthouse
+2025-01-24T15:11:03.561Z [31merror[39m: 🔴 Error at getHashtag(tag=TheLighthouse, pageCount=4) after 3 attempts
+2025-01-24T15:11:04.012Z [31merror[39m: 🔴 Failed  Task#1
+2025-01-24T15:22:31.253Z [32minfo[39m: 🎌 Task#4 Initialized !
+2025-01-24T15:22:56.288Z [32minfo[39m: ⚪ Success at getHashtag(tag=TheLighthouse, pageCount=4) | Received 84 posts
+2025-01-24T15:22:56.288Z [32minfo[39m: ⚪ Success at apply_like_filter(TheLighthouse, 50 ) | Received 59 posts
+2025-01-24T15:22:56.289Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(TheLighthouse) | Received 32 users
+2025-01-24T15:23:00.959Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=45506528310) | User has 45800 followers
+2025-01-24T15:23:05.464Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=46143723454) | User has 56092 followers
+2025-01-24T15:23:10.518Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=29333019773) | User has 112780 followers
+2025-01-24T15:23:15.396Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11045284173) | User has 1643750 followers
+2025-01-24T15:23:20.449Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=346848715) | User has 463566 followers
+2025-01-24T15:23:27.109Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=66494752542) | User has 482 followers
+2025-01-24T15:23:30.794Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=748496924) | User has 1003140 followers
+2025-01-24T15:23:36.374Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=205353901) | User has 106670 followers
+2025-01-24T15:23:42.890Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=231385167) | User has 85789 followers
+2025-01-24T15:23:47.599Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53914956942) | User has 5775 followers
+2025-01-24T15:23:51.179Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3995052428) | User has 17312 followers
+2025-01-24T15:23:54.566Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53710342359) | User has 5614 followers
+2025-01-24T15:24:00.585Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=396460219) | User has 76128 followers
+2025-01-24T15:24:06.241Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=457162546) | User has 34893 followers
+2025-01-24T15:24:10.520Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=44921015731) | User has 13758 followers
+2025-01-24T15:24:15.173Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2922328405) | User has 2630 followers
+2025-01-24T15:24:19.352Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=356121523) | User has 67145 followers
+2025-01-24T15:24:24.334Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=31572025) | User has 179585 followers
+2025-01-24T15:24:29.545Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=975240491) | User has 40040 followers
+2025-01-24T15:24:41.572Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=4057476631) | User has 130895 followers
+2025-01-24T15:24:49.838Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=870013925) | User has 42438 followers
+2025-01-24T15:24:54.555Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3996765714) | User has 9082 followers
+2025-01-24T15:24:59.653Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=361950673) | User has 1738132 followers
+2025-01-24T15:25:05.477Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=26459211729) | User has 54554 followers
+2025-01-24T15:25:11.034Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=425620351) | User has 217946 followers
+2025-01-24T15:25:15.666Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3639470257) | User has 654 followers
+2025-01-24T15:25:19.322Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=371432521) | User has 100913 followers
+2025-01-24T15:25:23.505Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=599357870) | User has 924859 followers
+2025-01-24T15:25:29.037Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=50029732493) | User has 4643 followers
+2025-01-24T15:25:39.002Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2671113003) | User has 183052 followers
+2025-01-24T15:25:46.049Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11541649060) | User has 2032 followers
+2025-01-24T15:25:50.262Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=8296806913) | User has 23230 followers
+2025-01-24T15:25:50.263Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse) | Received 28 users
+2025-01-24T15:25:50.263Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = TheLighthouse) | Recieved 55 posts 
+2025-01-24T15:25:51.223Z [31merror[39m: 🔴 Failed  Task#4
+2025-01-24T15:33:08.964Z [32minfo[39m: 🎌 Task#5 Initialized !
+2025-01-24T15:33:11.988Z [32minfo[39m: ⚪ Success at getHashtag(tag=TheLighthouse, pageCount=4) | Received 84 posts
+2025-01-24T15:33:11.988Z [32minfo[39m: ⚪ Success at apply_like_filter(TheLighthouse, 50 ) | Received 59 posts
+2025-01-24T15:33:11.988Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(TheLighthouse) | Received 32 users
+2025-01-24T15:33:13.667Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=45506528310) | User has 45800 followers
+2025-01-24T15:33:15.185Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=46143723454) | User has 56092 followers
+2025-01-24T15:33:15.831Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=29333019773) | User has 112780 followers
+2025-01-24T15:33:16.680Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11045284173) | User has 1643750 followers
+2025-01-24T15:33:17.418Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=346848715) | User has 463566 followers
+2025-01-24T15:33:17.819Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=66494752542) | User has 482 followers
+2025-01-24T15:33:18.356Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=748496924) | User has 1003140 followers
+2025-01-24T15:33:18.946Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=205353901) | User has 106670 followers
+2025-01-24T15:33:19.430Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=231385167) | User has 85789 followers
+2025-01-24T15:33:20.119Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53914956942) | User has 5775 followers
+2025-01-24T15:33:20.760Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3995052428) | User has 17312 followers
+2025-01-24T15:33:21.498Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53710342359) | User has 5614 followers
+2025-01-24T15:33:21.984Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=396460219) | User has 76128 followers
+2025-01-24T15:33:22.800Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=457162546) | User has 34893 followers
+2025-01-24T15:33:23.254Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=44921015731) | User has 13758 followers
+2025-01-24T15:33:23.795Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2922328405) | User has 2630 followers
+2025-01-24T15:33:24.319Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=356121523) | User has 67145 followers
+2025-01-24T15:33:25.609Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=31572025) | User has 179585 followers
+2025-01-24T15:33:26.122Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=975240491) | User has 40040 followers
+2025-01-24T15:33:26.589Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=4057476631) | User has 130895 followers
+2025-01-24T15:33:27.241Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=870013925) | User has 42438 followers
+2025-01-24T15:33:27.774Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3996765714) | User has 9082 followers
+2025-01-24T15:33:28.228Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=361950673) | User has 1738132 followers
+2025-01-24T15:33:28.767Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=26459211729) | User has 54554 followers
+2025-01-24T15:33:29.269Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=425620351) | User has 217946 followers
+2025-01-24T15:33:29.714Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3639470257) | User has 654 followers
+2025-01-24T15:33:30.212Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=371432521) | User has 100913 followers
+2025-01-24T15:33:30.810Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=599357870) | User has 924859 followers
+2025-01-24T15:33:31.611Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=50029732493) | User has 4643 followers
+2025-01-24T15:33:32.094Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2671113003) | User has 183052 followers
+2025-01-24T15:33:32.817Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11541649060) | User has 2032 followers
+2025-01-24T15:33:33.379Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=8296806913) | User has 23230 followers
+2025-01-24T15:33:33.380Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse) | Received 28 users
+2025-01-24T15:33:33.380Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = TheLighthouse) | Recieved 55 posts 
+2025-01-24T15:33:34.310Z [31merror[39m: 🔴 Failed  Task#5
+2025-01-24T15:35:47.685Z [32minfo[39m: 🎌 Task#6 Initialized !
+2025-01-24T15:35:50.683Z [32minfo[39m: ⚪ Success at getHashtag(tag=TheLighthouse, pageCount=4) | Received 84 posts
+2025-01-24T15:35:50.683Z [32minfo[39m: ⚪ Success at apply_like_filter(TheLighthouse, 50 ) | Received 59 posts
+2025-01-24T15:35:50.684Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(TheLighthouse) | Received 32 users
+2025-01-24T15:35:51.181Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=45506528310) | User has 45800 followers
+2025-01-24T15:35:51.641Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=46143723454) | User has 56092 followers
+2025-01-24T15:35:52.159Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=29333019773) | User has 112780 followers
+2025-01-24T15:35:52.528Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11045284173) | User has 1643750 followers
+2025-01-24T15:35:53.243Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=346848715) | User has 463566 followers
+2025-01-24T15:35:53.804Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=66494752542) | User has 482 followers
+2025-01-24T15:35:54.248Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=748496924) | User has 1003140 followers
+2025-01-24T15:35:54.741Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=205353901) | User has 106670 followers
+2025-01-24T15:35:55.178Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=231385167) | User has 85789 followers
+2025-01-24T15:35:55.604Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53914956942) | User has 5775 followers
+2025-01-24T15:35:56.113Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3995052428) | User has 17312 followers
+2025-01-24T15:35:57.117Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53710342359) | User has 5614 followers
+2025-01-24T15:35:57.546Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=396460219) | User has 76128 followers
+2025-01-24T15:35:58.022Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=457162546) | User has 34893 followers
+2025-01-24T15:35:59.538Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=44921015731) | User has 13758 followers
+2025-01-24T15:35:59.970Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2922328405) | User has 2630 followers
+2025-01-24T15:36:00.417Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=356121523) | User has 67145 followers
+2025-01-24T15:36:01.255Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=31572025) | User has 179585 followers
+2025-01-24T15:36:01.735Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=975240491) | User has 40040 followers
+2025-01-24T15:36:02.182Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=4057476631) | User has 130895 followers
+2025-01-24T15:36:03.101Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=870013925) | User has 42438 followers
+2025-01-24T15:36:03.583Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3996765714) | User has 9082 followers
+2025-01-24T15:36:04.011Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=361950673) | User has 1738132 followers
+2025-01-24T15:36:04.502Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=26459211729) | User has 54554 followers
+2025-01-24T15:36:04.999Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=425620351) | User has 217946 followers
+2025-01-24T15:36:05.486Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3639470257) | User has 654 followers
+2025-01-24T15:36:05.904Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=371432521) | User has 100913 followers
+2025-01-24T15:36:06.344Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=599357870) | User has 924859 followers
+2025-01-24T15:36:06.959Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=50029732493) | User has 4643 followers
+2025-01-24T15:36:07.531Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2671113003) | User has 183052 followers
+2025-01-24T15:36:07.973Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11541649060) | User has 2032 followers
+2025-01-24T15:36:08.507Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=8296806913) | User has 23230 followers
+2025-01-24T15:36:08.507Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse) | Received 28 users
+2025-01-24T15:36:08.508Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = TheLighthouse) | Recieved 55 posts 
+2025-01-24T15:36:09.558Z [31merror[39m: 🔴 Failed  Task#6
+2025-01-24T15:44:11.824Z [32minfo[39m: 🎌 Task#7 Initialized !
+2025-01-24T15:44:15.297Z [32minfo[39m: ⚪ Success at getHashtag(tag=TheLighthouse, pageCount=4) | Received 84 posts
+2025-01-24T15:44:15.297Z [32minfo[39m: ⚪ Success at apply_like_filter(TheLighthouse, 50 ) | Received 59 posts
+2025-01-24T15:44:15.297Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(TheLighthouse) | Received 32 users
+2025-01-24T15:44:15.809Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=45506528310) | User has 45800 followers
+2025-01-24T15:44:16.326Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=46143723454) | User has 56092 followers
+2025-01-24T15:44:16.728Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=29333019773) | User has 112780 followers
+2025-01-24T15:44:17.122Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11045284173) | User has 1643750 followers
+2025-01-24T15:44:19.405Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=346848715) | User has 463566 followers
+2025-01-24T15:44:19.903Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=66494752542) | User has 482 followers
+2025-01-24T15:44:20.418Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=748496924) | User has 1003140 followers
+2025-01-24T15:44:21.519Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=205353901) | User has 106670 followers
+2025-01-24T15:44:22.380Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=231385167) | User has 85789 followers
+2025-01-24T15:44:22.851Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53914956942) | User has 5775 followers
+2025-01-24T15:44:23.438Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3995052428) | User has 17312 followers
+2025-01-24T15:44:24.587Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53710342359) | User has 5614 followers
+2025-01-24T15:44:25.987Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=396460219) | User has 76128 followers
+2025-01-24T15:44:26.927Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=457162546) | User has 34893 followers
+2025-01-24T15:44:27.402Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=44921015731) | User has 13758 followers
+2025-01-24T15:44:27.992Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2922328405) | User has 2630 followers
+2025-01-24T15:44:28.655Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=356121523) | User has 67145 followers
+2025-01-24T15:44:29.401Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=31572025) | User has 179585 followers
+2025-01-24T15:44:29.880Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=975240491) | User has 40040 followers
+2025-01-24T15:44:30.356Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=4057476631) | User has 130895 followers
+2025-01-24T15:44:30.873Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=870013925) | User has 42438 followers
+2025-01-24T15:44:31.368Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3996765714) | User has 9082 followers
+2025-01-24T15:44:31.885Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=361950673) | User has 1738132 followers
+2025-01-24T15:44:32.425Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=26459211729) | User has 54554 followers
+2025-01-24T15:44:32.902Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=425620351) | User has 217946 followers
+2025-01-24T15:44:33.500Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3639470257) | User has 654 followers
+2025-01-24T15:44:33.976Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=371432521) | User has 100913 followers
+2025-01-24T15:44:34.709Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=599357870) | User has 924859 followers
+2025-01-24T15:44:35.186Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=50029732493) | User has 4643 followers
+2025-01-24T15:44:35.724Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2671113003) | User has 183052 followers
+2025-01-24T15:44:36.644Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11541649060) | User has 2032 followers
+2025-01-24T15:44:37.115Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=8296806913) | User has 23230 followers
+2025-01-24T15:44:37.115Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse) | Received 28 users
+2025-01-24T15:44:37.116Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = TheLighthouse) | Recieved 55 posts 
+2025-01-24T15:44:38.118Z [31merror[39m: 🔴 Failed  Task#7
+2025-01-24T15:45:49.336Z [32minfo[39m: 🎌 Task#8 Initialized !
+2025-01-24T15:45:53.612Z [32minfo[39m: ⚪ Success at getHashtag(tag=TheLighthouse, pageCount=4) | Received 84 posts
+2025-01-24T15:45:53.613Z [32minfo[39m: ⚪ Success at apply_like_filter(TheLighthouse, 50 ) | Received 59 posts
+2025-01-24T15:45:53.613Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(TheLighthouse) | Received 32 users
+2025-01-24T15:45:54.188Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=45506528310) | User has 45800 followers
+2025-01-24T15:45:54.688Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=46143723454) | User has 56092 followers
+2025-01-24T15:45:55.042Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=29333019773) | User has 112780 followers
+2025-01-24T15:45:55.681Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11045284173) | User has 1643750 followers
+2025-01-24T15:45:56.165Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=346848715) | User has 463566 followers
+2025-01-24T15:45:56.763Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=66494752542) | User has 482 followers
+2025-01-24T15:45:57.275Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=748496924) | User has 1003140 followers
+2025-01-24T15:45:57.815Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=205353901) | User has 106670 followers
+2025-01-24T15:45:58.297Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=231385167) | User has 85789 followers
+2025-01-24T15:45:58.832Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53914956942) | User has 5775 followers
+2025-01-24T15:45:59.332Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3995052428) | User has 17312 followers
+2025-01-24T15:45:59.862Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53710342359) | User has 5614 followers
+2025-01-24T15:46:00.330Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=396460219) | User has 76128 followers
+2025-01-24T15:46:01.154Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=457162546) | User has 34893 followers
+2025-01-24T15:46:01.767Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=44921015731) | User has 13758 followers
+2025-01-24T15:46:02.614Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2922328405) | User has 2630 followers
+2025-01-24T15:46:03.325Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=356121523) | User has 67145 followers
+2025-01-24T15:46:03.799Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=31572025) | User has 179585 followers
+2025-01-24T15:46:04.477Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=975240491) | User has 40040 followers
+2025-01-24T15:46:05.091Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=4057476631) | User has 130895 followers
+2025-01-24T15:46:05.577Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=870013925) | User has 42438 followers
+2025-01-24T15:46:06.017Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3996765714) | User has 9082 followers
+2025-01-24T15:46:06.493Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=361950673) | User has 1738132 followers
+2025-01-24T15:46:07.015Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=26459211729) | User has 54554 followers
+2025-01-24T15:46:07.813Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=425620351) | User has 217946 followers
+2025-01-24T15:46:08.291Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3639470257) | User has 654 followers
+2025-01-24T15:46:08.746Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=371432521) | User has 100913 followers
+2025-01-24T15:46:09.495Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=599357870) | User has 924859 followers
+2025-01-24T15:46:09.960Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=50029732493) | User has 4643 followers
+2025-01-24T15:46:10.375Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2671113003) | User has 183052 followers
+2025-01-24T15:46:10.799Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11541649060) | User has 2032 followers
+2025-01-24T15:46:11.247Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=8296806913) | User has 23230 followers
+2025-01-24T15:46:11.247Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse) | Received 28 users
+2025-01-24T15:46:11.247Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = TheLighthouse) | Recieved 55 posts 
+2025-01-24T15:46:11.878Z [31merror[39m: 🔴 Error at apply_spam_filter(task_id = 8
+2025-01-24T15:46:12.237Z [31merror[39m: 🔴 Failed  Task#8
+2025-01-24T15:47:24.302Z [32minfo[39m: 🎌 Task#9 Initialized !
+2025-01-24T15:47:27.491Z [32minfo[39m: ⚪ Success at getHashtag(tag=TheLighthouse, pageCount=4) | Received 84 posts
+2025-01-24T15:47:27.492Z [32minfo[39m: ⚪ Success at apply_like_filter(TheLighthouse, 50 ) | Received 59 posts
+2025-01-24T15:47:27.492Z [32minfo[39m: ⚪ Success at apply_valid_user_filter(TheLighthouse) | Received 32 users
+2025-01-24T15:47:27.973Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=45506528310) | User has 45800 followers
+2025-01-24T15:47:28.391Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=46143723454) | User has 56092 followers
+2025-01-24T15:47:29.255Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=29333019773) | User has 112780 followers
+2025-01-24T15:47:29.926Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11045284173) | User has 1643750 followers
+2025-01-24T15:47:30.315Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=346848715) | User has 463566 followers
+2025-01-24T15:47:30.682Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=66494752542) | User has 482 followers
+2025-01-24T15:47:31.436Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=748496924) | User has 1003140 followers
+2025-01-24T15:47:32.198Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=205353901) | User has 106670 followers
+2025-01-24T15:47:32.682Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=231385167) | User has 85789 followers
+2025-01-24T15:47:33.172Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53914956942) | User has 5775 followers
+2025-01-24T15:47:33.700Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3995052428) | User has 17312 followers
+2025-01-24T15:47:34.209Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=53710342359) | User has 5614 followers
+2025-01-24T15:47:35.192Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=396460219) | User has 76128 followers
+2025-01-24T15:47:35.688Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=457162546) | User has 34893 followers
+2025-01-24T15:47:36.228Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=44921015731) | User has 13758 followers
+2025-01-24T15:47:36.745Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2922328405) | User has 2630 followers
+2025-01-24T15:47:37.623Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=356121523) | User has 67145 followers
+2025-01-24T15:47:38.167Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=31572025) | User has 179585 followers
+2025-01-24T15:47:38.861Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=975240491) | User has 40040 followers
+2025-01-24T15:47:39.383Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=4057476631) | User has 130895 followers
+2025-01-24T15:47:43.407Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=870013925) | User has 42438 followers
+2025-01-24T15:47:43.940Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3996765714) | User has 9082 followers
+2025-01-24T15:47:44.393Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=361950673) | User has 1738132 followers
+2025-01-24T15:47:44.911Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=26459211729) | User has 54554 followers
+2025-01-24T15:47:45.394Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=425620351) | User has 217946 followers
+2025-01-24T15:47:45.850Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=3639470257) | User has 654 followers
+2025-01-24T15:47:46.304Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=371432521) | User has 100913 followers
+2025-01-24T15:47:46.843Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=599357870) | User has 924859 followers
+2025-01-24T15:47:47.395Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=50029732493) | User has 4643 followers
+2025-01-24T15:47:47.910Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=2671113003) | User has 183052 followers
+2025-01-24T15:47:48.416Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=11541649060) | User has 2032 followers
+2025-01-24T15:47:48.905Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse userid=8296806913) | User has 23230 followers
+2025-01-24T15:47:48.905Z [32minfo[39m: ⚪ Success at getUsers(hashtag = TheLighthouse) | Received 28 users
+2025-01-24T15:47:48.905Z [32minfo[39m: ⚪ Success at apply_follower_filter( hashtag = TheLighthouse) | Recieved 55 posts 
+2025-01-24T15:47:51.746Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDsOLG0zW4R, task_id = 9) | NOT SPAM
+2025-01-24T15:47:53.112Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C0SAO-IPxPb, task_id = 9) | NOT SPAM
+2025-01-24T15:47:54.445Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cj9MnpuoL74, task_id = 9) | NOT SPAM
+2025-01-24T15:47:55.777Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CjP83GZA9eN, task_id = 9) | NOT SPAM
+2025-01-24T15:47:57.247Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cqlj8Sesw66, task_id = 9) | NOT SPAM
+2025-01-24T15:47:58.486Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9QLTARPbzQ, task_id = 9) | SPAM 
+2025-01-24T15:47:59.723Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C36BY-qMnJR, task_id = 9) | NOT SPAM
+2025-01-24T15:48:01.009Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFGv0QBIVuT, task_id = 9) | NOT SPAM
+2025-01-24T15:48:02.436Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Ct-L1mSIu6a, task_id = 9) | NOT SPAM
+2025-01-24T15:48:03.874Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEFglL6KrNf, task_id = 9) | NOT SPAM
+2025-01-24T15:48:05.199Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE_SUdvot6V, task_id = 9) | NOT SPAM
+2025-01-24T15:48:06.495Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9uoC16NggZ, task_id = 9) | NOT SPAM
+2025-01-24T15:48:07.718Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CyinrsnL0ZK, task_id = 9) | NOT SPAM
+2025-01-24T15:48:09.089Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DErtniUugkA, task_id = 9) | NOT SPAM
+2025-01-24T15:48:10.352Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C38Y4CxPLn6, task_id = 9) | NOT SPAM
+2025-01-24T15:48:11.752Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFMH2TYsM2N, task_id = 9) | NOT SPAM
+2025-01-24T15:48:12.893Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CqfktThA8K_, task_id = 9) | NOT SPAM
+2025-01-24T15:48:14.312Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ClxYq2joU7Y, task_id = 9) | NOT SPAM
+2025-01-24T15:48:15.745Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C-xVuD7JjlN, task_id = 9) | NOT SPAM
+2025-01-24T15:48:17.183Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFA7eA7xO49, task_id = 9) | NOT SPAM
+2025-01-24T15:48:18.583Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cqk36vaA8ZS, task_id = 9) | NOT SPAM
+2025-01-24T15:48:20.013Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C1C-Gs3O9Uv, task_id = 9) | SPAM 
+2025-01-24T15:48:21.591Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CzKcnJtot88, task_id = 9) | NOT SPAM
+2025-01-24T15:48:23.128Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DAj5iDyS1xO, task_id = 9) | NOT SPAM
+2025-01-24T15:48:24.372Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cshp_iEsLFF, task_id = 9) | NOT SPAM
+2025-01-24T15:48:25.675Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CqWuOUmoW7H, task_id = 9) | NOT SPAM
+2025-01-24T15:48:27.111Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DFKJm-wx7a7, task_id = 9) | NOT SPAM
+2025-01-24T15:48:28.398Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cl-aMe3oP2O, task_id = 9) | NOT SPAM
+2025-01-24T15:48:29.772Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DDQgNPsxlIz, task_id = 9) | NOT SPAM
+2025-01-24T15:48:31.095Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C0LlVYUID4-, task_id = 9) | SPAM 
+2025-01-24T15:48:32.745Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cljy57CMvU5, task_id = 9) | NOT SPAM
+2025-01-24T15:48:34.141Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DE5OV25MH-n, task_id = 9) | NOT SPAM
+2025-01-24T15:48:35.434Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DAluw0WNFCs, task_id = 9) | NOT SPAM
+2025-01-24T15:48:36.827Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C4EDE-eM2Pr, task_id = 9) | SPAM 
+2025-01-24T15:48:38.169Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CpAeGqFrYFf, task_id = 9) | NOT SPAM
+2025-01-24T15:48:39.592Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C3s1iZds9xS, task_id = 9) | NOT SPAM
+2025-01-24T15:48:41.147Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD1fFYhMHmN, task_id = 9) | NOT SPAM
+2025-01-24T15:48:42.676Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C7WMQxgNe_R, task_id = 9) | NOT SPAM
+2025-01-24T15:48:44.143Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DD1fYD3MMFE, task_id = 9) | NOT SPAM
+2025-01-24T15:48:45.375Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DERCAJYIh3p, task_id = 9) | NOT SPAM
+2025-01-24T15:48:46.671Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C9udKYZMxuq, task_id = 9) | NOT SPAM
+2025-01-24T15:48:48.303Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C1X_vCvovB_, task_id = 9) | NOT SPAM
+2025-01-24T15:48:49.413Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CzrIsyfMNQg, task_id = 9) | NOT SPAM
+2025-01-24T15:48:50.732Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C0LbsstoGos, task_id = 9) | SPAM 
+2025-01-24T15:48:52.159Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ChbExISJy0c, task_id = 9) | NOT SPAM
+2025-01-24T15:48:53.556Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ClZfjiNsMCV, task_id = 9) | NOT SPAM
+2025-01-24T15:48:55.064Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= ClZ-zEYIN6x, task_id = 9) | NOT SPAM
+2025-01-24T15:48:56.384Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DCe8Enxs_at, task_id = 9) | NOT SPAM
+2025-01-24T15:48:57.713Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DBEbH5fNgVw, task_id = 9) | NOT SPAM
+2025-01-24T15:48:59.022Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C2QxrjBI0rA, task_id = 9) | NOT SPAM
+2025-01-24T15:49:00.361Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Crva3Tssmo-, task_id = 9) | NOT SPAM
+2025-01-24T15:49:01.738Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= DEkpncOi8GP, task_id = 9) | SPAM 
+2025-01-24T15:49:03.057Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= CuMjqJZMErs, task_id = 9) | NOT SPAM
+2025-01-24T15:49:04.237Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= Cq0zjjYsd_1, task_id = 9) | NOT SPAM
+2025-01-24T15:49:05.711Z [32minfo[39m: ⚪ Success at apply_spam_filter(post_shortcode= C1sLUfGMUKk, task_id = 9) | NOT SPAM
+2025-01-24T15:49:05.711Z [32minfo[39m: ⚪ Success at apply_spam_filter(task_id = 9) | Recieved 49 posts 
+2025-01-24T15:49:07.207Z [32minfo[39m: ⚪ Success at geminiCategorize(45506528310) | AI Category = Normal Influencer
+2025-01-24T15:49:08.296Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 1, user) | Data Stored Successfully
+2025-01-24T15:49:09.762Z [32minfo[39m: ⚪ Success at geminiCategorize(46143723454) | AI Category = Normal Influencer
+2025-01-24T15:49:11.828Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 2, user) | Data Stored Successfully
+2025-01-24T15:49:13.493Z [32minfo[39m: ⚪ Success at geminiCategorize(29333019773) | AI Category = Normal Influencer
+2025-01-24T15:49:14.372Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 3, user) | Data Stored Successfully
+2025-01-24T15:49:16.030Z [32minfo[39m: ⚪ Success at geminiCategorize(11045284173) | AI Category = Movie Critic/Journalist
+2025-01-24T15:49:17.971Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 4, user) | Data Stored Successfully
+2025-01-24T15:49:20.153Z [32minfo[39m: ⚪ Success at geminiCategorize(748496924) | AI Category = Movie Critic/Journalist
+2025-01-24T15:49:20.960Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 5, user) | Data Stored Successfully
+2025-01-24T15:49:22.720Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/the_hook, 5) | Sent To Scraper Queue
+2025-01-24T15:49:24.848Z [32minfo[39m: ⚪ Success at geminiCategorize(205353901) | AI Category = Movie Critic/Journalist
+2025-01-24T15:49:25.676Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 6, user) | Data Stored Successfully
+2025-01-24T15:49:28.685Z [32minfo[39m: ⚪ Success at geminiCategorize(231385167) | AI Category = Normal Influencer
+2025-01-24T15:49:30.140Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 7, user) | Data Stored Successfully
+2025-01-24T15:49:31.931Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/brianreedy, 7) | Sent To Scraper Queue
+2025-01-24T15:49:34.615Z [32minfo[39m: ⚪ Success at geminiCategorize(53914956942) | AI Category = Normal Influencer
+2025-01-24T15:49:35.875Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 8, user) | Data Stored Successfully
+2025-01-24T15:49:37.702Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/fragrance.poetry, 8) | Sent To Scraper Queue
+2025-01-24T15:49:40.116Z [32minfo[39m: ⚪ Success at geminiCategorize(3995052428) | AI Category = Movie Critic/Journalist
+2025-01-24T15:49:43.638Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 9, user) | Data Stored Successfully
+2025-01-24T15:49:49.100Z [32minfo[39m: ⚪ Success at geminiCategorize(53710342359) | AI Category = Normal Influencer
+2025-01-24T15:49:50.209Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 10, user) | Data Stored Successfully
+2025-01-24T15:49:52.293Z [32minfo[39m: ⚪ Success at geminiCategorize(396460219) | AI Category = Celebrity/Director
+2025-01-24T15:49:52.863Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 11, user) | Data Stored Successfully
+2025-01-24T15:49:55.108Z [32minfo[39m: ⚪ Success at geminiCategorize(457162546) | AI Category = Normal Influencer
+2025-01-24T15:49:56.762Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 12, user) | Data Stored Successfully
+2025-01-24T15:49:58.666Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linktr.ee/bukquotes, 12) | Sent To Scraper Queue
+2025-01-24T15:50:00.796Z [32minfo[39m: ⚪ Success at geminiCategorize(44921015731) | AI Category = Normal Influencer
+2025-01-24T15:50:01.678Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 13, user) | Data Stored Successfully
+2025-01-24T15:50:05.566Z [32minfo[39m: ⚪ Success at geminiCategorize(31572025) | AI Category = Normal Influencer
+2025-01-24T15:50:06.387Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 14, user) | Data Stored Successfully
+2025-01-24T15:50:10.666Z [32minfo[39m: ⚪ Success at geminiCategorize(975240491) | AI Category = Celebrity/Actor
+2025-01-24T15:50:12.411Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 15, user) | Data Stored Successfully
+2025-01-24T15:50:14.710Z [32minfo[39m: ⚪ Success at geminiCategorize(4057476631) | AI Category = Normal Influencer
+2025-01-24T15:50:15.623Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 16, user) | Data Stored Successfully
+2025-01-24T15:50:17.925Z [32minfo[39m: ⚪ Success at geminiCategorize(870013925) | AI Category = Normal Influencer
+2025-01-24T15:50:18.796Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 17, user) | Data Stored Successfully
+2025-01-24T15:50:20.965Z [32minfo[39m: ⚪ Success at geminiCategorize(3996765714) | AI Category = Movie Critic/Journalist
+2025-01-24T15:50:22.770Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 18, user) | Data Stored Successfully
+2025-01-24T15:50:24.617Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( http://www.linktr.ee/recinefilia, 18) | Sent To Scraper Queue
+2025-01-24T15:50:26.729Z [32minfo[39m: ⚪ Success at geminiCategorize(26459211729) | AI Category = Movie Critic/Journalist
+2025-01-24T15:50:28.299Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 19, user) | Data Stored Successfully
+2025-01-24T15:50:30.415Z [32minfo[39m: ⚪ Success at geminiCategorize(425620351) | AI Category = Normal Influencer
+2025-01-24T15:50:32.516Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 20, user) | Data Stored Successfully
+2025-01-24T15:50:35.458Z [32minfo[39m: ⚪ Success at geminiCategorize(371432521) | AI Category = Normal Influencer
+2025-01-24T15:50:36.870Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 21, user) | Data Stored Successfully
+2025-01-24T15:50:37.091Z [32minfo[39m: ⚪ Success at get_platform_and_Upload_link_to_scraper_queue( https://linkin.bio/ranker, 21) | Sent To Scraper Queue
+2025-01-24T15:50:40.286Z [32minfo[39m: ⚪ Success at geminiCategorize(50029732493) | AI Category = Normal Influencer
+2025-01-24T15:50:41.018Z [32minfo[39m: ⚪ Success at upload_to_bunny_cdn( 22, user) | Data Stored Successfully
