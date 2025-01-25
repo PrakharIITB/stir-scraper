@@ -1,5 +1,4 @@
-const { Logger } = require('winston');
-const db = require('./../../database/db');
+const db = require('./../../db/db');
 
 const logger = require('./logger'); 
 const {processTask, setTask, processUser} = require('./processTask');

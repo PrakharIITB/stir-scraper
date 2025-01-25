@@ -1,4 +1,4 @@
-const db = require("./../../database/db");
+const db = require("../../db/db");
 
 async function clearTablesforFreshTesting() {
   await db("insta_users_links").del();

@@ -27,7 +27,7 @@ function DB_template_post ( postData, movie_id, user_id, follower_count ) {
         music_name: postData?.clips_metadata && postData?.clips_metadata?.audio_type == "licensed_music"? postData?.clips_metadata?.music_info?.music_asset_info?.title : null,
         music_artist_name: postData?.clips_metadata && postData?.clips_metadata?.audio_type == "licensed_music"? postData?.clips_metadata?.music_info?.music_asset_info?.display_artist : null,
         music_cover_img: postData?.clips_metadata && postData?.clips_metadata?.audio_type == "licensed_music"? postData?.clips_metadata?.music_info?.music_asset_info?.cover_artwork_thumbnail_uri : null,
-
+        video_url: postData?.video_url || null,
         last_update: new Date()
       }
 

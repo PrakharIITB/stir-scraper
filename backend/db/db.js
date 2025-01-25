@@ -18,9 +18,6 @@ const knexConfig = {
     },
   };
 
-console.log(knexConfig);
-
-
 const db = knex(knexConfig);
 
 module.exports = db;

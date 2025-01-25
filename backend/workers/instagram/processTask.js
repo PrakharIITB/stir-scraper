@@ -5,7 +5,7 @@
 **/
 
 
-const db = require('./../../database/db');
+const db = require('../../db/db');
 const { geminiCheckSpam, geminiCategorize } = require('./gemini');
 const logger = require('./logger'); 
 const { DB_template_post, DB_template_user, DB_template_user_for_AI_Categorization, DB_template_post_for_AI_Categorization, DB_template_mentions } = require('./templates');
@@ -15,13 +15,11 @@ const amqp = require('amqplib');
 
 const dotenv = require('dotenv');
 dotenv.config();
-let BUNNY_CDN_AUTH_TOKEN = process.env.BUNNY_CDN_AUTH_TOKEN;
-let BUNNY_CDN_UPLOAD_URL = process.env.BUNNY_CDN_UPLOAD_URL;
-let INSTA_RAPID_API_KEY = process.env.INSTA_RAPID_API_KEY;
-let INSTA_RAPID_API_URL = process.env.INSTA_RAPID_API_URL;
-let RABBIT_MQ_URL = process.env.RABBIT_MQ_URL;
-
-
+const BUNNY_CDN_AUTH_TOKEN = process.env.BUNNY_CDN_AUTH_TOKEN;
+const BUNNY_CDN_UPLOAD_URL = process.env.BUNNY_CDN_UPLOAD_URL;
+const INSTA_RAPID_API_KEY = process.env.INSTA_RAPID_API_KEY;
+const INSTA_RAPID_API_URL = process.env.INSTA_RAPID_API_URL;
+const RABBIT_MQ_URL = process.env.RABBIT_MQ_URL;
 
 
 async function upload_link_to_scraper_queue(platform, url, userID) {
@@ -51,12 +49,63 @@ async function upload_link_to_scraper_queue(platform, url, userID) {
     }
   }
 
+async function upload_to_bunny_cdn_carousel(url, platform, id, mediaId, media_type) {
+    /**
+     * Uploads an image to the Bunny CDN.
+     * Returns the URL of the uploaded image.
+     */
+    var filename;
+    if(media_type === 'photo')
+        filename = `${mediaId}.png`;
+    else
+        filename = `${mediaId}.mp4`;
+    const storage_path = `/prakhar/${platform}`;
+
+    const headers = {
+        "Authorization": BUNNY_CDN_AUTH_TOKEN,
+        "Content-Type": "application/json"  
+    };
+
+    const uploadData = {
+        "file_name": filename,
+        "url": url,
+        "storage_path": storage_path
+    };
+
+    try {
+        const response = await fetch(BUNNY_CDN_UPLOAD_URL, {
+            method: "POST",
+            headers: headers,
+            body: JSON.stringify(uploadData)
+        });
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+
+        const data = await response.json();  // Wait for the JSON response
+        if (!data?.image_url) {
+            throw new Error('Failed to upload image');
+        }
+        if (data?.image_url){
+            logger.info(`⚪ Success at upload_to_bunny_cdn( ${id}, ${mediaId}) | Data Stored Successfully`);
+        }
+        return {status: 200, message: 'Upload Successful', success: true, image_url: "https://" + data?.image_url || null};
+    } catch (error) {
+        return {status: 500, message: error.message, success: false};
+    }
+}
+
+
+
 async function upload_to_bunny_cdn(url, platform, id, type) {
     /**
      * Uploads an image to the Bunny CDN.
      * Returns the URL of the uploaded image.
      */
-    const filename = `${type}-${id}.png`;
+    var filename
+    if(type === 'video') filename = `${type}-${id}.mp4`;
+    else filename = `${type}-${id}.png`;
     const storage_path = `/${platform}`;
 
     const headers = {
@@ -219,7 +268,28 @@ async function DB_store_mentions(trx, mentions, post_id) {
 
 }
 
-
+async function saveCarouselMedia(carousel_media, post_id, trx) {
+    /**
+     * Saves the carousel photos to the database.
+     * If the post is a carousel post, the photos are saved.
+     **/
+    for(const media of carousel_media) {
+        try {
+            if(media['video_url'] == null) {
+                const bunnyCDNURL = (await upload_to_bunny_cdn_carousel(media['thumbnail_url'], 'instagram', post_id, media.id, 'photo')).image_url;
+                await trx('insta_posts_media').insert({ post_id: post_id, thumbnail_url: bunnyCDNURL, media_type: 'image' });
+            }
+            else{
+                const thumbnailBunnyCDNURL = (await upload_to_bunny_cdn_carousel(media['thumbnail_url'], 'instagram', post_id, media.id, 'video')).image_url;
+                const videoBunnyCDNURL = (await upload_to_bunny_cdn_carousel(media['video_url'], 'instagram', post_id, media.id, 'video')).image_url;
+                await trx('insta_posts_media').insert({ post_id: post_id, thumbnail_url: thumbnailBunnyCDNURL, video_url: videoBunnyCDNURL, media_type: 'video' });
+            }
+        } catch (error) {
+            console.log(error, "couldnt store carousel media");
+            // return {status: 500, success: false, message: error.message};
+        }
+    }
+}
 
 async function DB_store_post(trx, postData ,task_id) {
     /**
@@ -238,7 +308,6 @@ async function DB_store_post(trx, postData ,task_id) {
         }
 
         const template = DB_template_post(postData, movie_id, user_id, follower_count);
-
         // checking if the post exists
         let post_id = null;
         // If post doesn't exist, insert a new record with null values and get the new post_id
@@ -254,10 +323,20 @@ async function DB_store_post(trx, postData ,task_id) {
             await trx('insta_posts').update({taskids: newTaskids}).where('post_id', existingPost.post_id);
             post_id = (await trx('insta_posts').update(template).where('post_id', existingPost.post_id).returning('post_id'))[0].post_id;
         }
-        const bunnyCDNURL = (await upload_to_bunny_cdn(template['thumbnail_img'], 'instagram', post_id, 'post')).image_url;
-        await trx('insta_posts').update({thumbnail_img: bunnyCDNURL}).where('post_id', post_id);
+
+        if (postData['media_name'] == 'album') {
+            await saveCarouselMedia(postData['resources'], post_id, trx);    
+        }
+        else{
+            const bunnyCDNURL = (await upload_to_bunny_cdn(template['thumbnail_img'], 'prakhar/instagram', post_id, 'post')).image_url;
+            await trx('insta_posts').update({thumbnail_img: bunnyCDNURL}).where('post_id', post_id);
+            if(template['video_url']){
+                const videoBunnyCDNURL = (await upload_to_bunny_cdn(template['video_url'], 'prakhar/instagram', post_id, 'video')).image_url;
+                await trx('insta_posts').update({video_url: videoBunnyCDNURL}).where('post_id', post_id);
+            }
+        }
         if (template['music_cover_img'] != null) {
-            const bunnyCDNURLforMusic = (await upload_to_bunny_cdn(template['music_cover_img'], 'instagram', post_id, 'music')).image_url;
+            const bunnyCDNURLforMusic = (await upload_to_bunny_cdn(template['music_cover_img'], 'prakhar/instagram', post_id, 'music')).image_url;
             console.log(bunnyCDNURLforMusic);
             if (bunnyCDNURLforMusic == null) {
                 logger.warn(`🟡 Error in uploading music cover image for post ${post_id}`);
@@ -333,17 +412,17 @@ async function DB_store_user(trx, userData ,task_id) {
             
         }   
         
-        const bunnyCDNURL = (await upload_to_bunny_cdn(template['profile_photo_hd'], 'instagram', user_id, 'user')).image_url;
+        const bunnyCDNURL = (await upload_to_bunny_cdn(template['profile_photo_hd'], 'prakhar/instagram', user_id, 'user')).image_url;
         //pushing to db
         await trx('insta_users').update({profile_photo_hd: bunnyCDNURL}).where('user_id', user_id);
         // Storing links along with the source, here all source will be bio_links
-        if ((userData['bio_links']).length > 0) {
-            for (const link of userData['bio_links']) {
-                if( (link.url !== null) || (link.url !== '') || ((link.url).length > 2) ) {
-                    await DB_store_link(trx,  link.url,  'bio_links', user_id);
-                }
-            }
-        }
+        // if ((userData['bio_links']).length > 0) {
+        //     for (const link of userData['bio_links']) {
+        //         if( (link.url !== null) || (link.url !== '') || ((link.url).length > 2) ) {
+        //             await DB_store_link(trx,  link.url,  'bio_links', user_id);
+        //         }
+        //     }
+        // }
         
         return {status: 200, success: true,message: "User Stored Successfully", user_id: user_id};
 
@@ -576,8 +655,14 @@ async function apply_spam_filter(posts, task_id) {
     try {
         let spam_filter_posts = [];
         const movie_id = (await db('tasks').where('task_id', task_id).select('movie_id').first()).movie_id;
-        const Movie_Data_Raw = (await db('movies').where('movieid', movie_id).select('title', 'imdb_id', 'release_date').first());
-        const Movie_Actors = await db('movies_actor').where('movieid', movie_id).select('name', 'character_name');
+        const Movie_Data_Raw = (await db('movies').where('id', movie_id).select('original_title', 'imdb_id', 'origin_release_date').first());
+        const Movie_Actors = await db('movie_crew')
+            .join('crew', 'movie_crew.crew_id', 'crew.id') // Join movie_crew with crew on crew_id
+            .where('movie_crew.movie_id', movie_id)        // Filter by movie_id
+            .andWhere(function () {
+                this.where('crew.job', 'actor').orWhere('crew.job', 'actress'); // Filter by job as 'actor' or 'actress'
+            })
+            .select('crew.full_name as name'); 
         const Movie_Data = { ...Movie_Data_Raw, popular_characters: Movie_Actors };
         for (const post of posts) {
             const PostData_for_AI = DB_template_post_for_AI_Categorization(post);
@@ -602,6 +687,8 @@ async function apply_spam_filter(posts, task_id) {
         return {status: 200, success: true, data: spam_filter_posts, count: spam_filter_posts.length, userIDs: spam_filter_posts.map(post => post.user.id)};
     }
     catch (error) {
+        logger.error(`🔴 Error at apply_spam_filter(task_id = ${task_id}`)
+        
         return {status: 500, success: false, error: error.message , message : `🔴 Error at apply_spam_filter(task_id = ${task_id}) | ${error.message}`};
     }
 }   
@@ -692,7 +779,7 @@ async function processTask( hashtag, hashtagPageLimit, task_id, likesLimit, foll
     }
     
     const follower_filter_posts = apply_follower_filter(liked_filter_posts, users.userIDList);
-    
+
     const spam_filter_posts = await apply_spam_filter(follower_filter_posts, task_id);
     if (spam_filter_posts.success === false) { 
         return { status: 500, success: false};

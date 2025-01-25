@@ -4,6 +4,8 @@ const RABBIT_MQ_URL = process.env.RABBIT_MQ_URL;
 global.connection = null;
 
 async function createConnection() {
+  console.log(RABBIT_MQ_URL);
+  
   try {
     if (!global.connection) {
       const url = RABBIT_MQ_URL;

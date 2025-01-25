@@ -62,25 +62,7 @@ async function geminiCheckSpam(InstagramPost, MovieData) {
   };
 
   const apiKeyArr = [
-    "AIzaSyBjg5G-dMkItjbKONQk53dWtsYjQHf_DGw",
-    "AIzaSyBEYwa8o88qahK66n64qXqwPaAugcCqE_4",
-    "AIzaSyA-2jD-oh-wrDf0BI5dE0BMDjNgyLsFtmo",
-    "AIzaSyBDK3uLeO0qFvwSA8CGApYnN9HNoin7fdY",
-    "AIzaSyDASZW-mmKjyUtncQfJZL6RC1X-G7w1UYQ",
-    "AIzaSyCOM0XvLrhNvBwaRQJpxVId1XF5s3QJNOw",
-    "AIzaSyBT4LaG3XciDNmEiQMenJxZ1qYkZ4fyujc",
-    "AIzaSyBel6stDpKx_5tFEpauX2vpgZpn-EQi4fI",
-    "AIzaSyBy_UYCtRGBODYIMLdrjel1hGpoqENiciU",
-    "AIzaSyDzjbGe6_vE7J1OKebCD41hybdV9DtScmw",
-    "AIzaSyAepV-4-Ock7-RWctm9Dbx93wdkFiYKBMM",
-    "AIzaSyCCJ3hD4N98AV7HGzCFPjzjsDeCoJe-vrE",
-    "AIzaSyCINaycOqFoAhtR5TzmP7eus3yUUrjhwQo",
-    "AIzaSyDfje0BiLj2fr3V79q7fuix6zXROVYTOTQ",
-    "AIzaSyDABK8UHJFXpsdMj8rQnKwbhlJ-d1vcMvU",
-    "AIzaSyCYyaoEOplEXZBpLOUCyXaF27k5iV4UFjE",
-    "AIzaSyA_OSKrIWcNX_s6ba83nnQizjXuHph7j5o",
-    "AIzaSyBhOXFnHFplYX1moC49BrkgjT9AnbZAjm4",
-    "AIzaSyD0BHpgnD23OMwIRynsikE81U6fpZjE-f4",
+    "AIzaSyDEccYmSDJ7cExwjmjTVjcuH-s6VJjWwKA"
   ];
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKeyArr[geminiKeyIndex]}`;
@@ -160,25 +142,7 @@ ALWAYS RETURN RESPONSE IN JSON FORMAT AND NOTHING ELSE. BE STRAIGHTFORWARD.
   };
 
   const apiKeyArr = [
-    "AIzaSyBjg5G-dMkItjbKONQk53dWtsYjQHf_DGw",
-    "AIzaSyBEYwa8o88qahK66n64qXqwPaAugcCqE_4",
-    "AIzaSyA-2jD-oh-wrDf0BI5dE0BMDjNgyLsFtmo",
-    "AIzaSyBDK3uLeO0qFvwSA8CGApYnN9HNoin7fdY",
-    "AIzaSyDASZW-mmKjyUtncQfJZL6RC1X-G7w1UYQ",
-    "AIzaSyCOM0XvLrhNvBwaRQJpxVId1XF5s3QJNOw",
-    "AIzaSyBT4LaG3XciDNmEiQMenJxZ1qYkZ4fyujc",
-    "AIzaSyBel6stDpKx_5tFEpauX2vpgZpn-EQi4fI",
-    "AIzaSyBy_UYCtRGBODYIMLdrjel1hGpoqENiciU",
-    "AIzaSyDzjbGe6_vE7J1OKebCD41hybdV9DtScmw",
-    "AIzaSyAepV-4-Ock7-RWctm9Dbx93wdkFiYKBMM",
-    "AIzaSyCCJ3hD4N98AV7HGzCFPjzjsDeCoJe-vrE",
-    "AIzaSyCINaycOqFoAhtR5TzmP7eus3yUUrjhwQo",
-    "AIzaSyDfje0BiLj2fr3V79q7fuix6zXROVYTOTQ",
-    "AIzaSyDABK8UHJFXpsdMj8rQnKwbhlJ-d1vcMvU",
-    "AIzaSyCYyaoEOplEXZBpLOUCyXaF27k5iV4UFjE",
-    "AIzaSyA_OSKrIWcNX_s6ba83nnQizjXuHph7j5o",
-    "AIzaSyBhOXFnHFplYX1moC49BrkgjT9AnbZAjm4",
-    "AIzaSyD0BHpgnD23OMwIRynsikE81U6fpZjE-f4",
+    "AIzaSyDEccYmSDJ7cExwjmjTVjcuH-s6VJjWwKA"
   ];
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKeyArr[geminiKeyIndex]}`;
