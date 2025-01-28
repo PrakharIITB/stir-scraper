@@ -1,5 +1,5 @@
 const db = require("../db/db");
-const logger = require('../logger')
+const logger = require('../logs/logger')
 const imageBaseUrl = 'https://image.tmdb.org/t/p/original';
 
 async function getTmdbData(movieTmdbID){

@@ -416,13 +416,13 @@ async function DB_store_user(trx, userData ,task_id) {
         //pushing to db
         await trx('insta_users').update({profile_photo_hd: bunnyCDNURL}).where('user_id', user_id);
         // Storing links along with the source, here all source will be bio_links
-        // if ((userData['bio_links']).length > 0) {
-        //     for (const link of userData['bio_links']) {
-        //         if( (link.url !== null) || (link.url !== '') || ((link.url).length > 2) ) {
-        //             await DB_store_link(trx,  link.url,  'bio_links', user_id);
-        //         }
-        //     }
-        // }
+        if ((userData['bio_links']).length > 0) {
+            for (const link of userData['bio_links']) {
+                if( (link.url !== null) || (link.url !== '') || ((link.url).length > 2) ) {
+                    await DB_store_link(trx,  link.url,  'bio_links', user_id);
+                }
+            }
+        }
         
         return {status: 200, success: true,message: "User Stored Successfully", user_id: user_id};
 
@@ -839,4 +839,4 @@ async function processUser(stir_id, username) {
        return {status: 500, success: false}; 
     }
 }
-module.exports = {processTask,processUser, setTask}
+module.exports = {processTask,processUser, setTask, saveCarouselMedia, upload_to_bunny_cdn, DB_store_hashtags, DB_store_mentions}
