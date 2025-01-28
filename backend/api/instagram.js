@@ -3,30 +3,35 @@ const router = express.Router();
 const db = require("../db/db")
 
 router.get("/instagram-users", async (req, res) => {
-  const page = Number.parseInt(req.query.page) || 1;
-  const limit = Number.parseInt(req.query.limit) || 20;
-  const sortBy = req.query.sortBy || "user_id";
-  const sortOrder = req.query.sortOrder || "asc";
-  const offset = (page - 1) * limit;
+  const page = Number.parseInt(req.query.page) || 1
+  const limit = Number.parseInt(req.query.limit) || 20
+  const sortBy = req.query.sortBy || "user_id"
+  const sortOrder = req.query.sortOrder || "asc"
+  const search = req.query.search || ""
+  const offset = (page - 1) * limit
 
   try {
-    const totalCount = await db("insta_users").count("* as count").first();
-    const users = await db("insta_users")
-      .orderBy(sortBy, sortOrder)
-      .limit(limit)
-      .offset(offset);
+    let query = db("insta_users")
+
+    if (search) {
+      query = query
+        .where("username", "ilike", `%${search}%`)
+        .orWhereRaw('CAST("user_id" AS TEXT) ILIKE ?', [`%${search}%`])
+        .limit(limit);
+    }
+
+    const totalCount = await query.clone().count("* as count").first()
+    const users = await query.select("*").orderBy(sortBy, sortOrder).limit(limit).offset(offset)
 
     res.json({
       instagramUsers: users,
       totalCount: Number.parseInt(totalCount.count),
       totalPages: Math.ceil(Number.parseInt(totalCount.count) / limit),
       currentPage: page,
-    });
+    })
   } catch (err) {
-    console.error(err);
-    res
-      .status(500)
-      .json({ error: "An error occurred while fetching Instagram users" });
+    console.error(err)
+    res.status(500).json({ error: "An error occurred while fetching Instagram users" })
   }
 });
 

@@ -3,28 +3,37 @@ const router = express.Router();
 const db = require("../db/db");
 
 router.get("/movies", async (req, res) => {
-  const page = Number.parseInt(req.query.page) || 1;
-  const limit = Number.parseInt(req.query.limit) || 20;
-  const sortBy = req.query.sortBy || "id";
-  const sortOrder = req.query.sortOrder || "asc";
-  const offset = (page - 1) * limit;
+  const page = Number.parseInt(req.query.page) || 1
+  const limit = Number.parseInt(req.query.limit) || 20
+  const sortBy = req.query.sortBy || "id"
+  const sortOrder = req.query.sortOrder || "asc"
+  const search = req.query.search || ""
+  const offset = (page - 1) * limit
 
   try {
-    const totalCount = await db("movies").count("* as count").first();
-    const movies = await db("movies")
-      .orderBy(sortBy, sortOrder)
-      .limit(limit)
-      .offset(offset);
+    let query = db("movies")
+
+    if (search) {
+      query = query
+        .where("tmdb_title", "ilike", `%${search}%`)
+        .orWhere("imdb_title", "ilike", `%${search}%`)
+        .orWhere("original_title", "ilike", `%${search}%`)
+        .orWhereRaw('CAST("id" AS TEXT) ILIKE ?', [`%${search}%`])
+        .limit(limit);
+    }
+
+    const totalCount = await query.clone().count("* as count").first()
+    const movies = await query.select("*").orderBy(sortBy, sortOrder).limit(limit).offset(offset)
 
     res.json({
       movies,
       totalCount: Number.parseInt(totalCount.count),
       totalPages: Math.ceil(Number.parseInt(totalCount.count) / limit),
       currentPage: page,
-    });
+    })
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "An error occurred while fetching movies" });
+    console.error(err)
+    res.status(500).json({ error: "An error occurred while fetching movies" })
   }
 });
 
