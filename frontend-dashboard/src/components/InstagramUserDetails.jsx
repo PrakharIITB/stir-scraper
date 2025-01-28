@@ -1,16 +1,27 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 
-// This function would be replaced with an actual API call in a real application
-const getInstagramUserDetails = (id) => mockInstagramUsers.find((user) => user.insta_user_id === id)
-
 export function InstagramUserDetails() {
   const { id } = useParams()
-  const user = getInstagramUserDetails(id)
+  const [user, setUser] = useState(null)
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        const response = await fetch(`http://localhost:3000/api/instagram-users/${id}`)
+        const data = await response.json()
+        setUser(data)
+      } catch (error) {
+        console.error("Error fetching Instagram user details:", error)
+      }
+    }
+
+    fetchUser()
+  }, [id])
 
   if (!user) {
-    return <div>User not found</div>
+    return <div>Loading...</div>
   }
 
   return (
@@ -26,7 +37,10 @@ export function InstagramUserDetails() {
             <div>
               <h3 className="text-lg font-semibold mb-2">Basic Information</h3>
               <p>
-                <strong>User ID:</strong> {user.insta_user_id}
+                <strong>User ID:</strong> {user.user_id}
+              </p>
+              <p>
+                <strong>Instagram User ID:</strong> {user.insta_user_id}
               </p>
               <p>
                 <strong>Private Account:</strong> {user.is_private ? "Yes" : "No"}
@@ -114,6 +128,28 @@ export function InstagramUserDetails() {
             <p>
               <strong>Last Update:</strong> {new Date(user.last_update).toLocaleString()}
             </p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Additional Information</h3>
+            <h4 className="text-md font-semibold mt-2">Emails</h4>
+            <ul>
+              {user.emails.map((email, index) => (
+                <li key={index}>
+                  {email.email} (Source: {email.source})
+                </li>
+              ))}
+            </ul>
+            <h4 className="text-md font-semibold mt-2">Links</h4>
+            <ul>
+              {user.links.map((link, index) => (
+                <li key={index}>
+                  <a href={link.url} target="_blank" rel="noopener noreferrer">
+                    {link.url}
+                  </a>
+                  (Source: {link.source}, Platform: {link.platform})
+                </li>
+              ))}
+            </ul>
           </div>
         </CardContent>
       </Card>

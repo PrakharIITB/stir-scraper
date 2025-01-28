@@ -1,82 +1,170 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-
-// Mock function to get movie details
-const getMovieDetails = (id) => ({
-  id: id,
-  tmdb_id: 533535,
-  imdb_id: "tt6263850",
-  title: "Deadpool & Wolverine",
-  original_title: "Deadpool & Wolverine",
-  overview: "After facing some professional setbacks, Deadpool decides he's ready to hang up his suit. Just as he's about to announce his retirement to the world, a group of mercenaries kidnaps him and transports him to a secret facility. There, he encounters an old foe and a new ally, and together they must fight to save not just themselves, but potentially the entire Marvel Cinematic Universe.",
-  tagline: "Come together.",
-  status: "Released",
-  homepage: "https://www.marvel.com/movies/deadpool-wolverine",
-  release_date: '2024-07-24',
-  runtime_minutes: 128,
-  budget: 200000000,
-  revenue: 1338073645,
-  popularity: 717.795,
-  vote_average: 7.647,
-  vote_count: 6382,
-  is_adult: false,
-  original_language: "en",
-  backdrop_path: "/placeholder.svg?height=300&width=500&text=Backdrop",
-  poster_path: "/placeholder.svg?height=450&width=300&text=Poster",
-  collection_id: 448150,
-  origin_country: "US",
-  wikidata_id: "Q65921361",
-  facebook_id: "DeadpoolMovie",
-  instagram_id: "deadpoolmovie",
-  twitter_id: "deadpoolmovie",
-});
+import React, { useState, useEffect } from "react"
+import { useParams } from "react-router-dom"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 
 export function MovieDetails() {
-  const { id } = useParams();
-  const movie = getMovieDetails(id);
+  const { id } = useParams()
+  const [movie, setMovie] = useState(null)
+
+  useEffect(() => {
+    const fetchMovie = async () => {
+      try {
+        const response = await fetch(`http://localhost:3000/api/movies/${id}`)
+        const data = await response.json()
+        console.log(data);
+        setMovie(data)
+      } catch (error) {
+        console.error("Error fetching movie details:", error)
+      }
+    }
+
+    fetchMovie()
+  }, [id])
+
+  if (!movie) {
+    return <div>Loading...</div>
+  }
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <Card className="overflow-hidden">
-        <CardHeader className="relative">
-          <img src={movie.backdrop_path || "/placeholder.svg"} alt={`${movie.title} backdrop`} className="w-full h-auto" />
-          <img src={movie.poster_path || "/placeholder.svg"} alt={movie.title} className="absolute bottom-0 left-4 w-1/4 border-4 border-white shadow-lg" />
+      <Card>
+        <CardHeader>
+          <CardTitle>{movie.tmdb_title}</CardTitle>
         </CardHeader>
-        <CardContent className="p-6">
-          <CardTitle className="text-3xl mb-2">{movie.title}</CardTitle>
-          <p className="text-xl text-gray-600 mb-4">{movie.tagline}</p>
+        <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <h3 className="text-xl font-semibold mb-2">Overview</h3>
-              <p>{movie.overview}</p>
+              <h3 className="text-lg font-semibold mb-2">Basic Information</h3>
+              <p>
+                <strong>Original Title:</strong> {movie.original_title}
+              </p>
+              <p>
+                <strong>TMDb ID:</strong> {movie.tmdb_id}
+              </p>
+              <p>
+                <strong>IMDb ID:</strong> {movie.imdb_id}
+              </p>
+              <p>
+                <strong>Release Date:</strong> {movie.origin_release_date}
+              </p>
+              <p>
+                <strong>Status:</strong> {movie.status}
+              </p>
+              <p>
+                <strong>Runtime:</strong> {movie.runtime_minutes} minutes
+              </p>
+              <p>
+                <strong>Adult:</strong> {movie.is_adult ? "Yes" : "No"}
+              </p>
+              <p>
+                <strong>Original Language:</strong> {movie.original_language}
+              </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-2">Details</h3>
-              <ul className="space-y-2">
-                <li><strong>Release Date:</strong> {movie.release_date}</li>
-                <li><strong>Runtime:</strong> {movie.runtime_minutes} minutes</li>
-                <li><strong>Budget:</strong> ${movie.budget.toLocaleString()}</li>
-                <li><strong>Revenue:</strong> ${movie.revenue.toLocaleString()}</li>
-                <li><strong>Popularity:</strong> {movie.popularity.toFixed(3)}</li>
-                <li><strong>Vote Average:</strong> {movie.vote_average.toFixed(1)} ({movie.vote_count} votes)</li>
-                <li><strong>Original Language:</strong> {movie.original_language}</li>
-                <li><strong>Status:</strong> {movie.status}</li>
-              </ul>
+              <h3 className="text-lg font-semibold mb-2">Financial Information</h3>
+              <p>
+                <strong>Budget:</strong> ${movie.budget?.toLocaleString()}
+              </p>
+              <p>
+                <strong>Revenue:</strong> ${movie.revenue?.toLocaleString()}
+              </p>
+              <p>
+                <strong>Popularity:</strong> {movie.popularity}
+              </p>
+              <p>
+                <strong>TMDb Vote Average:</strong> {movie.tmdb_vote_average}
+              </p>
+              <p>
+                <strong>TMDb Vote Count:</strong> {movie.tmdb_vote_count?.toLocaleString()}
+              </p>
+              <p>
+                <strong>IMDb Vote Average:</strong> {movie.imdb_vote_average}
+              </p>
+              <p>
+                <strong>IMDb Vote Count:</strong> {movie.imdb_vote_count?.toLocaleString()}
+              </p>
             </div>
           </div>
-          <div className="mt-6">
-            <h3 className="text-xl font-semibold mb-2">External Links</h3>
-            <div className="flex space-x-4">
-              {movie.homepage && <a href={movie.homepage} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Official Website</a>}
-              {movie.facebook_id && <a href={`https://www.facebook.com/${movie.facebook_id}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Facebook</a>}
-              {movie.instagram_id && <a href={`https://www.instagram.com/${movie.instagram_id}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Instagram</a>}
-              {movie.twitter_id && <a href={`https://www.twitter.com/${movie.twitter_id}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Twitter</a>}
-            </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Overview</h3>
+            <p>{movie.tmdb_overview}</p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Tagline</h3>
+            <p>{movie.tagline}</p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Genres</h3>
+            <p>{movie.genres.join(", ")}</p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Spoken Languages</h3>
+            <ul>
+              {movie.spoken_languages.map((language, index) => (
+                <li key={index}>
+                  {language.english_name} ({language.name})
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Production Companies</h3>
+            <p>{movie.production_companies.join(", ")}</p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Cast</h3>
+            <ul>
+              {movie.cast.map((actor, index) => (
+                <li key={index}>
+                  {actor.full_name} as {actor.character_name}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Directors</h3>
+            <p>{movie.directors.join(", ")}</p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Writers</h3>
+            <p>{movie.writers.join(", ")}</p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Links</h3>
+            <p>
+              <strong>Homepage:</strong>{" "}
+              <a href={movie.homepage} target="_blank" rel="noopener noreferrer">
+                {movie.homepage}
+              </a>
+            </p>
+            <p>
+              <strong>Facebook:</strong> {movie.facebook_id}
+            </p>
+            <p>
+              <strong>Instagram:</strong> {movie.instagram_id}
+            </p>
+            <p>
+              <strong>Twitter:</strong> {movie.twitter_id}
+            </p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold mb-2">Other Information</h3>
+            <p>
+              <strong>Collection ID:</strong> {movie.collection_id || "N/A"}
+            </p>
+            <p>
+              <strong>Collection Name:</strong> {movie.collection_name || "N/A"}
+            </p>
+            <p>
+              <strong>Origin Country:</strong> {movie.origin_country}
+            </p>
+            <p>
+              <strong>Wikidata ID:</strong> {movie.wikidata_id}
+            </p>
           </div>
         </CardContent>
       </Card>
     </div>
-  );
+  )
 }
 
