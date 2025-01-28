@@ -9,7 +9,7 @@ export function MovieDetails() {
   useEffect(() => {
     const fetchMovie = async () => {
       try {
-        const response = await fetch(`http://localhost:3000/api/movies/${id}`)
+        const response = await fetch(`http://104.131.101.181:5000/api/movies/${id}`)
         const data = await response.json()
         console.log(data);
         setMovie(data)

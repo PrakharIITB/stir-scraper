@@ -22,7 +22,7 @@ export function InstagramUserList() {
   const fetchUsers = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3000/api/instagram-users?page=${currentPage}&limit=${usersPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}`,
+        `http://104.131.101.181:5000/api/instagram-users?page=${currentPage}&limit=${usersPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}`,
       )
       const data = await response.json()
       setUsers(data.instagramUsers)
