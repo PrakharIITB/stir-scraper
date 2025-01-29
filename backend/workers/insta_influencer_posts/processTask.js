@@ -227,10 +227,10 @@ async function processTask(task_id, user_id, username, followers_count, post_lim
     // const reelData = reelFetchResponse.data;
 
     // Save the posts to the database
-    // const saveResponse = await savePosts(postData, user_id, task_id, followers_count);
-    // if(saveResponse.status != 200){
-    //     return { status: 500, success: false, message: "Error in saving posts"}
-    // }
+    const saveResponse = await savePosts(postData, user_id, task_id, followers_count);
+    if(saveResponse.status != 200){
+        return { status: 500, success: false, message: "Error in saving posts"}
+    }
     return { success: true, total_posts: 1 };
   } catch (error) {
     logger.error("Error processing task:", error);

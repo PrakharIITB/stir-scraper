@@ -6,8 +6,12 @@ const {createConnection} = require('./RMQ');
 async function fetchInstaUsers() {
     try {
         // Fetch insta_influencers from db for us only
-        const rows = await db('insta_users').select('user_id', 'username', 'followers_count').where('country', 'United States');
-        return rows; // [{ movie_id: 1, hashtag: '#example' }, { movie_id: 2, hashtag: '#test' }]
+        const rows = await db('insta_users')
+            .select('user_id', 'username', 'followers_count')
+            .whereIn('country', ['United States', 'India', 'Canada'])
+            .andWhere('followers_count', '>', 10000);
+        // const rows = await db('insta_users').select('user_id', 'username', 'followers_count').where('country', 'United States');
+        return rows; 
     } catch (error) {
         console.error('Error fetching Insta Users:', error);
         throw error;
@@ -20,7 +24,7 @@ async function sendToQueue(user) {
         const channel = await connection.createChannel();
         await channel.assertQueue(QUEUE_NAME, { durable: true });
         // Add tasks to the queue
-        // user = {user_id: 3832, username: 'n0sfratu', followers_count: 16764};
+        // user = {user_id: 4544, username: 'rickyrampage', followers_count: 15739};
         const {user_id, username, followers_count} = user; 
         const [task] = await db('influencer_posts_tasks')
                             .insert({user_id, username, status: 'pending', followers_count})
@@ -42,13 +46,10 @@ async function sendToQueue(user) {
 async function main() {
     try {
         const users = await fetchInstaUsers();
-        
-    //    for(const user of users){
-        // const {user_id, username} = user;
-        // console.log(user_id, username);
-        await sendToQueue(users[0]);
-
-    //    }
+        // console.log(users.length);
+       for(const user of users){
+        await sendToQueue(users);
+       }
     } catch (error) {
         console.error('Error in main function:', error);
     } finally {
