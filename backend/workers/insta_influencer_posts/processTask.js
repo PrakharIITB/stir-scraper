@@ -16,7 +16,7 @@ async function setTask(task_id, status, total_posts) {
   }
 }
 
-async function fetchPosts(username, post_limit = 500, type) {
+async function fetchPosts(username, post_limit = 1000, type) {
   let url = `${INSTA_RAPID_API_URL}/v1/${type}?username_or_id_or_url=${username}`;
   const options = {
     method: "GET",
@@ -219,12 +219,12 @@ async function processTask(task_id, user_id, username, followers_count, post_lim
     const postData = postFetchResponse.data;
 
     //Fetch the user's reels
-    const reelFetchResponse = await fetchPosts(username, post_limit, "reels");
-    if(postFetchResponse.status != 200){
-        logger.info(`🔴 Error in fetching reels for ${username}, only ${reelFetchResponse.data.length} posts fetched`);
-        return { status: 500, success: false}; 
-    }
-    const reelData = reelFetchResponse.data;
+    // const reelFetchResponse = await fetchPosts(username, post_limit, "reels");
+    // if(postFetchResponse.status != 200){
+    //     logger.info(`🔴 Error in fetching reels for ${username}, only ${reelFetchResponse.data.length} posts fetched`);
+    //     return { status: 500, success: false}; 
+    // }
+    // const reelData = reelFetchResponse.data;
 
     // Save the posts to the database
     // const saveResponse = await savePosts(postData, user_id, task_id, followers_count);
