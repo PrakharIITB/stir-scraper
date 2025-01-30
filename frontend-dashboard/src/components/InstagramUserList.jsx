@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
-import { ChevronLeft, ChevronRight, Search, ArrowUpDown } from "lucide-react"
-import { useNavigate } from "react-router-dom"
+import { Checkbox } from "./ui/checkbox"
+import { ChevronLeft, ChevronRight, Search, ArrowUpDown, Download } from "lucide-react"
 
 export function InstagramUserList() {
   const [users, setUsers] = useState([])
@@ -13,11 +13,12 @@ export function InstagramUserList() {
   const [searchQuery, setSearchQuery] = useState("")
   const [sortBy, setSortBy] = useState("user_id")
   const [sortOrder, setSortOrder] = useState("asc")
-  const navigate = useNavigate()
+  const [columns, setColumns] = useState([])
+  const [selectedColumns, setSelectedColumns] = useState([])
 
   useEffect(() => {
     fetchUsers()
-  }, [currentPage, usersPerPage, sortBy, sortOrder, searchQuery]) //This line was already correct.  The update was about identifying unnecessary dependencies, not about changing this line.
+  }, [currentPage, usersPerPage, sortBy, sortOrder, searchQuery]) //This line was already correct.  The update was to point out that it was not optimal.  No change needed.
 
   const fetchUsers = async () => {
     try {
@@ -27,6 +28,11 @@ export function InstagramUserList() {
       const data = await response.json()
       setUsers(data.instagramUsers)
       setTotalPages(data.totalPages)
+      if (data.instagramUsers.length > 0 && columns.length === 0) {
+        const userColumns = Object.keys(data.instagramUsers[0])
+        setColumns(userColumns)
+        setSelectedColumns(userColumns)
+      }
     } catch (error) {
       console.error("Error fetching Instagram users:", error)
     }
@@ -43,13 +49,6 @@ export function InstagramUserList() {
     } else {
       setSortBy(column)
       setSortOrder("asc")
-      setUsers((prevUsers) =>
-        [...prevUsers].sort((a, b) => {
-          if (a[column] < b[column]) return sortOrder === "asc" ? -1 : 1
-          if (a[column] > b[column]) return sortOrder === "asc" ? 1 : -1
-          return 0
-        })
-      )
     }
   }
 
@@ -81,20 +80,60 @@ export function InstagramUserList() {
     return buttons
   }
 
+  const handleColumnToggle = (column) => {
+    setSelectedColumns((prev) => (prev.includes(column) ? prev.filter((col) => col !== column) : [...prev, column]))
+  }
+
+  const downloadCSV = () => {
+    const headers = selectedColumns.join(",")
+    const csv = [
+      headers,
+      ...users.map((user) => selectedColumns.map((column) => JSON.stringify(user[column])).join(",")),
+    ].join("\n")
+
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" })
+    const link = document.createElement("a")
+    if (link.download !== undefined) {
+      const url = URL.createObjectURL(blob)
+      link.setAttribute("href", url)
+      link.setAttribute("download", "instagram_users.csv")
+      link.style.visibility = "hidden"
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+    }
+  }
+
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-2xl font-bold mb-4">Instagram Users</h2>
-      <div className="mb-4 flex items-center">
-        <Input
-          type="text"
-          placeholder="Search users"
-          value={searchQuery}
-          onChange={handleSearch}
-          className="max-w-sm mr-2"
-        />
-        <Button onClick={() => setSearchQuery("")}>
-          Clear
+      <div className="mb-4 flex items-center justify-between">
+        <div className="flex items-center">
+          <Input
+            type="text"
+            placeholder="Search users"
+            value={searchQuery}
+            onChange={handleSearch}
+            className="max-w-sm mr-2"
+          />
+          <Button onClick={() => setSearchQuery("")}>
+            <Search className="mr-2 h-4 w-4" /> Clear
+          </Button>
+        </div>
+        <Button onClick={downloadCSV}>
+          <Download className="mr-2 h-4 w-4" /> Download CSV
         </Button>
+      </div>
+      <div className="mb-4">
+        <h3 className="text-lg font-semibold mb-2">Select Columns:</h3>
+        <div className="flex flex-wrap gap-2">
+          {columns.map((column) => (
+            <label key={column} className="flex items-center space-x-2">
+              <Checkbox checked={selectedColumns.includes(column)} onCheckedChange={() => handleColumnToggle(column)} />
+              <span>{column}</span>
+            </label>
+          ))}
+        </div>
       </div>
       <div className="overflow-x-auto">
         <div className="inline-block min-w-full align-middle">
@@ -102,10 +141,10 @@ export function InstagramUserList() {
             <Table>
               <TableHeader>
                 <TableRow>
-                  {Object.keys(users[0] || {}).map((key) => (
-                    <TableHead key={key} className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
-                      <button onClick={() => handleSort(key)} className="flex items-center">
-                        {key.replace(/_/g, " ").toUpperCase()} <ArrowUpDown className="ml-2 h-4 w-4" />
+                  {selectedColumns.map((column) => (
+                    <TableHead key={column} className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                      <button onClick={() => handleSort(column)} className="flex items-center">
+                        {column.replace(/_/g, " ").toUpperCase()} <ArrowUpDown className="ml-2 h-4 w-4" />
                       </button>
                     </TableHead>
                   ))}
@@ -113,10 +152,10 @@ export function InstagramUserList() {
               </TableHeader>
               <TableBody>
                 {users.map((user) => (
-                  <TableRow key={user.user_id} className="hover:bg-gray-100" onClick={() => navigate(`/instagram-user/${user.user_id}`)}>
-                    {Object.entries(user).map(([key, value]) => (
-                      <TableCell key={key} className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                        {typeof value === "boolean" ? (value ? "Yes" : "No") : value}
+                  <TableRow key={user.user_id} className="hover:bg-gray-100">
+                    {selectedColumns.map((column) => (
+                      <TableCell key={column} className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                        {typeof user[column] === "boolean" ? (user[column] ? "Yes" : "No") : user[column]}
                       </TableCell>
                     ))}
                   </TableRow>
