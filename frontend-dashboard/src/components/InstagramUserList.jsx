@@ -9,7 +9,7 @@ export function InstagramUserList() {
   const [users, setUsers] = useState([])
   const [currentPage, setCurrentPage] = useState(1)
   const [totalPages, setTotalPages] = useState(1)
-  const [usersPerPage, setUsersPerPage] = useState(20)
+  const [usersPerPage, setUsersPerPage] = useState(100)
   const [searchQuery, setSearchQuery] = useState("")
   const [sortBy, setSortBy] = useState("user_id")
   const [sortOrder, setSortOrder] = useState("asc")
@@ -202,6 +202,7 @@ export function InstagramUserList() {
             <option value={20}>20 per page</option>
             <option value={50}>50 per page</option>
             <option value={100}>100 per page</option>
+            <option value={1000}>1000 per page</option>
           </select>
         </div>
         <div className="flex items-center">

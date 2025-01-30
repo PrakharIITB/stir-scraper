@@ -1,29 +1,49 @@
-import React from "react"
+import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
-import { InstagramIcon, TwitterIcon, YoutubeIcon, MountainIcon, TrendingUpIcon } from "lucide-react"
-
-// Mock data (replace with actual data from your backend)
-const data = {
-  moviesScraped: 150,
-  instagramUsers: 1400,
-  influencers: {
-    instagram: 500,
-    twitter: 300,
-    youtube: 200,
-    tiktok: 400,
-  },
-  posts: {
-    instagram: 10000,
-    twitter: 5000,
-    youtube: 2000,
-    tiktok: 8000,
-  },
-}
+import { InstagramIcon, MountainIcon } from "lucide-react"
 
 export function DashboardCards() {
+  const [moviesCount, setMoviesCount] = useState(0)
+  const [instagramUsersCount, setInstagramUsersCount] = useState(0)
+  const [instagramInfluencersCount, setInstagramInfluencersCount] = useState(0)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [moviesResponse, instagramUsersResponse] = await Promise.all([
+          fetch("http://104.131.101.181:5000/api/movies?limit=1"),
+          fetch("http://104.131.101.181:5000/api/instagram-users?limit=1"),
+        ])
+
+        const moviesData = await moviesResponse.json()
+        const instagramUsersData = await instagramUsersResponse.json()
+
+        setMoviesCount(moviesData.totalCount)
+        setInstagramUsersCount(instagramUsersData.totalCount)
+        console.log(instagramUsersData);
+        
+        // Assuming influencers have more than 10,000 followers
+        const influencersCount = instagramUsersData.instagramUsers.filter((user) => user.followers_count > 10000).length
+        setInstagramInfluencersCount(influencersCount)
+
+        setLoading(false)
+      } catch (error) {
+        console.error("Error fetching dashboard data:", error)
+        setLoading(false)
+      }
+    }
+
+    fetchData()
+  }, [])
+
+  if (loading) {
+    return <div>Loading dashboard data...</div>
+  }
+
   return (
-    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
       <Link to="/movies">
         <Card className="hover:shadow-lg transition-shadow duration-300">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -31,7 +51,7 @@ export function DashboardCards() {
             <MountainIcon className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">{data.moviesScraped}</div>
+            <div className="text-2xl font-bold">{moviesCount.toLocaleString()}</div>
           </CardContent>
         </Card>
       </Link>
@@ -43,39 +63,23 @@ export function DashboardCards() {
             <InstagramIcon className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">{data.instagramUsers}</div>
+            <div className="text-2xl font-bold">{instagramUsersCount.toLocaleString()}</div>
             <p className="text-xs text-muted-foreground">Total Users</p>
-            <div className="text-2xl font-bold mt-2">{data.influencers.instagram}</div>
-            <p className="text-xs text-muted-foreground">Influencers</p>
-            <div className="text-2xl font-bold mt-2">{data.posts.instagram}</div>
-            <p className="text-xs text-muted-foreground">Posts</p>
+            {/* <div className="text-2xl font-bold mt-2">{instagramInfluencersCount.toLocaleString()}</div>
+            <p className="text-xs text-muted-foreground">Influencers (10k followers)</p> */}
           </CardContent>
         </Card>
       </Link>
 
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">Twitter</CardTitle>
-          <TwitterIcon className="h-4 w-4 text-muted-foreground" />
+          <CardTitle className="text-sm font-medium">Data Overview</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">{data.influencers.twitter}</div>
-          <p className="text-xs text-muted-foreground">Influencers</p>
-          <div className="text-2xl font-bold mt-2">{data.posts.twitter}</div>
-          <p className="text-xs text-muted-foreground">Posts</p>
-        </CardContent>
-      </Card>
-
-      <Card>
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">YouTube</CardTitle>
-          <YoutubeIcon className="h-4 w-4 text-muted-foreground" />
-        </CardHeader>
-        <CardContent>
-          <div className="text-2xl font-bold">{data.influencers.youtube}</div>
-          <p className="text-xs text-muted-foreground">Influencers</p>
-          <div className="text-2xl font-bold mt-2">{data.posts.youtube}</div>
-          <p className="text-xs text-muted-foreground">Posts</p>
+          <p className="text-sm text-muted-foreground">
+            This dashboard provides an overview of our scraped data, including movies and Instagram users. Click on each
+            card to view more detailed information.
+          </p>
         </CardContent>
       </Card>
     </div>
