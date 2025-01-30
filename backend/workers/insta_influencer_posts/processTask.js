@@ -24,7 +24,7 @@ async function setTask(task_id, status, total_posts) {
   }
 }
 
-async function fetchPosts(username, post_limit = 1000, type) {
+async function fetchPosts(username, post_limit=500, type) {
   let url = `${INSTA_RAPID_API_URL}/v1/${type}?username_or_id_or_url=${username}`;
   const options = {
     method: "GET",
@@ -221,42 +221,28 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
 async function savePosts(postsData, user_id, task_id, followers_count) {
   const trx = await db.transaction();
   try {
-    let i = 1;
-    for (const post of postsData) {
-      const DB_response = await DB_store_post(
-        trx,
-        post,
-        task_id,
-        user_id,
-        followers_count
-      );
-      if (!DB_response.success) {
-        await trx.rollback();
-        logger.error(
-          `🔴 Error storing Post at savePosts(task_id = ${task_id}, postid=${post.id}) | ${DB_response.message}`
-        );
-        return { status: 500, success: false, message: DB_response.message };
-      }
-      if (i % 20 == 0) {
-        logger.info(
-          `⚪ Successfully Stored ${i}/${postsData.length} posts(task_id = ${task_id})`
-        );
-      }
-      i++;
+    const chunkSize = 10; // Number of posts to process in parallel
+
+    for (let i = 0; i < postsData.length; i += chunkSize) {
+      const postBatch = postsData.slice(i, i + chunkSize);
+
+      // Process multiple posts in parallel
+      await Promise.all(postBatch.map((post) => 
+        DB_store_post(trx, post, task_id, user_id, followers_count)
+      ));
+
+      logger.info(`⚪ Stored ${i + postBatch.length}/${postsData.length} posts`);
     }
+
     await trx.commit();
-    logger.info(
-      `⚪ Success at savePosts(task_id = ${task_id}) | Data Stored Successfully`
-    );
+    logger.info(`⚪ Success: All posts stored successfully for task_id = ${task_id}`);
     return { status: 200, success: true };
   } catch (error) {
     await trx.rollback();
-    logger.error(
-      `🔴 Error at savePosts(task_id = ${task_id}) | ${error.message}`
-    );
+    logger.error(`🔴 Error at savePosts(task_id = ${task_id}) | ${error.message}`);
     return { status: 500, success: false, message: error.message };
   }
-}
+}}
 
 async function processTask(
   task_id,

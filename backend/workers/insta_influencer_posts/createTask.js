@@ -16,7 +16,7 @@ async function createTask(task_id) {
         logger.info(`🎌 Task#${task_id} initialized`);
         await db('influencer_posts_tasks').where('task_id', task_id).update({status: 'processing'});
         const {user_id, username, followers_count} = taskExists;
-        const response = await processTask(task_id, user_id, username, followers_count, post_limit=1000);
+        const response = await processTask(task_id, user_id, username, followers_count, post_limit=500);
 
         if (response.success) {
             await setTask(task_id, "completed", response.total_posts);
