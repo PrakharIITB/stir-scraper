@@ -242,7 +242,7 @@ async function savePosts(postsData, user_id, task_id, followers_count) {
     logger.error(`🔴 Error at savePosts(task_id = ${task_id}) | ${error.message}`);
     return { status: 500, success: false, message: error.message };
   }
-}}
+}
 
 async function processTask(
   task_id,

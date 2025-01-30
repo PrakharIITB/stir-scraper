@@ -1,6 +1,6 @@
 const amqp = require("amqplib");
 const db = require("../db/db");
-const QUEUE_NAME = "insta_influencer_posts_queue_testing";
+const QUEUE_NAME = "insta_influencer_posts_queue";
 const { createConnection } = require("./RMQ");
 
 async function fetchInstaUsers() {
