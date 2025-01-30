@@ -2,7 +2,7 @@ const logger = require("./logger");
 const {
   DB_template_post,
   DB_template_mentions,
-} = require("../instagram/templates");
+} = require("./templates");
 const {
   upload_to_bunny_cdn,
   saveCarouselMedia,
@@ -124,6 +124,11 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
   try {
     const insta_user_id = postData["user"]["id"];
     const template = DB_template_post(postData, null, null, followers_count);
+    const hashtags = postData.caption_hashtag || postData.caption?.hashtags || [];
+    const mentions = postData.caption_mention || postData.caption?.mentions || [];
+    template['has_hashtags'] = hashtags.length > 0;
+    template['has_mentioned'] = mentions.length > 0;
+    template['caption'] = postData.caption?.text || post.caption_text || null;
 
     // Step 1: Upsert post (insert if not exists, update if exists)
     const existingPost = await trx("insta_posts")
@@ -189,9 +194,7 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
     const storeMappingPromise = DB_store_mapping(post_id, user_id, null, "instagram", trx);
 
     // Step 4: Process hashtags and mentions concurrently
-    const hashtags = postData.caption_hashtag || postData.caption?.hashtags || [];
-    const mentions = postData.caption_mention || postData.caption?.mentions || [];
-    const tagged_users = postData.tagged_users?.map((user) => ({
+    const tagged_users = postData.tagged_users.in?.map((user) => ({
       username: user.user.username,
       id: user.user.id,
     }));
