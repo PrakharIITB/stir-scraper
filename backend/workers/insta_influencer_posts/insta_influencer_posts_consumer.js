@@ -8,7 +8,7 @@ async function insta_influencer_posts_consumer(){
     try{
         const channel = await global.connection.createChannel();
 
-        const queue = 'insta_influencer_posts_queue';  
+        const queue = 'insta_influencer_posts_queue_testing';  
 
         await channel.assertQueue(queue, {
             durable: true  

@@ -1,6 +1,6 @@
 const amqp = require("amqplib");
 const db = require("../db/db");
-const QUEUE_NAME = "insta_influencer_posts_queue";
+const QUEUE_NAME = "insta_influencer_posts_queue_testing";
 const { createConnection } = require("./RMQ");
 
 async function fetchInstaUsers() {
@@ -55,11 +55,12 @@ async function main() {
     await channel.assertQueue(QUEUE_NAME, { durable: true });
 
     const users = await fetchInstaUsers();
+    await sendToQueue(users[0], channel)
     // console.log(users.length);
-    for (var i=2; i<users.length; i++) {
-        const user = users[i];
-        await sendToQueue(user, channel);
-    }
+    // for (var i=2; i<users.length; i++) {
+    //     const user = users[i];
+    //     await sendToQueue(user, channel);
+    // }
 
     await channel.close();
     await connection.close();

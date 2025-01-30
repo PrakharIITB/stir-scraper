@@ -121,140 +121,102 @@ async function DB_store_mapping(post_id, user_id, movie_id, platform, trx) {
 }
 
 async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
-  /**
-   * Stores the post in the database.
-   * If the post already exists in the database, it is updated.
-   * If the post doesn't exist in the database, it is inserted.
-   **/
   try {
-    // Getting UserID from Insta User ID
     const insta_user_id = postData["user"]["id"];
-
     const template = DB_template_post(postData, null, null, followers_count);
-    // checking if the post exists
-    let post_id = null;
 
-    // If post doesn't exist, insert a new record with null values and get the new post_id
+    // Step 1: Upsert post (insert if not exists, update if exists)
     const existingPost = await trx("insta_posts")
-      .select("post_id")
+      .select(["post_id", "taskids"])
       .where("insta_post_id", postData["id"])
       .first();
 
+    let post_id;
     if (!existingPost) {
-      post_id = (
-        await trx("insta_posts").insert(template).returning("post_id")
-      )[0].post_id;
-      await trx("insta_posts")
-        .update({ taskids: `"${task_id}"` })
-        .where("post_id", post_id);
+      // Insert new post
+      const insertedPost = await trx("insta_posts")
+        .insert(template)
+        .returning("post_id");
+      post_id = insertedPost[0].post_id;
+      
+      // Directly insert task_id field
+      await trx("insta_posts").update({ taskids: `"${task_id}"` }).where("post_id", post_id);
     } else {
-      const taskids = (
-        await trx("insta_posts")
-          .select("taskids")
-          .where("post_id", existingPost.post_id)
-          .first()
-      ).taskids;
-      let taskidsArray = taskids
-        ? taskids.split(",").map((id) => id.trim().replace(/['"]+/g, ""))
+      // Update existing post
+      post_id = existingPost.post_id;
+      let taskidsArray = existingPost.taskids
+        ? existingPost.taskids.split(",").map((id) => id.trim().replace(/['"]+/g, ""))
         : [];
       taskidsArray.push(task_id.toString());
       const newTaskids = taskidsArray.map((id) => `"${id}"`).join(", ");
-      await trx("insta_posts")
-        .update({ taskids: newTaskids })
-        .where("post_id", existingPost.post_id);
-      post_id = (
-        await trx("insta_posts")
-          .update(template)
-          .where("post_id", existingPost.post_id)
-          .returning("post_id")
-      )[0].post_id;
+      
+      await trx("insta_posts").update({ taskids: newTaskids }).where("post_id", post_id);
+      await trx("insta_posts").update(template).where("post_id", post_id);
     }
 
-    if (postData["media_name"] == "album") {
-      await saveCarouselMedia(postData["carousel_media"], post_id, trx);
+    // Step 2: Process media asynchronously
+    const mediaUploadPromises = [];
+    
+    if (postData["media_name"] === "album") {
+      mediaUploadPromises.push(saveCarouselMedia(postData["carousel_media"], post_id, trx));
     } else {
-      const bunnyCDNURL = (
-        await upload_to_bunny_cdn(
-          template["thumbnail_img"],
-          "prakhar/instagram",
-          post_id,
-          "post"
-        )
-      ).image_url;
-      await trx("insta_posts")
-        .update({ thumbnail_img: bunnyCDNURL })
-        .where("post_id", post_id);
+      mediaUploadPromises.push(
+        upload_to_bunny_cdn(template["thumbnail_img"], "prakhar/instagram", post_id, "post")
+          .then((res) => trx("insta_posts").update({ thumbnail_img: res.image_url }).where("post_id", post_id))
+      );
       if (template["video_url"]) {
-        const videoBunnyCDNURL = (
-          await upload_to_bunny_cdn(
-            template["video_url"],
-            "prakhar/instagram",
-            post_id,
-            "video"
-          )
-        ).image_url;
-        await trx("insta_posts")
-          .update({ video_url: videoBunnyCDNURL })
-          .where("post_id", post_id);
-      }
-    }
-    if (template["music_cover_img"] != null) {
-      const bunnyCDNURLforMusic = (
-        await upload_to_bunny_cdn(
-          template["music_cover_img"],
-          "prakhar/instagram",
-          post_id,
-          "music"
-        )
-      ).image_url;
-      console.log(bunnyCDNURLforMusic);
-      if (bunnyCDNURLforMusic == null) {
-        logger.warn(
-          `🟡 Error in uploading music cover image for post ${post_id}`
+        mediaUploadPromises.push(
+          upload_to_bunny_cdn(template["video_url"], "prakhar/instagram", post_id, "video")
+            .then((res) => trx("insta_posts").update({ video_url: res.image_url }).where("post_id", post_id))
         );
       }
-      if (bunnyCDNURLforMusic != null) {
-        await trx("insta_posts")
-          .update({ music_cover_img: bunnyCDNURLforMusic })
-          .where("post_id", post_id);
-      }
     }
 
-    //store influencer and post mapping
-    await DB_store_mapping(post_id, user_id, null, "instagram", trx);
-    // Using POST_ID , storing the mentions and hashtags
-    const hashtags = postData.caption_hashtag
-      ? postData.caption_hashtag
-      : postData.caption?.hashtags || [];
+    if (template["music_cover_img"]) {
+      mediaUploadPromises.push(
+        upload_to_bunny_cdn(template["music_cover_img"], "prakhar/instagram", post_id, "music")
+          .then((res) => {
+            if (res.image_url) {
+              return trx("insta_posts").update({ music_cover_img: res.image_url }).where("post_id", post_id);
+            } else {
+              logger.warn(`🟡 Error uploading music cover image for post ${post_id}`);
+            }
+          })
+      );
+    }
 
-    const mentions = postData.caption_mention
-      ? postData.caption_mention
-      : postData.caption?.mentions || [];
-      
+    // Step 3: Store influencer-post mapping (Runs in parallel)
+    const storeMappingPromise = DB_store_mapping(post_id, user_id, null, "instagram", trx);
+
+    // Step 4: Process hashtags and mentions concurrently
+    const hashtags = postData.caption_hashtag || postData.caption?.hashtags || [];
+    const mentions = postData.caption_mention || postData.caption?.mentions || [];
     const tagged_users = postData.tagged_users?.map((user) => ({
       username: user.user.username,
       id: user.user.id,
     }));
 
-    // Storing hashtags
-    if (hashtags.length > 0) {
-      await DB_store_hashtags(trx, hashtags, post_id);
-    }
+    const hashtagsPromise = hashtags.length > 0 ? DB_store_hashtags(trx, hashtags, post_id) : Promise.resolve();
+    
+    const mentionsPromise = (mentions || tagged_users)
+      ? DB_store_mentions(trx, DB_template_mentions(mentions, tagged_users, post_id), post_id)
+      : Promise.resolve();
 
-    // Storing Mentions
-    if (mentions || tagged_users) {
-      const all_mentions = DB_template_mentions(
-        mentions,
-        tagged_users,
-        post_id
-      );
-      await DB_store_mentions(trx, all_mentions, post_id);
-    }
+    // Step 5: Wait for all async operations to complete
+    await Promise.all([
+      ...mediaUploadPromises,
+      storeMappingPromise,
+      hashtagsPromise,
+      mentionsPromise,
+    ]);
+
     return { status: 200, success: true, message: "Post Stored Successfully" };
+
   } catch (error) {
     return { status: 500, success: false, message: error.message };
   }
 }
+
 
 async function savePosts(postsData, user_id, task_id, followers_count) {
   const trx = await db.transaction();
