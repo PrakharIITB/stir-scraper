@@ -224,7 +224,7 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
 async function savePosts(postsData, user_id, task_id, followers_count) {
   const trx = await db.transaction();
   try {
-    const chunkSize = 10; // Number of posts to process in parallel
+    const chunkSize = 15; // Number of posts to process in parallel
 
     for (let i = 0; i < postsData.length; i += chunkSize) {
       const postBatch = postsData.slice(i, i + chunkSize);
