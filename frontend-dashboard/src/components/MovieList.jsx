@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from "react"
+"use client"
+
+import { useState, useEffect } from "react"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Checkbox } from "./ui/checkbox"
 import { ChevronLeft, ChevronRight, Search, ArrowUpDown, Download } from "lucide-react"
+import { FileUpload } from "./FileUpload"
 
 export function MovieList() {
   const [movies, setMovies] = useState([])
@@ -18,12 +21,12 @@ export function MovieList() {
 
   useEffect(() => {
     fetchMovies()
-  }, [currentPage, sortBy, sortOrder, moviesPerPage]) // Updated dependency array
+  }, [searchQuery, currentPage, sortBy, sortOrder, moviesPerPage]) // Updated dependency array
 
   const fetchMovies = async () => {
     try {
       const response = await fetch(
-        `http://104.131.101.181:5000/api/movies?page=${currentPage}&limit=${moviesPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
+        `http://localhost:5050/api/movies?page=${currentPage}&limit=${moviesPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
       )
       const data = await response.json()
       setMovies(data.movies)
@@ -104,6 +107,12 @@ export function MovieList() {
     }
   }
 
+  const handleFileUpload = (result) => {
+    console.log("File upload result:", result)
+    // You can update the UI or refetch the movies data here if needed
+    fetchMovies()
+  }
+
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-2xl font-bold mb-4">Movies</h2>
@@ -123,6 +132,9 @@ export function MovieList() {
         <Button onClick={downloadCSV}>
           <Download className="mr-2 h-4 w-4" /> Download CSV
         </Button>
+      </div>
+      <div className="mb-4">
+        <FileUpload onFileUpload={handleFileUpload} />
       </div>
       <div className="mb-4">
         <h3 className="text-lg font-semibold mb-2">Select Columns:</h3>
@@ -202,7 +214,6 @@ export function MovieList() {
             <option value={20}>20 per page</option>
             <option value={50}>50 per page</option>
             <option value={100}>100 per page</option>
-            <option value={1000}>1000 per page</option>
           </select>
         </div>
         <div className="flex items-center">
