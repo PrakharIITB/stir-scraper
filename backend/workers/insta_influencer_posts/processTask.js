@@ -283,7 +283,7 @@ async function processTask(
     if (saveResponse.status != 200) {
       return { status: 500, success: false, message: "Error in saving posts" };
     }
-    return { success: true, total_posts: 1 };
+    return { success: true, total_posts: postData.length };
   } catch (error) {
     logger.error("Error processing task:", error);
     return { success: false };
