@@ -1,40 +1,41 @@
-import React, { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Checkbox } from "./ui/checkbox"
 import { ChevronLeft, ChevronRight, Search, ArrowUpDown, Download } from "lucide-react"
+import { InstagramPostMedia } from "./InstagramPostMedia"
 
-export function InstagramUserList() {
-  const [users, setUsers] = useState([])
+export function InstagramPostList() {
+  const [posts, setPosts] = useState([])
   const [currentPage, setCurrentPage] = useState(1)
   const [totalPages, setTotalPages] = useState(1)
-  const [usersPerPage, setUsersPerPage] = useState(100)
+  const [postsPerPage, setPostsPerPage] = useState(20)
   const [searchQuery, setSearchQuery] = useState("")
-  const [sortBy, setSortBy] = useState("user_id")
+  const [sortBy, setSortBy] = useState("post_id")
   const [sortOrder, setSortOrder] = useState("asc")
   const [columns, setColumns] = useState([])
   const [selectedColumns, setSelectedColumns] = useState([])
 
   useEffect(() => {
-    fetchUsers()
-  }, [currentPage, usersPerPage, sortBy, sortOrder, searchQuery]) //This line was already correct.  The update was to point out that it was not optimal.  No change needed.
+    fetchPosts()
+  }, [currentPage, postsPerPage, sortBy, sortOrder, searchQuery])
 
-  const fetchUsers = async () => {
+  const fetchPosts = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5050/api/instagram-users?page=${currentPage}&limit=${usersPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
+        `http://localhost:5050/api/instagram-posts?page=${currentPage}&limit=${postsPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
       )
       const data = await response.json()
-      setUsers(data.instagramUsers)
+      setPosts(data.instagramPosts)
       setTotalPages(data.totalPages)
-      if (data.instagramUsers.length > 0 && columns.length === 0) {
-        const userColumns = Object.keys(data.instagramUsers[0])
-        setColumns(userColumns)
-        setSelectedColumns(userColumns)
+      if (data.instagramPosts.length > 0 && columns.length === 0) {
+        const postColumns = Object.keys(data.instagramPosts[0])
+        setColumns(postColumns)
+        setSelectedColumns(postColumns)
       }
     } catch (error) {
-      console.error("Error fetching Instagram users:", error)
+      console.error("Error fetching Instagram posts:", error)
     }
   }
 
@@ -88,7 +89,7 @@ export function InstagramUserList() {
     const headers = selectedColumns.join(",")
     const csv = [
       headers,
-      ...users.map((user) => selectedColumns.map((column) => JSON.stringify(user[column])).join(",")),
+      ...posts.map((post) => selectedColumns.map((column) => JSON.stringify(post[column])).join(",")),
     ].join("\n")
 
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" })
@@ -96,7 +97,7 @@ export function InstagramUserList() {
     if (link.download !== undefined) {
       const url = URL.createObjectURL(blob)
       link.setAttribute("href", url)
-      link.setAttribute("download", "instagram_users.csv")
+      link.setAttribute("download", "instagram_posts.csv")
       link.style.visibility = "hidden"
       document.body.appendChild(link)
       link.click()
@@ -104,14 +105,32 @@ export function InstagramUserList() {
     }
   }
 
+  const renderCellContent = (post, column) => {
+    const value = post[column]
+    if (typeof value === "boolean") {
+      return value ? "Yes" : "No"
+    } else if (Array.isArray(value)) {
+      if (column === "media") {
+        return <InstagramPostMedia media={value} />
+      } else if (column === "hashtags") {
+        return value.join(", ")
+      } else if (column === "mentions") {
+        return value.map((m) => m.username).join(", ")
+      }
+    } else if (typeof value === "object" && value !== null) {
+      return JSON.stringify(value)
+    }
+    return value
+  }
+
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-bold mb-4">Instagram Users</h2>
+      <h2 className="text-2xl font-bold mb-4">Instagram Posts</h2>
       <div className="mb-4 flex items-center justify-between">
         <div className="flex items-center">
           <Input
             type="text"
-            placeholder="Search users"
+            placeholder="Search posts"
             value={searchQuery}
             onChange={handleSearch}
             className="max-w-sm mr-2"
@@ -151,11 +170,11 @@ export function InstagramUserList() {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {users.map((user) => (
-                  <TableRow key={user.user_id} className="hover:bg-gray-100">
+                {posts.map((post) => (
+                  <TableRow key={post.post_id} className="hover:bg-gray-100">
                     {selectedColumns.map((column) => (
                       <TableCell key={column} className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                        {typeof user[column] === "boolean" ? (user[column] ? "Yes" : "No") : user[column]}
+                        {renderCellContent(post, column)}
                       </TableCell>
                     ))}
                   </TableRow>
@@ -195,14 +214,13 @@ export function InstagramUserList() {
             Page {currentPage} of {totalPages}
           </span>
           <select
-            value={usersPerPage}
-            onChange={(e) => setUsersPerPage(Number(e.target.value))}
+            value={postsPerPage}
+            onChange={(e) => setPostsPerPage(Number(e.target.value))}
             className="border rounded p-2"
           >
             <option value={20}>20 per page</option>
             <option value={50}>50 per page</option>
             <option value={100}>100 per page</option>
-            <option value={1000}>1000 per page</option>
           </select>
         </div>
         <div className="flex items-center">

@@ -1,32 +1,30 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
-import { InstagramIcon, MountainIcon } from "lucide-react"
+import { InstagramIcon, MountainIcon, FileTextIcon } from "lucide-react"
 
 export function DashboardCards() {
   const [moviesCount, setMoviesCount] = useState(0)
   const [instagramUsersCount, setInstagramUsersCount] = useState(0)
-  const [instagramInfluencersCount, setInstagramInfluencersCount] = useState(0)
+  const [instagramPostsCount, setInstagramPostsCount] = useState(0)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [moviesResponse, instagramUsersResponse] = await Promise.all([
-          fetch("http://104.131.101.181:5000/api/movies?limit=1"),
-          fetch("http://104.131.101.181:5000/api/instagram-users?limit=1"),
+        const [moviesResponse, instagramUsersResponse, instagramPostsResponse] = await Promise.all([
+          fetch("http://localhost:5050/api/movies?limit=1"),
+          fetch("http://localhost:5050/api/instagram-users?limit=1"),
+          fetch("http://localhost:5050/api/instagram-posts?limit=1"),
         ])
 
         const moviesData = await moviesResponse.json()
         const instagramUsersData = await instagramUsersResponse.json()
+        const instagramPostsData = await instagramPostsResponse.json()
 
         setMoviesCount(moviesData.totalCount)
         setInstagramUsersCount(instagramUsersData.totalCount)
-        console.log(instagramUsersData);
-        
-        // Assuming influencers have more than 10,000 followers
-        const influencersCount = instagramUsersData.instagramUsers.filter((user) => user.followers_count > 10000).length
-        setInstagramInfluencersCount(influencersCount)
+        setInstagramPostsCount(instagramPostsData.totalCount)
 
         setLoading(false)
       } catch (error) {
@@ -64,24 +62,21 @@ export function DashboardCards() {
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">{instagramUsersCount.toLocaleString()}</div>
-            <p className="text-xs text-muted-foreground">Total Users</p>
-            {/* <div className="text-2xl font-bold mt-2">{instagramInfluencersCount.toLocaleString()}</div>
-            <p className="text-xs text-muted-foreground">Influencers (10k followers)</p> */}
           </CardContent>
         </Card>
       </Link>
 
-      <Card>
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">Data Overview</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-sm text-muted-foreground">
-            This dashboard provides an overview of our scraped data, including movies and Instagram users. Click on each
-            card to view more detailed information.
-          </p>
-        </CardContent>
-      </Card>
+      <Link to="/instagram-posts">
+        <Card className="hover:shadow-lg transition-shadow duration-300">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+            <CardTitle className="text-sm font-medium">Instagram Posts</CardTitle>
+            <FileTextIcon className="h-4 w-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">{instagramPostsCount.toLocaleString()}</div>
+          </CardContent>
+        </Card>
+      </Link>
     </div>
   )
 }

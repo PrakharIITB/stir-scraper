@@ -9,7 +9,7 @@ export function InstagramUserDetails() {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const response = await fetch(`http://104.131.101.181:5000/api/instagram-users/${id}`)
+        const response = await fetch(`http://localhost:5050/api/instagram-users/${id}`)
         const data = await response.json()
         setUser(data)
       } catch (error) {

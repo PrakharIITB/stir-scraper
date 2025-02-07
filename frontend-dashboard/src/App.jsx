@@ -5,6 +5,7 @@ import { MovieDetails } from "./components/MovieDetails"
 import { InstagramUserDetails } from "./components/InstagramUserDetails"
 import { MovieList } from "./components/MovieList";
 import { InstagramUserList } from "./components/InstagramUserList";
+import { InstagramPostList } from "./components/InstagramPostList"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/movies" element={<MovieList />} />
             <Route path="/instagram-users" element={<InstagramUserList />} />
             <Route path="/instagram-user/:id" element={<InstagramUserDetails />} />
+            <Route path="/instagram-posts" element={<InstagramPostList />} />
             <Route path="/movie/:id" element={<MovieDetails />} />
           </Routes>
         </main>
