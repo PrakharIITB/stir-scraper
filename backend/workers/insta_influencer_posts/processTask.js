@@ -224,23 +224,27 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
 async function savePosts(postsData, user_id, task_id, followers_count) {
   const trx = await db.transaction();
   try {
-    const chunkSize = 10; // Number of posts to process in parallel
+    const chunkSize = 15; // Number of posts to process in parallel
+    const albumPosts = postData.filter(post => post.media_name === "album");
+    const otherPosts = postData.filter(post => post.media_name !== "album");
 
-    for (let i = 0; i < postsData.length; i += chunkSize) {
-      const postBatch = postsData.slice(i, i + chunkSize);
-      const albumPosts = postBatch.filter(post => post.media_name === "album");
-      const otherPosts = postBatch.filter(post => post.media_name !== "album");
-
+    //Saving non album posts first
+    for (let i = 0; i < otherPosts.length; i += chunkSize) {
+      const postBatch = otherPosts.slice(i, i + chunkSize);
       await Promise.all([
-        ...albumPosts.map(post => DB_store_post(trx, post, task_id, user_id, followers_count)),
-        ...otherPosts.map(post => DB_store_post(trx, post, task_id, user_id, followers_count))
+        postBatch.map((post) => DB_store_post(trx, post, task_id, user_id, followers_count))
       ]);
-      // Process multiple posts in parallel
-      // await Promise.all(postBatch.map((post) => 
-      //   DB_store_post(trx, post, task_id, user_id, followers_count)
-      // ));
-
       logger.info(`⚪ Stored ${i + postBatch.length}/${postsData.length} posts`);
+    }
+
+    //Saving album posts
+    for (let i = 0; i < albumPosts.length; i += 1) {
+      const post = albumPosts[i];
+      const albumSaveResponse = await DB_store_post(trx, post, task_id, user_id, followers_count);
+      if (albumSaveResponse.status != 200) {
+        throw new Error("Error in saving album post");
+      }
+      logger.info(`⚪ Stored ${otherPosts.length + i + 1}/${postsData.length} posts`);
     }
 
     await trx.commit();
