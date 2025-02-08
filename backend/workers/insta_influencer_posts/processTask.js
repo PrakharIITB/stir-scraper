@@ -166,12 +166,12 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
       mediaUploadPromises.push(saveCarouselMedia(postData["carousel_media"], post_id, trx));
     } else {
       mediaUploadPromises.push(
-        upload_to_bunny_cdn(template["thumbnail_img"], "prakhar/instagram", post_id, "post")
+        upload_to_bunny_cdn(template["thumbnail_img"], "prakhar/instagram-1", post_id, "post")
           .then((res) => trx("insta_posts").update({ thumbnail_img: res.image_url }).where("post_id", post_id))
       );
       if (template["video_url"]) {
         mediaUploadPromises.push(
-          upload_to_bunny_cdn(template["video_url"], "prakhar/instagram", post_id, "video")
+          upload_to_bunny_cdn(template["video_url"], "prakhar/instagram-1", post_id, "video")
             .then((res) => trx("insta_posts").update({ video_url: res.image_url }).where("post_id", post_id))
         );
       }
@@ -179,7 +179,7 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
 
     if (template["music_cover_img"]) {
       mediaUploadPromises.push(
-        upload_to_bunny_cdn(template["music_cover_img"], "prakhar/instagram", post_id, "music")
+        upload_to_bunny_cdn(template["music_cover_img"], "prakhar/instagram-1", post_id, "music")
           .then((res) => {
             if (res.image_url) {
               return trx("insta_posts").update({ music_cover_img: res.image_url }).where("post_id", post_id);
@@ -231,9 +231,9 @@ async function savePosts(postsData, user_id, task_id, followers_count) {
     //Saving non album posts first
     for (let i = 0; i < otherPosts.length; i += chunkSize) {
       const postBatch = otherPosts.slice(i, i + chunkSize);
-      await Promise.all([
+      await Promise.all(
         postBatch.map((post) => DB_store_post(trx, post, task_id, user_id, followers_count))
-      ]);
+      );
       logger.info(`⚪ Stored ${i + postBatch.length}/${postsData.length} posts`);
     }
 
