@@ -24,7 +24,7 @@ export function InstagramPostList() {
   const fetchPosts = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5050/api/instagram-posts?page=${currentPage}&limit=${postsPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
+        `http://104.131.101.181:5000/api/instagram-posts?page=${currentPage}&limit=${postsPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
       )
       const data = await response.json()
       setPosts(data.instagramPosts)

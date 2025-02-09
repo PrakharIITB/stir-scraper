@@ -26,7 +26,7 @@ export function MovieList() {
   const fetchMovies = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5050/api/movies?page=${currentPage}&limit=${moviesPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
+        `http://104.131.101.181:5000/api/movies?page=${currentPage}&limit=${moviesPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
       )
       const data = await response.json()
       setMovies(data.movies)

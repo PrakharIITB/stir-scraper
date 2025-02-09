@@ -11,7 +11,7 @@ export function InfluencersOverview({ timeRange }) {
   useEffect(() => {
     const fetchInfluencersData = async () => {
       try {
-        const response = await fetch(`http://localhost:5050/api/influencers-overview?timeRange=${timeRange}`)
+        const response = await fetch(`http://104.131.101.181:5000/api/influencers-overview?timeRange=${timeRange}`)
         const data = await response.json()
         setInfluencersData(data)
       } catch (error) {

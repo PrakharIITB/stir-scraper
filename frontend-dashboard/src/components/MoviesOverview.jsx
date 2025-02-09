@@ -11,7 +11,7 @@ export function MoviesOverview({ timeRange }) {
   useEffect(() => {
     const fetchMoviesData = async () => {
       try {
-        const response = await fetch(`http://localhost:5050/api/movies-overview?timeRange=${timeRange}`)
+        const response = await fetch(`http://104.131.101.181:5000/api/movies-overview?timeRange=${timeRange}`)
         const data = await response.json()
         setMoviesData(data)
       } catch (error) {
