@@ -25,7 +25,7 @@ export function FileUpload({ onFileUpload }) {
     formData.append("file", file)
 
     try {
-      const response = await fetch("http:localhost:5050/api/upload-hashtags", {
+      const response = await fetch("http://104.131.101.181:5000/api/upload-hashtags", {
         method: "POST",
         body: formData,
       })

@@ -11,7 +11,7 @@ export function PostsOverview({ timeRange }) {
   useEffect(() => {
     const fetchPostsData = async () => {
       try {
-        const response = await fetch(`http://localhost:5050/api/posts-overview?timeRange=${timeRange}`)
+        const response = await fetch(`http://104.131.101.181:5000/api/posts-overview?timeRange=${timeRange}`)
         const data = await response.json()
         setPostsData(data)
       } catch (error) {
