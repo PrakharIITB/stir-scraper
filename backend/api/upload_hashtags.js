@@ -32,3 +32,5 @@ router.post("/upload-hashtags", async (req, res) => {
         res.status(500).json({ error: "An error occurred while processing the file" });
     }
 })
+
+module.exports = router
