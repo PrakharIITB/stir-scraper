@@ -255,7 +255,8 @@ async function savePosts(postsData, user_id, task_id, followers_count) {
         postBatch.map((post) => {
           const res = DB_store_post(trx, post, task_id, user_id, followers_count)
           if(res.status != 200){
-            throw new Error("Error in saving post");
+            logger.error(`Error in saving post with error: ${res.message}`)
+            // throw new Error("Error in saving post");
           }
           mediaUploadPromises.push(...res.mediaUploadPromises);
         })
