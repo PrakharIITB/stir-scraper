@@ -144,6 +144,7 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
     template['caption'] = postData.caption?.text || post.caption_text || null;
 
     // Step 1: Upsert post (insert if not exists, update if exists)
+    const startTime = new Date().getTime();
     const existingPost = await trx("insta_posts")
       .select(["post_id", "taskids"])
       .where("insta_post_id", postData["id"])
@@ -171,7 +172,7 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
       await trx("insta_posts").update({ taskids: newTaskids }).where("post_id", post_id);
       await trx("insta_posts").update(template).where("post_id", post_id);
     }
-
+    logger.info(`⚪ Checked part 1 for ${post_id} in ${new Date().getTime() - startTime}ms`);
     // Step 2: Process media asynchronously
     const mediaUploadPromises = [];
     
