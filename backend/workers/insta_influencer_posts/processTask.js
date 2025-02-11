@@ -225,18 +225,13 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
     //   hashtagsPromise,
     //   mentionsPromise,
     // ]);
-    const mediaStart = Date.now();
-    await Promise.all(mediaUploadPromises);
-    logger.info(`⚪ Media upload completed in ${Date.now() - mediaStart}ms`);
-    const storeMappingStart = Date.now();
-    await storeMappingPromise;
-    logger.info(`⚪ Store mapping completed in ${Date.now() - storeMappingStart}ms`);
-    const hashtagsStart = Date.now();
-    await hashtagsPromise;
-    logger.info(`⚪ Hashtags stored in ${Date.now() - hashtagsStart}ms`);
-    const mentionsStart = Date.now();
-    await mentionsPromise;
-    logger.info(`⚪ Mentions stored in ${Date.now() - mentionsStart}ms`);
+
+    await Promise.all([
+      ...mediaUploadPromises,
+      storeMappingPromise,
+      hashtagsPromise,
+      mentionsPromise
+    ]);
 
     return { status: 200, success: true, message: "Post Stored Successfully" };
 
@@ -249,7 +244,7 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
 async function savePosts(postsData, user_id, task_id, followers_count) {
   const trx = await db.transaction();
   try {
-    const chunkSize = 1; // Number of posts to process in parallel
+    const chunkSize = 10; // Number of posts to process in parallel
     // const albumPosts = postsData.filter(post => post.media_name === "album");
     // const otherPosts = postsData.filter(post => post.media_name !== "album");
 
