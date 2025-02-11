@@ -6,7 +6,6 @@ const {
 const {
   upload_to_bunny_cdn,
   saveCarouselMedia,
-  DB_store_hashtags,
   DB_store_mentions,
 } = require("../instagram/processTask");
 const db = require("../../db/db");
@@ -21,6 +20,20 @@ async function setTask(task_id, status, total_posts) {
   } catch (error) {
     logger.error("Error:", error);
     throw error;
+  }
+}
+
+async function DB_store_hashtags(trx, hashtags, post_id) {
+  /**
+   * Stores the hashtags in the database.
+   * If the hashtag already exists in the database, it is skipped.
+  **/
+
+  const existing_hashtags = await trx('insta_post_hashtags').select('hashtag').where('post_id', post_id);
+  const existing_hashtag_list = existing_hashtags.map((hashtag) => hashtag.hashtag);
+  const new_hashtag_list = hashtags.filter((hashtag) => !existing_hashtag_list.includes(hashtag));
+  if (new_hashtag_list.length > 0) {
+      await trx('insta_post_hashtags').insert(new_hashtag_list.map((hashtag) => ({ post_id: post_id, hashtag: hashtag })));
   }
 }
 
@@ -206,12 +219,24 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
       : Promise.resolve();
 
     // Step 5: Wait for all async operations to complete
-    await Promise.all([
-      ...mediaUploadPromises,
-      storeMappingPromise,
-      hashtagsPromise,
-      mentionsPromise,
-    ]);
+    // await Promise.all([
+    //   ...mediaUploadPromises,
+    //   storeMappingPromise,
+    //   hashtagsPromise,
+    //   mentionsPromise,
+    // ]);
+    const mediaStart = Date.now();
+    await Promise.all(mediaUploadPromises);
+    logger.info(`⚪ Media upload completed in ${Date.now() - mediaStart}ms`);
+    const storeMappingStart = Date.now();
+    await storeMappingPromise;
+    logger.info(`⚪ Store mapping completed in ${Date.now() - storeMappingStart}ms`);
+    const hashtagsStart = Date.now();
+    await hashtagsPromise;
+    logger.info(`⚪ Hashtags stored in ${Date.now() - hashtagsStart}ms`);
+    const mentionsStart = Date.now();
+    await mentionsPromise;
+    logger.info(`⚪ Mentions stored in ${Date.now() - mentionsStart}ms`);
 
     return { status: 200, success: true, message: "Post Stored Successfully" };
 
@@ -224,7 +249,7 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
 async function savePosts(postsData, user_id, task_id, followers_count) {
   const trx = await db.transaction();
   try {
-    const chunkSize = 10; // Number of posts to process in parallel
+    const chunkSize = 1; // Number of posts to process in parallel
     // const albumPosts = postsData.filter(post => post.media_name === "album");
     // const otherPosts = postsData.filter(post => post.media_name !== "album");
 
