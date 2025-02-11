@@ -227,13 +227,14 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
     // ]);
 
     await Promise.all([
-      // ...mediaUploadPromises,
+      ...mediaUploadPromises,
       storeMappingPromise,
       hashtagsPromise,
       mentionsPromise
     ]);
 
-    return { status: 200, success: true, mediaUploadPromises, message: "Post Stored Successfully" };
+
+    return { status: 200, success: true, message: "Post Stored Successfully" };
 
   } catch (error) {
     return { status: 500, success: false, message: error.message };
@@ -244,29 +245,20 @@ async function DB_store_post(trx, postData, task_id, user_id, followers_count) {
 async function savePosts(postsData, user_id, task_id, followers_count) {
   const trx = await db.transaction();
   try {
-    const chunkSize = 10; // Number of posts to process in parallel
+    const chunkSize = 15; // Number of posts to process in parallel
     // const albumPosts = postsData.filter(post => post.media_name === "album");
     // const otherPosts = postsData.filter(post => post.media_name !== "album");
-    let mediaUploadPromises = [];
+
     //Saving non album posts first
     for (let i = 0; i < postsData.length; i += chunkSize) {
       const postBatch = postsData.slice(i, i + chunkSize);
       await Promise.all(
-        postBatch.map((post) => {
-          const res = DB_store_post(trx, post, task_id, user_id, followers_count)
-          if(res.status != 200){
-            logger.error(`Error in saving post with error: ${res.message}`)
-            // throw new Error("Error in saving post");
-          }
-          mediaUploadPromises.push(...res.mediaUploadPromises);
-        })
+        postBatch.map((post) => DB_store_post(trx, post, task_id, user_id, followers_count))
       );
       logger.info(`⚪ Stored ${i + postBatch.length}/${postsData.length} posts`);
     }
-    
-    await Promise.all(mediaUploadPromises); 
+
     //Saving album posts
-    await trx.commit();
     // for (let i = 0; i < albumPosts.length; i += 1) {
     //   const post = albumPosts[i];
     //   const albumSaveResponse = await DB_store_post(trx, post, task_id, user_id, followers_count);
@@ -276,6 +268,7 @@ async function savePosts(postsData, user_id, task_id, followers_count) {
     //   logger.info(`⚪ Stored ${otherPosts.length + i + 1}/${postsData.length} posts`);
     // }
 
+    await trx.commit();
     logger.info(`⚪ Success: All posts stored successfully for task_id = ${task_id}`);
     return { status: 200, success: true };
   } catch (error) {
