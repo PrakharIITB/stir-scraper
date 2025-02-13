@@ -95,7 +95,7 @@ export function InstagramUserList() {
       // Fetch all data
       try {
         const response = await fetch(
-          `http://localhost:5050/api/instagram-users?limit=all&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
+          `http://104.131.101.181:5000/api/instagram-users?limit=all&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
         )
         if(response.status != 200){
           alert("Error fetching all influencers");
