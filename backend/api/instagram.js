@@ -17,8 +17,9 @@ function getDateForTimeRange(timeRange) {
 }
 
 router.get("/instagram-users", async (req, res) => {
+  console.log(req.query.limit);
   const page = Number.parseInt(req.query.page) || 1
-  const limit = Number.parseInt(req.query.limit) || 20
+  const limit = req.query.limit === 'all' ? null : Number.parseInt(req.query.limit) || 20;
   const sortBy = req.query.sortBy || "user_id"
   const sortOrder = req.query.sortOrder || "asc"
   const search = req.query.search || ""

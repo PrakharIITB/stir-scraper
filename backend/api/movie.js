@@ -18,7 +18,7 @@ function getDateForTimeRange(timeRange) {
 
 router.get("/movies", async (req, res) => {
   const page = Number.parseInt(req.query.page) || 1
-  const limit = Number.parseInt(req.query.limit) || 20
+  const limit = req.query.limit === 'all' ? null : Number.parseInt(req.query.limit) || 20;
   const sortBy = req.query.sortBy || "id"
   const sortOrder = req.query.sortOrder || "asc"
   const search = req.query.search || ""
