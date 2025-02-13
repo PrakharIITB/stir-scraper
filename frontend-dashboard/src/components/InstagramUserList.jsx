@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
-import { Checkbox } from "./ui/checkbox"
 import { ChevronLeft, ChevronRight, Search, ArrowUpDown, Download } from "lucide-react"
+import DownloadDropdown from "./ui/downloadDropdown"
+import ColumnSelector from "./ui/checkboxDropdown"
 
 export function InstagramUserList() {
   const [users, setUsers] = useState([])
@@ -84,11 +85,36 @@ export function InstagramUserList() {
     setSelectedColumns((prev) => (prev.includes(column) ? prev.filter((col) => col !== column) : [...prev, column]))
   }
 
-  const downloadCSV = () => {
+  const downloadCSV = async (downloadType) => {
+    let dataToDownload = []
+    console.log(downloadType);
+    
+    if (downloadType === "currentPage") {
+      dataToDownload = users
+    } else if (downloadType === "allData") {
+      // Fetch all data
+      try {
+        const response = await fetch(
+          `http://localhost:5050/api/instagram-users?limit=all&sortBy=${sortBy}&sortOrder=${sortOrder}&search=${searchQuery}`,
+        )
+        if(response.status != 200){
+          alert("Error fetching all influencers");
+          return;
+        }
+        const data = await response.json()
+        dataToDownload = data.instagramUsers
+        console.log(dataToDownload);
+      } catch (error) {
+        console.error("Error fetching all influencers:", error)
+        alert("Error fetching all influencers");
+        return
+      }
+    }
+
     const headers = selectedColumns.join(",")
     const csv = [
       headers,
-      ...users.map((user) => selectedColumns.map((column) => JSON.stringify(user[column])).join(",")),
+      ...dataToDownload.map((movie) => selectedColumns.map((column) => JSON.stringify(movie[column])).join(",")),
     ].join("\n")
 
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" })
@@ -96,7 +122,7 @@ export function InstagramUserList() {
     if (link.download !== undefined) {
       const url = URL.createObjectURL(blob)
       link.setAttribute("href", url)
-      link.setAttribute("download", "instagram_users.csv")
+      link.setAttribute("download", `influencers_${downloadType}.csv`)
       link.style.visibility = "hidden"
       document.body.appendChild(link)
       link.click()
@@ -120,20 +146,19 @@ export function InstagramUserList() {
             <Search className="mr-2 h-4 w-4" /> Clear
           </Button>
         </div>
-        <Button onClick={downloadCSV}>
-          <Download className="mr-2 h-4 w-4" /> Download CSV
-        </Button>
+        <DownloadDropdown downloadCSV={downloadCSV}/>
       </div>
       <div className="mb-4">
         <h3 className="text-lg font-semibold mb-2">Select Columns:</h3>
-        <div className="flex flex-wrap gap-2">
+        <ColumnSelector columns={columns} selectedColumns={selectedColumns} handleColumnToggle={handleColumnToggle}/>
+        {/* <div className="flex flex-wrap gap-2">
           {columns.map((column) => (
             <label key={column} className="flex items-center space-x-2">
               <Checkbox checked={selectedColumns.includes(column)} onCheckedChange={() => handleColumnToggle(column)} />
               <span>{column}</span>
             </label>
           ))}
-        </div>
+        </div> */}
       </div>
       <div className="overflow-x-auto">
         <div className="inline-block min-w-full align-middle">
@@ -141,23 +166,25 @@ export function InstagramUserList() {
             <Table>
               <TableHeader>
                 <TableRow>
-                  {selectedColumns.map((column) => (
+                  {columns.map((column) => selectedColumns.includes(column)?
+                  (
                     <TableHead key={column} className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
                       <button onClick={() => handleSort(column)} className="flex items-center">
                         {column.replace(/_/g, " ").toUpperCase()} <ArrowUpDown className="ml-2 h-4 w-4" />
                       </button>
                     </TableHead>
-                  ))}
+                  ): null)}
                 </TableRow>
               </TableHeader>
               <TableBody>
                 {users.map((user) => (
                   <TableRow key={user.user_id} className="hover:bg-gray-100">
-                    {selectedColumns.map((column) => (
+                    {columns.map((column) => selectedColumns.includes(column)?
+                    (
                       <TableCell key={column} className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                         {typeof user[column] === "boolean" ? (user[column] ? "Yes" : "No") : user[column]}
                       </TableCell>
-                    ))}
+                    ): null)}
                   </TableRow>
                 ))}
               </TableBody>
@@ -200,7 +227,6 @@ export function InstagramUserList() {
             className="border rounded p-2"
           >
             <option value={20}>20 per page</option>
-            <option value={50}>50 per page</option>
             <option value={100}>100 per page</option>
             <option value={1000}>1000 per page</option>
           </select>

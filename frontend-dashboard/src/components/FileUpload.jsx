@@ -5,7 +5,7 @@ import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Upload } from "lucide-react"
 
-export function FileUpload({ onFileUpload }) {
+export function FileUpload({ onFileUpload, text }) {
   const [file, setFile] = useState(null)
   const [uploading, setUploading] = useState(false)
 
@@ -51,7 +51,7 @@ export function FileUpload({ onFileUpload }) {
       <Input type="file" accept=".csv" onChange={handleFileChange} className="max-w-xs" />
       <Button onClick={handleUpload} disabled={!file || uploading}>
         <Upload className="mr-2 h-4 w-4" />
-        {uploading ? "Uploading..." : "Upload CSV"}
+        {uploading ? "Uploading..." : text}
       </Button>
     </div>
   )
