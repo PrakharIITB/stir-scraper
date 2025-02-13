@@ -16,7 +16,6 @@ import {
   ChevronRight,
   Search,
   ArrowUpDown,
-  Download,
 } from "lucide-react";
 import { FileUpload } from "./FileUpload";
 import DownloadDropdown from "./ui/downloadDropdown";
@@ -175,10 +174,10 @@ export function MovieList() {
           </Button>
         </div>
        
+        <DownloadDropdown downloadCSV={downloadCSV}/>
       </div>
       <div className="mb-4">
         <FileUpload text={"Upload Hashtag"} onFileUpload={handleFileUpload} />
-        <DownloadDropdown downloadCSV={downloadCSV}/>
       </div>
       <div className="mb-4">
         <h3 className="text-lg font-semibold mb-2">Select Columns:</h3>

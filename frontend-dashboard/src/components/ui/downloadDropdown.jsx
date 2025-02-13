@@ -16,7 +16,7 @@ export default function DownloadDropdown({ downloadCSV }) {
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5">
+        <div className="absolute right-0 mt-2 w-48 rounded-md bg-white shadow-lg ring-1 z-10 ring-black/5">
           <button
             className="block w-full px-4 py-2 text-sm text-left hover:bg-gray-100"
             onClick={() => {
