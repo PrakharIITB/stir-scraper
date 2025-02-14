@@ -42,9 +42,9 @@ export function DashboardCards() {
               <Button asChild>
                 <Link to="/instagram-users">Influencer List</Link>
               </Button>
-              <Button asChild>
+              {/* <Button asChild>
                 <Link to="/instagram-posts">Post List</Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
           <div className="space-y-6">
