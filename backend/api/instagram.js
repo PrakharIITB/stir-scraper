@@ -2,20 +2,6 @@ const express = require("express");
 const router = express.Router();
 const db = require("../db/db")
 
-function getDateForTimeRange(timeRange) {
-  const now = new Date()
-  switch (timeRange) {
-    case "lastDay":
-      return new Date(now.setDate(now.getDate() - 1))
-    case "lastWeek":
-      return new Date(now.setDate(now.getDate() - 7))
-    case "last30Days":
-      return new Date(now.setDate(now.getDate() - 30))
-    default:
-      return null
-  }
-}
-
 router.get("/instagram-users", async (req, res) => {
   console.log(req.query.limit);
   const page = Number.parseInt(req.query.page) || 1
@@ -161,121 +147,95 @@ router.get("/instagram-posts", async (req, res) => {
   }
 });
 
-// Influencers Overview API
-router.get("/influencers-overview", async (req, res) => {
+router.get('/influencer/:user_id', async (req, res) => {
+  const { user_id } = req.params;
+  console.log(req.params);
+  
   try {
-    const timeRange = req.query.timeRange || "total"
-    let query = db("insta_users")
+      const influencer = await db('insta_users')
+          .where('user_id', user_id)
+          .first();
 
-    if (timeRange !== "total") {
-      const dateColumn = "last_update" // Adjust this to the actual date column in your insta_users table
-      query = query.where(dateColumn, ">=", getDateForTimeRange(timeRange))
-    }
+      if (!influencer) return res.status(404).json({ message: 'User not found' });
 
-    const totalInfluencers = await query.count("* as count").first()
-    const influencersWithEmails = await query
-      .whereNotNull("business_email")
-      .orWhereNotNull("biography_email")
-      .count("* as count")
-    
-      // .first()
-    const normalInfluencers = await query.where("ai_category", "Normal Influencer").count("* as count")
-    const influencersWithCompleteScraping = await db("insta_posts").countDistinct("user_id as count")
-    const instagramPosts = await query.count("* as count")
-    const platformBifurcation = {
-      Instagram: instagramPosts.count,
-      Twitter: 0, // Add logic for Twitter users when available
-      Youtube: 0, // Add logic for Youtube users when available
-      Tiktok: 0, // Add logic for Tiktok users when available
-    }
+      // Fetch influencer statistics
+      const posts = await db('post_influencer_movie_map')
+          .select('post_id', 'movie_id')
+          .where('user_id', user_id);
 
-    const followersBifurcation = await db
-  .select(db.raw(`
-    JSONB_OBJECT_AGG(range, count) AS followers_bifurcation
-  `))
-  .from(
-    db
-      .select(
-        db.raw(`
-          CASE
-            WHEN followers_count < 50000 THEN '<50k'
-            WHEN followers_count BETWEEN 50000 AND 99999 THEN '50-100k'
-            WHEN followers_count BETWEEN 100000 AND 499999 THEN '100-500k'
-            WHEN followers_count BETWEEN 500000 AND 999999 THEN '500k-1m'
-            ELSE '>1m'
-          END as range
-        `),
-        db.raw(`COUNT(*) as count`)
-      )
-      .from("insta_users")
-      .whereNotNull("business_email")
-      .orWhereNotNull("biography_email")
-      .where("ai_category", "=", "Normal Influencer") // Replace with actual category
-      .groupBy("range")
-      .as("counts") // Alias for subquery
-  );
-    
-    res.json({
-      totalInfluencers: totalInfluencers.count,
-      influencersWithEmails: influencersWithEmails.count,
-      normalInfluencers: normalInfluencers.count,
-      influencersWithCompleteScraping: influencersWithCompleteScraping.count,
-      platformBifurcation,
-      followersBifurcation: followersBifurcation[0].followers_bifurcation,
-    })
-  } catch (err) {
-    console.error(err)
-    res.status(500).json({ error: "An error occurred while fetching influencers overview" })
+      const postIds = posts.map(p => p.post_id);
+      const movieCount = new Set(posts.map(p => p.movie_id).filter(id => id !== null)).size;
+      const totalPosts = postIds.length;
+
+      const postStats = await db('insta_posts')
+          .whereIn('post_id', postIds)
+          .sum('likes_count as total_likes')
+          .sum('comments_count as total_comments')
+          .sum('views_count as total_views')
+          .first();
+
+      res.json({
+          influencer,
+          totalPosts,
+          totalLikes: postStats.total_likes || 0,
+          avgLikes: totalPosts ? postStats.total_likes / totalPosts : 0,
+          totalComments: postStats.total_comments || 0,
+          avgComments: totalPosts ? postStats.total_comments / totalPosts : 0,
+          totalViews: postStats.total_views || 0,
+          movieCount
+      });
+  } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: 'Server error' });
   }
-})
+});
 
-router.get("/posts-overview", async (req, res) => {
+router.get('/influencer/:user_id/posts', async (req, res) => {
+  const { user_id } = req.params;
+  const { page = 1, limit = 20 } = req.query; // Default: Page 1, 20 posts per page
+  const offset = (page - 1) * limit;
+
   try {
-    const timeRange = req.query.timeRange || "total"
-    let query = db("insta_posts")
+      const postIds = await db('post_influencer_movie_map')
+          .where('user_id', user_id)
+          .pluck('post_id');
 
-    if (timeRange !== "total") {
-      const dateColumn = "last_update" // Adjust this to the actual date column in your insta_posts table
-      query = query.where(dateColumn, ">=", getDateForTimeRange(timeRange))
-    }
+      const posts = await db('insta_posts')
+          .whereIn('post_id', postIds)
+          .orderBy('taken_at', 'desc')
+          .limit(limit)
+          .offset(offset);
 
-    const totalPosts = await query.count("* as count")
-    const instagramPosts = totalPosts[0].count // Since we're only dealing with Instagram posts for now
-    const postsWithHashtags = await db("insta_post_hashtags").countDistinct("post_id as count").first()
-    const postsLinkedToMovies = await query.whereNotNull("movie_id").count("* as count")
+      const totalPosts = await db('insta_posts')
+          .whereIn('post_id', postIds)
+          .count()
+          .first();
 
-    const platformBifurcation = {
-      Instagram: instagramPosts,
-      Twitter: 0, // Add logic for Twitter posts when available
-      Youtube: 0, // Add logic for Youtube posts when available
-      Tiktok: 0, // Add logic for Tiktok posts when available
-    }
+      const totalPages = Math.ceil(totalPosts.count / limit);
 
-    const instagramPostsWithHashtags = await db("insta_post_hashtags")
-      .select(db.raw("COUNT(DISTINCT hashtag) as hashtag_count"))
-      .count("* as post_count")
-      .groupBy("post_id")
-      .then((results) => {
-        return {
-          "1 hashtag": results.filter((r) => r.hashtag_count === 1).length,
-          "2 hashtags": results.filter((r) => r.hashtag_count === 2).length,
-          "3 hashtags": results.filter((r) => r.hashtag_count === 3).length,
-          ">3 hashtags": results.filter((r) => r.hashtag_count > 3).length,
-        }
-      })
+      const postsWithMedia = await Promise.all(
+          posts.map(async (post) => {
+              if (post.post_type === 'album') {
+                  const media = await db('insta_posts_media')
+                      .where('post_id', post.post_id)
+                      .select('video_url', 'thumbnail_url', 'media_type');
 
-    res.json({
-      totalPosts: totalPosts[0].count,
-      instagramPosts,
-      postsWithHashtags: postsWithHashtags.count,
-      postsLinkedToMovies: postsLinkedToMovies[0].count,
-      platformBifurcation,
-      instagramPostsWithHashtags,
-    })
-  } catch (err) {
-    console.error(err)
-    res.status(500).json({ error: "An error occurred while fetching posts overview" })
+                  return { ...post, media };
+              }
+              return post;
+          })
+      );
+      
+      res.json({
+          posts: postsWithMedia,
+          totalPages,
+          currentPage: page
+      });
+  } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: 'Server error' });
   }
-})
+});
+
 
 module.exports = router;

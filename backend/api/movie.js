@@ -2,20 +2,6 @@ const express = require("express");
 const router = express.Router();
 const db = require("../db/db");
 
-function getDateForTimeRange(timeRange) {
-  const now = new Date()
-  switch (timeRange) {
-    case "lastDay":
-      return new Date(now.setDate(now.getDate() - 1))
-    case "lastWeek":
-      return new Date(now.setDate(now.getDate() - 7))
-    case "last30Days":
-      return new Date(now.setDate(now.getDate() - 30))
-    default:
-      return null
-  }
-}
-
 router.get("/movies", async (req, res) => {
   const page = Number.parseInt(req.query.page) || 1
   const limit = req.query.limit === 'all' ? null : Number.parseInt(req.query.limit) || 20;
@@ -107,62 +93,5 @@ router.get("/movies/:id", async (req, res) => {
       .json({ error: "An error occurred while fetching the movie" });
   }
 });
-
-// Movies Overview API
-router.get("/movies-overview", async (req, res) => {
-  try {
-    const timeRange = req.query.timeRange || "total"
-    let query = db("movies")
-
-    if (timeRange !== "total") {
-      const dateColumn = "created_at" // Adjust this to the actual date column in your movies table
-      query = query.where(dateColumn, ">=", getDateForTimeRange(timeRange))
-    }
-
-    const totalMovies = await query.count("* as count").first()
-    const moviesWithExternalLinks = await query
-      // .whereNotNull("website")
-      .orWhereNotNull("instagram_id")
-      .orWhereNotNull("twitter_id")
-      .count("* as count")
-      // .first()
-    const moviesWithHashtags = await db("movie_hashtags").countDistinct("movie_id as count").first()
-    const moviesScrapedOnSocialMedia = await db("insta_posts").countDistinct("movie_id as count").first()
-
-    const yearBifurcation = await db("movies")
-      .select(db.raw("EXTRACT(YEAR FROM origin_release_date) as year"))
-      .count("* as count")
-      .groupBy("year")
-      .orderBy("year", "desc")
-      .limit(5)
-
-    const countryBifurcation = await db("movies")
-      .select("origin_country")
-      .count("* as count")
-      .groupBy("origin_country")
-      .orderBy("count", "desc")
-      .limit(5)
-
-    const languageBifurcation = await db("movies")
-      .select("original_language")
-      .count("* as count")
-      .groupBy("original_language")
-      .orderBy("count", "desc")
-      .limit(5)
-
-    res.json({
-      totalMovies: totalMovies.count,
-      moviesWithExternalLinks: moviesWithExternalLinks.count,
-      moviesWithHashtags: moviesWithHashtags.count,
-      moviesScrapedOnSocialMedia: moviesScrapedOnSocialMedia.count,
-      yearBifurcation: Object.fromEntries(yearBifurcation.map((item) => [item.year, item.count])),
-      countryBifurcation: Object.fromEntries(countryBifurcation.map((item) => [item.origin_country, item.count])),
-      languageBifurcation: Object.fromEntries(languageBifurcation.map((item) => [item.original_language, item.count])),
-    })
-  } catch (err) {
-    console.error(err)
-    res.status(500).json({ error: "An error occurred while fetching movies overview" })
-  }
-})
 
 module.exports = router;
