@@ -1,159 +1,75 @@
-import React, { useState, useEffect } from "react"
-import { useParams } from "react-router-dom"
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { useEffect, useState, useRef, useCallback } from "react";
+import { useParams } from "react-router-dom";
 
 export function InstagramUserDetails() {
-  const { id } = useParams()
-  const [user, setUser] = useState(null)
+    const userId = useParams().id
+    const [influencer, setInfluencer] = useState(null);
+    const [posts, setPosts] = useState([]);
+    const [page, setPage] = useState(1);
+    const [totalPages, setTotalPages] = useState(1);
+    const observer = useRef();
+    
 
-  useEffect(() => {
-    const fetchUser = async () => {
-      try {
-        const response = await fetch(`http://104.131.101.181:5000/api/instagram-users/${id}`)
-        const data = await response.json()
-        setUser(data)
-      } catch (error) {
-        console.error("Error fetching Instagram user details:", error)
-      }
-    }
+    useEffect(() => {
+        fetch(`http://104.131.101.181:5000/api/influencer/${userId}`)
+            .then(res => res.json())
+            .then(data => setInfluencer(data));
+    }, [userId]);
 
-    fetchUser()
-  }, [id])
+    const fetchPosts = useCallback(() => {
+        if (page > totalPages) return;
 
-  if (!user) {
-    return <div>Loading...</div>
-  }
+        fetch(`http://104.131.101.181:5000/api/influencer/${userId}/posts?page=${page}&limit=20`)
+            .then(res => res.json())
+            .then(data => {
+                setPosts(prev => [...prev, ...data.posts]);
+                setTotalPages(data.totalPages);
+            });
+    }, [userId, page, totalPages]);
 
-  return (
-    <div className="container mx-auto px-4 py-8">
-      <Card>
-        <CardHeader>
-          <CardTitle>
-            {user.name} (@{user.username})
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Basic Information</h3>
-              <p>
-                <strong>User ID:</strong> {user.user_id}
-              </p>
-              <p>
-                <strong>Instagram User ID:</strong> {user.insta_user_id}
-              </p>
-              <p>
-                <strong>Private Account:</strong> {user.is_private ? "Yes" : "No"}
-              </p>
-              <p>
-                <strong>Verified:</strong> {user.is_verified ? "Yes" : "No"}
-              </p>
-              <p>
-                <strong>Biography:</strong> {user.biography}
-              </p>
-              <p>
-                <strong>External URL:</strong>{" "}
-                <a href={user.external_url} target="_blank" rel="noopener noreferrer">
-                  {user.external_url}
-                </a>
-              </p>
-              <p>
-                <strong>Country:</strong> {user.country}
-              </p>
-              <p>
-                <strong>Category:</strong> {user.category}
-              </p>
-              <p>
-                <strong>AI Category:</strong> {user.ai_category}
-              </p>
+    useEffect(() => {
+        fetchPosts();
+    }, [fetchPosts]);
+
+    const lastPostRef = useCallback((node) => {
+        if (observer.current) observer.current.disconnect();
+
+        observer.current = new IntersectionObserver(entries => {
+            if (entries[0].isIntersecting && page < totalPages) {
+                setPage(prev => prev + 1);
+            }
+        });
+
+        if (node) observer.current.observe(node);
+    }, [page, totalPages]);
+
+    if (!influencer) return <p>Loading...</p>;
+
+    return (
+        <div className="p-6 max-w-4xl mx-auto">
+            <div className="flex items-center gap-4">
+                <img src={influencer.influencer.profile_photo_hd} className="w-20 h-20 rounded-full" alt="Profile" />
+                <div>
+                    <h1 className="text-xl font-bold">{influencer.influencer.username}</h1>
+                    <p className="text-gray-500">{influencer.influencer.biography}</p>
+                    <p>Followers: {influencer.influencer.followers_count}</p>
+                    <p>Posts Scraped: {influencer.totalPosts}</p>
+                    <p>Avg Likes: {influencer.avgLikes.toFixed(2)}</p>
+                    <p>Movies Worked With: {influencer.movieCount}</p>
+                </div>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Statistics</h3>
-              <p>
-                <strong>Followers:</strong> {user.followers_count.toLocaleString()}
-              </p>
-              <p>
-                <strong>Following:</strong> {user.followings_count.toLocaleString()}
-              </p>
-              <p>
-                <strong>Posts:</strong> {user.posts_count.toLocaleString()}
-              </p>
-              <p>
-                <strong>Former Username Count:</strong> {user.former_username_count}
-              </p>
-              <p>
-                <strong>Latest Reel:</strong> {new Date(user.latest_reel_media).toLocaleString()}
-              </p>
+
+            <h2 className="mt-6 text-lg font-semibold">Posts</h2>
+            <div className="grid grid-cols-3 gap-4">
+                {posts.map((post, index) => (
+                    <div key={post.post_id} ref={index === posts.length - 1 ? lastPostRef : null} className="border p-2 rounded">
+                      {post.post_type === 'album' ? <img src={post.media[0].thumbnail_url} alt="Post" className="w-full h-40 object-cover rounded" />:<img src={post.thumbnail_img} alt="Post" className="w-full h-40 object-cover rounded" />}
+                        <p>{post.caption?.slice(0, 50)}...</p>
+                        <p>Likes: {post.likes_count}</p>
+                        <p>Comments: {post.comments_count}</p>
+                    </div>
+                ))}
             </div>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-lg font-semibold mb-2">Business Information</h3>
-            <p>
-              <strong>Business Account:</strong> {user.is_business ? "Yes" : "No"}
-            </p>
-            {user.is_business && (
-              <>
-                <p>
-                  <strong>Business Email:</strong> {user.business_email}
-                </p>
-                <p>
-                  <strong>Business Phone:</strong> {user.business_countrycode} {user.business_number}
-                </p>
-              </>
-            )}
-            <p>
-              <strong>Biography Email:</strong> {user.biography_email}
-            </p>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-lg font-semibold mb-2">Profile Picture</h3>
-            <p>
-              <strong>Anonymous Profile Picture:</strong> {user.has_anonymous_profile_picture ? "Yes" : "No"}
-            </p>
-            <img
-              src={user.profile_photo_hd || "/placeholder.svg"}
-              alt={`${user.username}'s profile`}
-              className="mt-2 rounded-full w-32 h-32"
-            />
-          </div>
-          <div className="mt-4">
-            <h3 className="text-lg font-semibold mb-2">Dates</h3>
-            <p>
-              <strong>Date Joined:</strong> {new Date(user.date_joined).toLocaleDateString()}
-            </p>
-            <p>
-              <strong>Date Verified:</strong>{" "}
-              {user.date_verified ? new Date(user.date_verified).toLocaleDateString() : "N/A"}
-            </p>
-            <p>
-              <strong>Last Update:</strong> {new Date(user.last_update).toLocaleString()}
-            </p>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-lg font-semibold mb-2">Additional Information</h3>
-            <h4 className="text-md font-semibold mt-2">Emails</h4>
-            <ul>
-              {user.emails.map((email, index) => (
-                <li key={index}>
-                  {email.email} (Source: {email.source})
-                </li>
-              ))}
-            </ul>
-            <h4 className="text-md font-semibold mt-2">Links</h4>
-            <ul>
-              {user.links.map((link, index) => (
-                <li key={index}>
-                  <a href={link.url} target="_blank" rel="noopener noreferrer">
-                    {link.url}
-                  </a>
-                  (Source: {link.source}, Platform: {link.platform})
-                </li>
-              ))}
-            </ul>
-          </div>
-        </CardContent>
-      </Card>
-    </div>
-  )
+        </div>
+    );
 }
-

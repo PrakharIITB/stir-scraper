@@ -20,6 +20,7 @@ import {
 import { FileUpload } from "./FileUpload";
 import DownloadDropdown from "./ui/downloadDropdown";
 import ColumnSelector from "./ui/checkboxDropdown";
+import { useNavigate } from "react-router-dom";
 
 export function MovieList() {
   const [movies, setMovies] = useState([]);
@@ -31,6 +32,7 @@ export function MovieList() {
   const [sortOrder, setSortOrder] = useState("asc");
   const [columns, setColumns] = useState([]);
   const [selectedColumns, setSelectedColumns] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchMovies();
@@ -219,7 +221,7 @@ export function MovieList() {
               </TableHeader>
               <TableBody>
                 {movies.map((movie) => (
-                  <TableRow key={movie.id} className="hover:bg-gray-100">
+                  <TableRow key={movie.id} className="hover:bg-gray-100" onClick={() => navigate(`/movie/${movie.id}`)}>
                     {columns.map((column) => selectedColumns.includes(column)?
                     (
                       <TableCell

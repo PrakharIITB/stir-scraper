@@ -5,6 +5,7 @@ import { Input } from "./ui/input"
 import { ChevronLeft, ChevronRight, Search, ArrowUpDown, Download } from "lucide-react"
 import DownloadDropdown from "./ui/downloadDropdown"
 import ColumnSelector from "./ui/checkboxDropdown"
+import { useNavigate } from "react-router-dom"
 
 export function InstagramUserList() {
   const [users, setUsers] = useState([])
@@ -16,6 +17,7 @@ export function InstagramUserList() {
   const [sortOrder, setSortOrder] = useState("asc")
   const [columns, setColumns] = useState([])
   const [selectedColumns, setSelectedColumns] = useState([])
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchUsers()
@@ -151,14 +153,6 @@ export function InstagramUserList() {
       <div className="mb-4">
         <h3 className="text-lg font-semibold mb-2">Select Columns:</h3>
         <ColumnSelector columns={columns} selectedColumns={selectedColumns} handleColumnToggle={handleColumnToggle}/>
-        {/* <div className="flex flex-wrap gap-2">
-          {columns.map((column) => (
-            <label key={column} className="flex items-center space-x-2">
-              <Checkbox checked={selectedColumns.includes(column)} onCheckedChange={() => handleColumnToggle(column)} />
-              <span>{column}</span>
-            </label>
-          ))}
-        </div> */}
       </div>
       <div className="overflow-x-auto">
         <div className="inline-block min-w-full align-middle">
@@ -178,7 +172,7 @@ export function InstagramUserList() {
               </TableHeader>
               <TableBody>
                 {users.map((user) => (
-                  <TableRow key={user.user_id} className="hover:bg-gray-100">
+                  <TableRow key={user.user_id} className="hover:bg-gray-100" onClick={() => navigate(`/instagram-user/${user.user_id}`)}>
                     {columns.map((column) => selectedColumns.includes(column)?
                     (
                       <TableCell key={column} className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
